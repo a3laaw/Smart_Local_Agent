@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>دليل الوكيل المحلي الذكي — تنظيم وأرشفة المشاريع (صفر تكلفة)</title>
+<style>
+  :root {
+    --bg: #f6f8fb;
+    --card: #ffffff;
+    --navy: #04283d;
+    --navy-2: #035D89;
+    --teal: #059BE5;
+    --teal-soft: #e0f4fd;
+    --amber: #944E08;
+    --amber-soft: #fff4d8;
+    --orange: #F6820D;
+    --gold: #FFCB2B;
+    --coral: #FF8964;
+    --green: #15803d;
+    --green-soft: #dcfce7;
+    --text: #0f172a;
+    --muted: #64748b;
+    --border: #e2e8f0;
+    --code-bg: #04283d;
+    --shadow: 0 6px 24px rgba(4, 40, 61, 0.08);
+    --radius: 14px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Segoe UI", Tahoma, "Noto Sans Arabic", "Dubai", Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    padding-bottom: 60px;
+  }
+  .hero {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 72%, #0377B5 100%);
+    color: #fff;
+    padding: 40px 24px 36px;
+    border-bottom: 4px solid #FFA611;
+  }
+  .container { max-width: 1080px; margin: 0 auto; padding: 0 18px; }
+  .badge-row { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 14px; }
+  .badge {
+    background: rgba(255,255,255,0.14);
+    border: 1px solid rgba(255,255,255,0.25);
+    padding: 4px 13px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .badge.free { background: #FFCB2B; border-color: #FFA611; color: #3d2200; font-weight: 700; }
+  .hero h1 { font-size: 28px; margin-bottom: 10px; line-height: 1.35; }
+  .hero p { font-size: 16px; color: #e2e8f0; max-width: 820px; }
+
+  .kpi-strip {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 14px;
+    margin-top: -22px;
+    margin-bottom: 28px;
+  }
+  .kpi {
+    background: var(--card);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+    box-shadow: var(--shadow);
+    border: 1px solid var(--border);
+    border-top: 3px solid var(--teal);
+  }
+  .kpi .num { font-size: 22px; font-weight: 800; color: var(--navy); }
+  .kpi .lbl { font-size: 13px; color: var(--muted); margin-top: 2px; }
+
+  .section { margin-top: 28px; }
+  .section-title {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--navy);
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .section-title .dot {
+    width: 10px; height: 24px; border-radius: 5px; background: var(--teal); display: inline-block;
+  }
+
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 16px;
+  }
+  .step-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    box-shadow: var(--shadow);
+    position: relative;
+  }
+  .step-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px; height: 34px;
+    border-radius: 10px;
+    background: var(--navy);
+    color: #fff;
+    font-weight: 800;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .step-card h3 { font-size: 16.5px; color: var(--navy); margin-bottom: 6px; }
+  .step-card p { font-size: 14px; color: var(--muted); }
+  .file-pill {
+    display: inline-block;
+    direction: ltr;
+    background: #eff6ff;
+    color: #1d4ed8;
+    border: 1px solid #bfdbfe;
+    font-family: Consolas, Monaco, monospace;
+    font-size: 12.5px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 6px;
+    margin: 4px 0;
+  }
+
+  .cmd-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: 14px;
+  }
+  .cmd-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 18px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .cmd-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .cmd-tag {
+    direction: ltr;
+    background: var(--code-bg);
+    color: #5eead4;
+    font-family: Consolas, Monaco, monospace;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px 12px;
+    border-radius: 8px;
+  }
+  .copy-btn {
+    background: var(--teal-soft);
+    color: #035D89;
+    border: 1px solid #7dd3fc;
+    padding: 5px 12px;
+    border-radius: 8px;
+    font-size: 12.5px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: inherit;
+    transition: all 0.15s ease;
+  }
+  .copy-btn:hover { background: var(--orange); color: #fff; border-color: var(--orange); }
+  .copy-btn.copied { background: var(--green); color: #fff; border-color: var(--green); }
+  .cmd-card h4 { font-size: 15.5px; color: var(--navy); }
+  .cmd-card p { font-size: 13.5px; color: var(--muted); }
+  .cmd-example {
+    background: #f8fafc;
+    border: 1px dashed #cbd5e1;
+    border-radius: 8px;
+    padding: 8px 10px;
+    font-size: 12.5px;
+    color: #334155;
+  }
+
+  /* Interactive Prompt Builder */
+  .builder {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 22px;
+    box-shadow: var(--shadow);
+  }
+  .builder-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+    margin-bottom: 16px;
+  }
+  .field label {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--navy);
+    margin-bottom: 5px;
+  }
+  .field select, .field input {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 9px;
+    font-family: inherit;
+    font-size: 13.5px;
+    color: var(--text);
+    background: #fff;
+  }
+  .field select:focus, .field input:focus {
+    outline: none;
+    border-color: var(--teal);
+    box-shadow: 0 0 0 3px rgba(13, 148, 136, 0.14);
+  }
+  .output-box {
+    background: var(--code-bg);
+    color: #f1f5f9;
+    border-radius: 12px;
+    padding: 16px;
+    font-size: 14px;
+    line-height: 1.75;
+    white-space: pre-wrap;
+    border: 1px solid #334155;
+  }
+  .builder-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 12px;
+  }
+  .primary-btn {
+    background: #0377B5;
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 10px;
+    font-size: 14.5px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .primary-btn:hover { background: #035D89; }
+
+  .two-col {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 16px;
+  }
+  .info-box {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    box-shadow: var(--shadow);
+  }
+  .info-box.drive { border-right: 4px solid var(--green); }
+  .info-box.privacy { border-right: 4px solid var(--amber); }
+  .info-box h3 { font-size: 16px; color: var(--navy); margin-bottom: 8px; }
+  .info-box p, .info-box li { font-size: 13.5px; color: #334155; }
+  .info-box ul { padding-right: 18px; margin-top: 6px; }
+  .inline-code {
+    direction: ltr;
+    display: inline-block;
+    background: #f1f5f9;
+    padding: 1px 7px;
+    border-radius: 5px;
+    font-family: Consolas, monospace;
+    font-size: 12.5px;
+    color: #0f172a;
+  }
+
+  .kit-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--card);
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    font-size: 13.5px;
+  }
+  .kit-table th {
+    background: var(--navy);
+    color: #fff;
+    text-align: right;
+    padding: 11px 14px;
+    font-weight: 700;
+  }
+  .kit-table td {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .kit-table tr:last-child td { border-bottom: none; }
+  .kit-table tr:nth-child(even) td { background: #f8fafc; }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="container">
+    <div class="badge-row">
+      <span class="badge free">مجاني 100% — صفر تكلفة بدون فيزا</span>
+      <span class="badge" style="background:#0ea5e9;border-color:#0ea5e9;color:#fff;font-weight:700;">جديد: مراقبة تلقائية لفولدر السكانر 24/7</span>
+      <span class="badge">يدعم كل المشاريع والفورمات</span>
+      <span class="badge">يقرأ PDF الممسوح والأختام والصور</span>
+      <span class="badge">يحافظ على الماكرو XLSM والأصول</span>
+    </div>
+    <h1>حقيبة الوكيل المحلي الذكي لتنظيم وأرشفة ومراجعة مستندات المشاريع</h1>
+    <p>نفس الفكرة التي نفّذناها تماماً — لكن على جهازك مباشرةً ومجاناً بالكامل: اسحب أي مجلد (اعتمادات، عُهدة، فواتير، كتب صادر ووارد، عقود، مستخلصات) وهو يفك الضغط، يقرأ الملفات فعلياً، يحذف التكرار، يصحح الأسماء، يرتبها في مجلدات، ويخرج شيت Excel احترافي مربوط بروابط مباشرة.</p>
+  </div>
+</header>
+
+<main class="container">
+
+  <div class="kpi-strip">
+    <div class="kpi">
+      <div class="num">0.000 د.ك</div>
+      <div class="lbl">التكلفة الشهرية والسنوية (حساب Google شخصي عادي)</div>
+    </div>
+    <div class="kpi">
+      <div class="num">1,000 طلب / يوم</div>
+      <div class="lbl">حصة Gemini CLI المجانية الرسمية (60 طلب/دقيقة)</div>
+    </div>
+    <div class="kpi">
+      <div class="num">نماذجك الخاصة</div>
+      <div class="lbl">رفع مباشر لنماذج Word وExcel المعتمدة بالمشروع (.docx / .xlsx / .xlsm)</div>
+    </div>
+    <div class="kpi">
+      <div class="num">12 أمراً + مراقب 24/7</div>
+      <div class="lbl">دورة مغلقة: أصل Word/Excel ⇄ السكانر المختوم ⇄ اللوج</div>
+    </div>
+  </div>
+
+  <!-- AUTO SCANNER FOLDER PIPELINE -->
+  <section class="section">
+    <div class="section-title"><span class="dot"></span>الأتمتة الكاملة: الربط المباشر مع فولدر السكانر (بدون لمس الكيبورد!)</div>
+    <div class="builder" style="border-top:4px solid #0ea5e9; background:linear-gradient(180deg,#ffffff 0%,#f8fbff 100%);">
+      <p style="font-size:15px; color:#0f2942; font-weight:700; margin-bottom:14px;">
+        الدورة المغلقة الكاملة من المنبع للمصب (داخل بوابة المشاريع عبر <code>1_Inbox</code> و<code>2_Archive</code> و<code>3_Project_Logs</code>، أو عبر مجلدات المراقب المستقل <code>Smart_Scan</code> — مجاناً حتى ~1,000 مستند/يوم):
+      </p>
+      <div class="steps" style="grid-template-columns: repeat(auto-fit, minmax(185px, 1fr)); gap:12px; margin-bottom:16px;">
+        <div class="step-card" style="padding:14px; border-top:3px solid #7c3aed;">
+          <div class="step-num" style="background:#7c3aed; width:28px; height:28px; font-size:13px;">1</div>
+          <h3 style="font-size:14.5px;">أصل Word / Excel (قبل الختم)</h3>
+          <p style="font-size:12.5px;">احفظ الملف في <code>2_Drafts_Word_Excel</code> (أو اطلب <code>/fillform</code>) فيُحفظ أصله ويُسجَّل فوراً في اللوج بحالة <em>مقدّم</em>.</p>
+        </div>
+        <div class="step-card" style="padding:14px; border-top:3px solid #0ea5e9;">
+          <div class="step-num" style="background:#0ea5e9; width:28px; height:28px; font-size:13px;">2</div>
+          <h3 style="font-size:14.5px;">عودة الورقة على السكانر</h3>
+          <p style="font-size:12.5px;">تنزل في <code>1_Scan_Inbox</code> (اعتماد مختوم / كتاب / فاتورة / عُهدة)، فيقرأ الختم والكود والتاريخ والمبلغ ويكشف المكرر.</p>
+        </div>
+        <div class="step-card" style="padding:14px; border-top:3px solid #0d9488;">
+          <div class="step-num" style="background:#0d9488; width:28px; height:28px; font-size:13px;">3</div>
+          <h3 style="font-size:14.5px;">المطابقة والربط المزدوج</h3>
+          <p style="font-size:12.5px;">يربط الـ PDF المختوم بأصل الـ Word/Excel في <strong>نفس صف اللوج</strong> ويحدّث الحالة إلى <em>معتمد</em> (أو يصدر <code>R01</code> من الأصل عبر <code>/revise</code>).</p>
+        </div>
+        <div class="step-card" style="padding:14px; border-top:3px solid #15803d;">
+          <div class="step-num" style="background:#15803d; width:28px; height:28px; font-size:13px;">4</div>
+          <h3 style="font-size:14.5px;">أرشيف منظم + سجل Excel + سحابة اختيارية</h3>
+          <p style="font-size:12.5px;">تُحفظ الملفات المنظمة داخل <code>2_Archive</code> مع تحديث سجل المشروع المرفوع في <code>3_Project_Logs</code> (أو سجل المراقب المستقل في <code>3_Organized_Archive</code>).</p>
+        </div>
+      </div>
+      <div style="background:#eff6ff; border:1px solid #bfdbfe; border-radius:10px; padding:12px 15px; font-size:13.5px; color:#1e3a8a;">
+        <strong>طريقة تفعيله في دقيقة واحدة:</strong>
+        اضغط مرتين على <span class="file-pill">4_AUTO_SCAN_WATCHER.bat</span> وحدد له مسار فولدر السكانر الحالي ومسار مجلد الأرشيف (واختر التقسيم حسب النوع أو حسب المشروع ثم النوع).
+        ولجعله يعمل <strong>تلقائياً في الخلفية بصمت مع تشغيل الكمبيوتر كل صباح</strong> بدون أي نافذة مفتوحة: شغّل <span class="file-pill">5_AUTO_START_WITH_WINDOWS.bat</span> واختر <strong>1</strong>!
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 STEPS -->
+  <section class="section">
+    <div class="section-title"><span class="dot"></span>التشغيل لأول مرة في 3 خطوات فقط (3 دقائق)</div>
+    <div class="steps">
+      <div class="step-card">
+        <div class="step-num">1</div>
+        <h3>فك الضغط وتشغيل المثبّت التلقائي</h3>
+        <p>حمّل ملف <span class="file-pill">Smart_Local_Agent_Free.zip</span> وفك الضغط عنه، ثم اضغط مرتين على <span class="file-pill">1_INSTALL_FIRST_TIME.bat</span>. سيقوم وحده بتثبيت Node وPython وGemini CLI وأدوات الـ PDF والـ Excel ووضع أيقونة التشغيل على سطح المكتب.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">2</div>
+        <h3>تسجيل الدخول بحساب Google المجاني</h3>
+        <p>عند فتح النافذة اختر <strong>Login with Google</strong> واضغط Enter؛ سيفتح المتصفح لتسجّل بحساب Gmail العادي (مرة واحدة فقط، بدون بطاقة بنكية وبدون API مدفوع). ولإضافة خيار الكليك يمين على المجلدات شغّل <span class="file-pill">3_ADD_RIGHT_CLICK_MENU.bat</span>.</p>
+      </div>
+      <div class="step-card">
+        <div class="step-num">3</div>
+        <h3>اسحب أي مجلد واتركه يرتّب كل شيء!</h3>
+        <p>شغّل التطبيق البصري <strong>Smart Projects Hub</strong> من سطح المكتب، أو لوضع الأوامر النصية اسحب مجلد أي مشروع وأفلته فوق <span class="file-pill">2_START_AGENT.bat</span> (أو كليك يمين على المجلد)، ثم اكتب مثلاً <span class="file-pill">/submittals</span> أو <span class="file-pill">/pettycash</span> أو اكتب طلبك بالعربي العادي.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12 SLASH COMMANDS -->
+  <section class="section">
+    <div class="section-title"><span class="dot"></span>الأوامر الـ 12 الجاهزة (الدورة المغلقة: أصل Word/Excel ⇄ السكانر المختوم ⇄ اللوج)</div>
+    <div class="cmd-grid">
+
+      <div class="cmd-card" style="border-top:3px solid #7c3aed;">
+        <div>
+          <div class="cmd-head">
+            <span class="cmd-tag">/fillform</span>
+            <button class="copy-btn" onclick="copyText('/fillform ', this)">نسخ الأمر</button>
+          </div>
+          <h4 style="margin-top:10px;">تعبئة نماذج مشروعك الأصلية (Word/Excel) + ترقيم تلقائي</h4>
+          <p>يأخذ نموذج مشروعك الأصلي (SOOR / وزارة / MIR / WIR / مستخلص / حافظة) بشعاراته وتصميمه 100%، يسحب الرقم التسلسلي التالي من اللوج تلقائياً، يعبّيه للطباعة، ويسجله <em>تحت المراجعة</em> ليُقفل تلقائياً عند عودته مختوماً بالسكانر!</p>
+        </div>
+        <div class="cmd-example">مثال: <strong>/fillform جهز اعتماد كهرباء جديد من نموذج SOOR لكابلات 4x16mm من شركة الخليج</strong></div>
+      </div>
+
+      <div class="cmd-card" style="border-top:3px solid #7c3aed;">
+        <div>
+          <div class="cmd-head">
+            <span class="cmd-tag">/revise</span>
+            <button class="copy-btn" onclick="copyText('/revise ', this)">نسخ الأمر</button>
+          </div>
+          <h4 style="margin-top:10px;">إصدار مراجعة R01 / R02 من أصل Word/Excel فوراً</h4>
+          <p>رجع الاعتماد أو المستخلص بملاحظات (Code C / مرفوض) على السكانر؟ يقرأ الملاحظات المكتوبة باليد، يفتح ملف الـ Word/Excel الأصلي مباشرة، يصدر <code>R01</code> بالتاريخ والتعديلات الجديدة، ويحدث اللوج بثوانٍ بدون إعادة كتابة!</p>
+        </div>
+        <div class="cmd-example">مثال: <strong>/revise اعمل R01 من الاعتماد EL-135 بناءً على ملاحظات الاستشاري في السكان</strong></div>
+      </div>
+
+      <div class="cmd-card" style="border-top:3px solid #2563eb;">
+        <div>
+          <div class="cmd-head">
+            <span class="cmd-tag">/writeletter</span>
+            <button class="copy-btn" onclick="copyText('/writeletter ', this)">نسخ الأمر</button>
+          </div>
+          <h4 style="margin-top:10px;">صياغة كتاب رسمي جاهز للطباعة (Word .docx)</h4>
+          <p>يكتب لك أي كتاب رسمي (عربي أو إنجليزي) بصياغة تعاقدية وهندسية رصينة للمالك/الوزارة/الاستشاري/المقاولين في ملف Word منسق A4 RTL (أو على ترويسة شركتك في <code>~/.gemini/templates/letterhead.docx</code>).</p>
+        </div>
+        <div class="cmd-example">مثال: <strong>/writeletter كتاب للاستشاري بطلب تمديد مدة 30 يوم بسبب تأخر تسليم الموقع على ورق مروس</strong></div>
+      </div>
+
+      <div class="cmd-card" style="border-top:3px solid #2563eb;">
+        <div>
+          <div class="cmd-head">
+            <span class="cmd-tag">/replyletter</span>
+            <button class="copy-btn" onclick="copyText('/replyletter ', this)">نسخ الأمر</button>
+          </div>
+          <h4 style="margin-top:10px;">قراءة كتاب وارد وصياغة الرد الرسمي عليه (.docx)</h4>
+          <p>ضع ملف الـ PDF الممسوح أو صورة الكتاب الوارد واكتب موقفك في سطر واحد — يقرأ رقم وتاريخ وبنود الكتاب الوارد ويُخرج كتاب رد رسمي متكامل يحفظ حقك التعاقدي في ملف Word جاهز للتوقيع.</p>
+        </div>
+        <div class="cmd-example">مثال: <strong>/replyletter رد على كتاب الوزارة المرفق بأن المواد وردت للموقع وتم تقديم MIR للفحص</strong></div>
+      </div>
+
+      <div class="cmd-card" style="border-top:3px solid #15803d;">
+        <div>
+          <div class="cmd-head">
+            <span class="cmd-tag">/excelform</span>
+            <button class="copy-btn" onclick="copyText('/excelform ', this)">نسخ الأمر</button>
+          </div>
+          <h4 style="margin-top:10px;">تصميم أي نموذج أو شيت Excel بالمعادلات (A4)</h4>
+          <p>يصمم نماذج احترافية بالمعادلات الحية وخانات التوقيع (مستخلص جاري IPC، أمر شراء PO، أمر تغييري VO، نموذج MIR/WIR، حافظة Transmittal، تسعير BOQ، رواتب، تقرير يومي) — أو يحوّل صورة نموذج ورقي إلى شيت Excel ذكي!</p>
+        </div>
+        <div class="cmd-example">مثال: <strong>/excelform اعمل لي نموذج مستخلص مقاول باطن بالدينار الكويتي مع خصم 10% ضمان و5% دفعة مقدمة</strong></div>
+      </div>
+
+      <div class="cmd-card">
+        <div>
+          <div class="cmd-head">
+            <span class="cmd-tag">/submittals</span>
+            <button class="copy-btn" onclick="copyText('/submittals', this)">نسخ الأمر</button>
+          </div>
+          <h4 style="margin-top:10px;">الاعتمادات الهندسية (لأي مشروع وفورمات)</h4>
+          <p>يفك RAR/ZIP، يقرأ الـ MAR/MIR/WIR/Shop Drawings والأختام والمراجعات، يكتشف التسميات الخاطئة والمكرر، يقسم حسب الأقسام والجهات مع مجلد <em>قبل التعديل</em>، ويحدّث اللوج (حتى <code>.xlsm</code> بالماكرو) + تقرير التعديلات.</p>
+        </div>
+        <div class="cmd-example">مثال: <strong>/submittals قسمهم حسب التخصص ثم استشاري ومالك وحدث اللوج</strong></div>
+      </div>
+
+      <div class="cmd-card">
+        <div>
+          <div class="cmd-head">
+            <span class="cmd-tag">/pettycash</span>
+            <button class="copy-btn" onclick="copyText('/pettycash', this)">نسخ الأمر</button>
+          </div>
+          <h4 style="margin-top:10px;">تسوية العُهدة النقدية وصور الفواتير</h4>
+          <p>يقرأ صور الواتساب وسكان الفواتير وإيصالات K-Net، يمنع تكرار حساب الإيصال مع فاتورته، يرتبها بالتاريخ بأسماء متسلسلة، ويُخرج كشف تسوية عُهدة Excel بالدينار الكويتي (<code>0.000</code>) أو أي عملة مع روابط الفواتير.</p>
+        </div>
+        <div class="cmd-example">مثال: <strong>/pettycash العهدة المستلمة 500 د.ك - م. محمد - مشروع الجهراء</strong></div>
+      </div>
+
+      <div class="cmd-card">
+        <div>
+          <div class="cmd-head">
+            <span class="cmd-tag">/invoices</span>
+            <button class="copy-btn" onclick="copyText('/invoices', this)">نسخ الأمر</button>
+          </div>
+          <h4 style="margin-top:10px;">مراجعة وأرشفة فواتير الموردين والمقاولين</h4>
+          <p>يستخرج رقم الفاتورة، التاريخ، المورد، رقم أمر الشراء PO، الخصم والصافي، يراجع صحة الجمع ويكشف أي فاتورة مكررة حتى لو اختلف اسمها، يفرزها بمجلد لكل مورد، ويبني سجل الفواتير وملخص الموردين.</p>
+        </div>
+        <div class="cmd-example">مثال: <strong>/invoices رتبهم بمجلد لكل مورد وداخله كل شهر وتأكد من عدم التكرار</strong></div>
+      </div>
+
+      <div class="cmd-card">
+        <div>
+          <div class="cmd-head">
+            <span class="cmd-tag">/letters</span>
+            <button class="copy-btn" onclick="copyText('/letters', this)">نسخ الأمر</button>
+          </div>
+          <h4 style="margin-top:10px;">الكتب والمراسلات الرسمية (صادر ووارد)</h4>
+          <p>يقرأ الترويسة ورقم الكتاب وتاريخه والجهة والموضوع وختم الاستلام والكتب المشار إليها، يقسم إلى مجلدات الوارد والصادر والجهات، ويبني سجل المراسلات مع تنبيه الكتب التي تنتظر رداً.</p>
+        </div>
+        <div class="cmd-example">مثال: <strong>/letters افصل الصادر والوارد وقسم حسب الجهة وحدد الكتب التي تحتاج رد</strong></div>
+      </div>
+
+      <div class="cmd-card">
+        <div>
+          <div class="cmd-head">
+            <span class="cmd-tag">/contracts</span>
+            <button class="copy-btn" onclick="copyText('/contracts', this)">نسخ الأمر</button>
+          </div>
+          <h4 style="margin-top:10px;">العقود والمستخلصات (IPCs) والأوامر التغييرية</h4>
+          <p>ينظم ملفات كل مقاول (العقد، المستخلصات الجارية، VOs، الكفالات البنكية)، يراجع حسابات الاستقطاعات (Retention / الدفعة المقدمة) وصافي المستخلص، وينبه على تواريخ انتهاء الكفالات في شيت متابعة مالي.</p>
+        </div>
+        <div class="cmd-example">مثال: <strong>/contracts رتب لكل مقاول باطن مجلد وراجع حسابات المستخلصات والاستقطاعات</strong></div>
+      </div>
+
+      <div class="cmd-card">
+        <div>
+          <div class="cmd-head">
+            <span class="cmd-tag">/organize</span>
+            <button class="copy-btn" onclick="copyText('/organize', this)">نسخ الأمر</button>
+          </div>
+          <h4 style="margin-top:10px;">التنظيم الذكي الشامل (لأي مجلد مختلط)</h4>
+          <p>عندك مجلد مبعثر فيه خليط من مستندات مشروع كامل (عقود + كتب + فواتير + اعتمادات + صور)؟ يكتشف الأنواع وحده، ينظف المكرر، يبني شجرة مجلدات مرتبة، ويصنع فهرس Excel شامل بروابط لكل ملف.</p>
+        </div>
+        <div class="cmd-example">مثال: <strong>/organize هذا مجلد مشروع جديد مبعثر، نظمه بالكامل واعمل فهرس إكسل</strong></div>
+      </div>
+
+      <div class="cmd-card">
+        <div>
+          <div class="cmd-head">
+            <span class="cmd-tag">/linklog</span>
+            <button class="copy-btn" onclick="copyText('/linklog', this)">نسخ الأمر</button>
+          </div>
+          <h4 style="margin-top:10px;">مطابقة شيت Excel موجود وربطه بالملفات</h4>
+          <p>يطابق أي شيت Excel عندك مع ملفات الـ PDF في المجلد، يضيف عمود <em>فتح الملف</em> يفتح الـ PDF بضغطة واحدة، ويخرج تقرير النواقص (ما هو مسجل بدون ملف، وما هو موجود بالملفات وغير مسجل بالشيت).</p>
+        </div>
+        <div class="cmd-example">مثال: <strong>/linklog طابق شيت الإكسل مع الملفات وطلع لي قائمة النواقص والاختلافات</strong></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- INTERACTIVE PROMPT BUILDER -->
+  <section class="section">
+    <div class="section-title"><span class="dot"></span>مولّد الأوامر المخصصة لأي مشروع جديد (اختر وانسخ بضغطة)</div>
+    <div class="builder">
+      <div class="builder-grid">
+        <div class="field">
+          <label>نوع المستندات في المجلد</label>
+          <select id="docType" onchange="buildPrompt()">
+            <option value="submittals">اعتمادات هندسية (Submittals / MIR / WIR / SD)</option>
+            <option value="pettycash">فواتير وإيصالات عُهدة (Petty Cash)</option>
+            <option value="invoices">فواتير موردين ومقاولين</option>
+            <option value="letters">كتب ومراسلات رسمية (صادر ووارد)</option>
+            <option value="contracts">عقود ومستخلصات (IPCs) وأوامر تغييرية</option>
+            <option value="organize">مجلد مشروع مختلط (تنظيم شامل)</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>اسم المشروع / الموظف (اختياري)</label>
+          <input id="projName" type="text" placeholder="مثال: مشروع مركز صحي السالمية" oninput="buildPrompt()">
+        </div>
+        <div class="field">
+          <label>طريقة تقسيم المجلدات المفضلة</label>
+          <select id="splitMode" onchange="buildPrompt()">
+            <option value="auto">تقسيم ذكي تلقائي حسب محتوى الملفات</option>
+            <option value="disc_party">حسب القسم التخصصي ثم الجهة (استشاري / مالك)</option>
+            <option value="vendor_month">حسب المورد / المقاول ثم الشهر</option>
+            <option value="in_out_party">وارد وصادر ثم حسب الجهة</option>
+            <option value="date_cat">حسب الشهر ثم بند الصرف</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>العملة / تفاصيل إضافية (اختياري)</label>
+          <input id="extraNote" type="text" placeholder="مثال: العملة د.ك - العهدة 400 د.ك" oninput="buildPrompt()">
+        </div>
+      </div>
+      <div id="promptOut" class="output-box"></div>
+      <div class="builder-actions">
+        <span style="font-size:13px; color:var(--muted);">الصق هذا الأمر مباشرة داخل نافذة الوكيل بعد فتحها في مجلدك.</span>
+        <button class="primary-btn" onclick="copyText(document.getElementById('promptOut').textContent, this)">نسخ الأمر الجاهز</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- GOOGLE DRIVE + PRIVACY/OFFLINE -->
+  <section class="section">
+    <div class="section-title"><span class="dot"></span>الربط مع Google Drive + خيار السرية التامة بدون إنترنت</div>
+    <div class="two-col">
+      <div class="info-box drive">
+        <h3>كيف يرتّب ويرفع على Google Drive تلقائياً ومجاناً؟</h3>
+        <p>ثبّت تطبيق <strong>Google Drive for Desktop</strong> الرسمي من جوجل على الكمبيوتر. سيظهر حسابك كقرص محلي عادي (مثلاً <span class="inline-code">G:\My Drive</span>):</p>
+        <ul>
+          <li>أضف المجلد من داخل Google Drive مباشرة في التطبيق البصري (أو اسحبه فوق <span class="inline-code">2_START_AGENT.bat</span> في الحقيبة).</li>
+          <li>الوكيل سيفك الضغط وينظف التكرار وينشئ المجلدات وشيتات الإكسل داخل المجلد مباشرة.</li>
+          <li>Google Drive سيرفع كل التغييرات تلقائياً للسحابة في الخلفية بدون أي خطوة إضافية منك!</li>
+        </ul>
+      </div>
+      <div class="info-box privacy">
+        <h3>ملاحظة الخصوصية + البديل الأوفلاين 100% للعقود السرية</h3>
+        <p>تسجيل الدخول المجاني في Gemini CLI يمنحك أقوى قراءة للأختام والخط اليدوي مجاناً، لكن مثل أي خدمة مجانية قد تُستخدم البيانات لتحسين نماذج جوجل. إذا كان لديك <strong>عقد سري جداً</strong> لا تريد خروجه للإنترنت نهائياً (ويوجد كرت شاشة 8GB+):</p>
+        <ul>
+          <li>ثبّت برنامج <strong>Ollama</strong> المجاني من <span class="inline-code">ollama.com</span>.</li>
+          <li>نزّل أقوى نموذج رؤية وقراءة عربي مجاني يعمل بدون إنترنت:<br>
+              <span class="inline-code">ollama pull qwen3-vl:8b</span> (أو <span class="inline-code">ollama pull gemma4:e4b</span>، وللأجهزة الضعيفة <span class="inline-code">qwen3-vl:2b</span>).</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- KIT CONTENTS -->
+  <section class="section">
+    <div class="section-title"><span class="dot"></span>محتويات حقيبة Smart_Local_Agent_Free</div>
+    <table class="kit-table">
+      <thead>
+        <tr>
+          <th>الملف / المجلد</th>
+          <th>وظيفته</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="file-pill">1_INSTALL_FIRST_TIME.bat</span></td>
+          <td>المثبّت التلقائي لويندوز (يشغّل مرة واحدة فقط — يجهّز كل شيء ويضع اختصار سطح المكتب)</td>
+        </tr>
+        <tr>
+          <td><span class="file-pill">2_START_AGENT.bat</span></td>
+          <td>مشغّل الوكيل اليومي — اسحب أي مجلد فوقه أو انسخه داخل أي مجلد واضغط مرتين</td>
+        </tr>
+        <tr>
+          <td><span class="file-pill">3_ADD_RIGHT_CLICK_MENU.bat</span></td>
+          <td>إضافة (أو إزالة) خيار فتح الوكيل الذكي بكليك يمين على أي مجلد في Windows بدون صلاحية مسؤول</td>
+        </tr>
+        <tr>
+          <td><span class="file-pill">4_AUTO_SCAN_WATCHER.bat</span></td>
+          <td><strong>ربط ومراقبة فولدر السكانر تلقائياً 24/7</strong> — يقرأ كل ورقة فور سحبها ويسميها ويصنفها في مجلدها ويسجلها في الإكسل لوحده</td>
+        </tr>
+        <tr>
+          <td><span class="file-pill">5_AUTO_START_WITH_WINDOWS.bat</span></td>
+          <td>تفعيل/إيقاف التشغيل التلقائي الصامت لمراقب السكانر مع بداية تشغيل الويندوز (بدون نوافذ وبدون صلاحية مسؤول)</td>
+        </tr>
+        <tr>
+          <td><span class="file-pill">GEMINI.md</span></td>
+          <td>عقل الوكيل وقواعده الذهبية بالعربي (حماية الأصول، قراءة الممسوح، حفظ VBA، دقة الدينار الكويتي، التحقق 100%)</td>
+        </tr>
+        <tr>
+          <td><span class="file-pill">commands/*.toml</span></td>
+          <td>12 أمراً سريعاً جاهزاً (<code>/fillform</code>, <code>/revise</code>, <code>/writeletter</code>, <code>/replyletter</code>, <code>/excelform</code>, <code>/organize</code>, <code>/submittals</code>, <code>/pettycash</code>, <code>/invoices</code>, <code>/letters</code>, <code>/contracts</code>, <code>/linklog</code>)</td>
+        </tr>
+        <tr>
+          <td><span class="file-pill">doc_tools/*.py + dashboard_ui.html</span></td>
+          <td><strong>منظومة v10.13.2 المتكاملة (محلية على <code>127.0.0.1:8765</code> — وأوفلاين 100% مع Ollama):</strong> محرك سجلات المشروع المرفوعة (<code>project_log.py</code>) + استوديو النماذج المرفوعة فقط بالمعاينة البصرية المطابقة (<code>template_profile.py</code>, <code>template_render.py</code>) + كشف الملفات غير المرتبطة والتراجع والقواعد المتعلَّمة (<code>relevance.py</code>, <code>decisions.py</code>, <code>inbox_pipeline.py</code>) + كاش ذكاء اصطناعي دائم بـ <code>SHA-256</code> لتوفير الكوتة والوقت (<code>ai_cache.py</code>) + إدارة المشروع النشط وبدء/إنهاء الجلسة والنسخ الاحتياطي (<code>active_project.py</code>) + تحصين أمني محلي وحماية صفر-حذف في الأرشفة التلقائية (<code>security_utils.py</code>). *(ملاحظة: عند استخدام Gemini تُرسل بيانات المستندات إلى Google API).*</td>
+        </tr>
+        <tr>
+          <td><span class="file-pill">3_Project_Logs &amp; 4_Project_Templates</span></td>
+          <td><strong>داخل كل مشروع (بدون أي لوج عام أو قوالب نظام افتراضية):</strong> <code>3_Project_Logs/</code> لرفع لوج Excel الخاص بالمشروع (<code>.xlsx/.xlsm</code>) والتعديل عليه مباشرةً مع حفظ الماكرو والمعادلات، و<code>4_Project_Templates/</code> لنماذجك المرفوعة فقط (<code>.xlsx/.xlsm/.docx</code>) مع خرائط <code>.tplmap.json</code> وإصدار مباشر إلى الأرشيف واللوج.</td>
+        </tr>
+        <tr>
+          <td><span class="file-pill">UPDATE_QUICK.bat &amp; CHANGELOG.md</span></td>
+          <td>تحديث فوري آمن خلال ثانية واحدة يحافظ 100% على مشاريعك وسجلاتك ونماذجك، مع سجل التغييرات الكامل وحزمة اختبارات <code>tests/</code>.</td>
+        </tr>
+        <tr>
+          <td><span class="file-pill">1_install_mac_linux.sh</span></td>
+          <td>نسخة التثبيت والتشغيل السريع لأجهزة Mac و Linux</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</main>
+
+<script>
+  const splitLabels = {
+    auto: "",
+    disc_party: "قسّم المجلدات حسب القسم التخصصي وبداخل كل قسم مجلدات الجهات المعتمدة (مع مجلد مستقل لنسخ قبل التعديل)",
+    vendor_month: "قسّم المجلدات حسب اسم المورد/المقاول وبداخلها حسب الشهر",
+    in_out_party: "قسّم المجلدات إلى وارد وصادر وبداخلهما مجلد لكل جهة",
+    date_cat: "قسّم المجلدات حسب الشهر وبداخله حسب بند الصرف"
+  };
+
+  function buildPrompt() {
+    const cmd = "/" + document.getElementById("docType").value;
+    const proj = document.getElementById("projName").value.trim();
+    const split = splitLabels[document.getElementById("splitMode").value];
+    const extra = document.getElementById("extraNote").value.trim();
+
+    const parts = [cmd];
+    if (proj) parts.push("الخاص بـ (" + proj + ").");
+    if (split) parts.push(split + ".");
+    if (extra) parts.push(extra + ".");
+    parts.push("تأكد من إزالة التكرار وتصحيح الأسماء من داخل المستندات الفعلية وتحديث/إنشاء شيت Excel مربوط بروابط مباشرة بدون حذف أي ملف أصلي.");
+
+    document.getElementById("promptOut").textContent = parts.join(" ");
+  }
+
+  function copyText(text, btn) {
+    const oldText = btn.textContent;
+    const done = () => {
+      btn.textContent = "تم النسخ ✓";
+      btn.classList.add("copied");
+      setTimeout(() => { btn.textContent = oldText; btn.classList.remove("copied"); }, 1800);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done).catch(() => fallbackCopy(text, done));
+    } else {
+      fallbackCopy(text, done);
+    }
+  }
+
+  function fallbackCopy(text, cb) {
+    const ta = document.createElement("textarea");
+    ta.value = text;
+    ta.style.position = "fixed";
+    ta.style.opacity = "0";
+    document.body.appendChild(ta);
+    ta.select();
+    try { document.execCommand("copy"); cb(); } catch (e) {}
+    document.body.removeChild(ta);
+  }
+
+  buildPrompt();
+</script>
+</body>
+</html>

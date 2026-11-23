@@ -1,0 +1,7200 @@
+{
+  "_meta": {
+    "version": "10.0.0",
+    "default_style": "msa",
+    "styles": {
+      "msa": "فصحى مبسطة",
+      "eg": "عامية مصرية"
+    },
+    "note": "ملف النصوص الموحّد لكل واجهة ورسائل Smart_Local_Agent_Free. لا يُكتب أي نص عربي للمستخدم خارج هذا الملف."
+  },
+  "_glossary": {
+    "app_name": {
+      "msa": "مشاريعي",
+      "eg": "مشاريعي"
+    },
+    "active_project": {
+      "msa": "المشروع الحالي",
+      "eg": "المشروع الحالي"
+    },
+    "scanner_folder": {
+      "msa": "مجلد السكانر",
+      "eg": "فولدر السكانر"
+    },
+    "archive": {
+      "msa": "الأرشيف",
+      "eg": "الأرشيف"
+    },
+    "auto_scanner": {
+      "msa": "السكانر التلقائي",
+      "eg": "السكانر التلقائي"
+    },
+    "project_log": {
+      "msa": "لوج المشروع",
+      "eg": "لوج المشروع"
+    },
+    "document": {
+      "msa": "مستند",
+      "eg": "مستند"
+    },
+    "documents": {
+      "msa": "مستندات",
+      "eg": "مستندات"
+    },
+    "pending_log": {
+      "msa": "بانتظار التسجيل",
+      "eg": "مستني التسجيل"
+    },
+    "template": {
+      "msa": "نموذج",
+      "eg": "نموذج"
+    },
+    "templates": {
+      "msa": "النماذج",
+      "eg": "النماذج"
+    },
+    "template_setup": {
+      "msa": "إعداد النماذج",
+      "eg": "تظبيط النماذج"
+    },
+    "template_settings": {
+      "msa": "إعدادات النموذج",
+      "eg": "إعدادات النموذج"
+    },
+    "field": {
+      "msa": "خانة",
+      "eg": "خانة"
+    },
+    "moved_field": {
+      "msa": "خانة تغيّر مكانها",
+      "eg": "خانة مكانها اتغير"
+    },
+    "locked_formula": {
+      "msa": "معادلة ثابتة",
+      "eg": "معادلة مقفولة"
+    },
+    "items_table": {
+      "msa": "جدول بنود",
+      "eg": "جدول بنود"
+    },
+    "excel_macro": {
+      "msa": "ماكرو إكسل",
+      "eg": "ماكرو إكسل"
+    },
+    "start_work": {
+      "msa": "بدء العمل",
+      "eg": "بدء الشغل"
+    },
+    "end_work": {
+      "msa": "إنهاء العمل",
+      "eg": "إنهاء الشغل"
+    },
+    "pending_decisions": {
+      "msa": "أوراق للمراجعة",
+      "eg": "ورق للمراجعة"
+    },
+    "unrelated_files": {
+      "msa": "أوراق خارج المشروع",
+      "eg": "ورق بره المشروع"
+    },
+    "saved_rules": {
+      "msa": "القواعد المحفوظة",
+      "eg": "القواعد المحفوظة"
+    },
+    "rename_log": {
+      "msa": "سجل التسمية",
+      "eg": "سجل الأسماء"
+    },
+    "trial_mode": {
+      "msa": "وضع التجربة",
+      "eg": "وضع التجربة"
+    },
+    "ai_key": {
+      "msa": "مفتاح الذكاء",
+      "eg": "مفتاح الذكاء"
+    },
+    "backup": {
+      "msa": "نسخة احتياطية",
+      "eg": "نسخة احتياطية"
+    },
+    "site_terms_unchanged": [
+      "MAR",
+      "MIR",
+      "WIR",
+      "IR",
+      "SD",
+      "MS",
+      "PQ",
+      "IPC",
+      "VO",
+      "PO",
+      "RFI",
+      "NCR",
+      "صادر",
+      "وارد",
+      "عهدة",
+      "مستخلص",
+      "اعتماد",
+      "مراجعة",
+      "لوج",
+      "د.ك"
+    ]
+  },
+  "strings": {
+    "common.open": {
+      "type": "btn",
+      "msa": "فتح",
+      "eg": "فتح"
+    },
+    "common.save": {
+      "type": "btn",
+      "msa": "حفظ",
+      "eg": "حفظ"
+    },
+    "common.close": {
+      "type": "btn",
+      "msa": "إغلاق",
+      "eg": "قفل"
+    },
+    "common.back": {
+      "type": "btn",
+      "msa": "تراجع",
+      "eg": "رجوع"
+    },
+    "common.search": {
+      "type": "btn",
+      "msa": "بحث",
+      "eg": "بحث"
+    },
+    "common.search_ph": {
+      "type": "label",
+      "msa": "بحث بالاسم أو المرجع",
+      "eg": "بحث بالاسم أو المرجع"
+    },
+    "common.download": {
+      "type": "btn",
+      "msa": "تنزيل",
+      "eg": "تنزيل"
+    },
+    "common.upload_files": {
+      "type": "btn",
+      "msa": "رفع ملفات",
+      "eg": "رفع ملفات"
+    },
+    "common.archive_move": {
+      "type": "btn",
+      "msa": "نقل للأرشيف",
+      "eg": "نقل للأرشيف"
+    },
+    "common.remove": {
+      "type": "btn",
+      "msa": "إزالة",
+      "eg": "شيل"
+    },
+    "common.delete_rule": {
+      "type": "btn",
+      "msa": "حذف القاعدة",
+      "eg": "مسح القاعدة"
+    },
+    "common.loading": {
+      "type": "progress",
+      "msa": "جارٍ التحميل",
+      "eg": "بيحمّل"
+    },
+    "common.none_option": {
+      "type": "option",
+      "msa": "غير محدد",
+      "eg": "مش متحدد"
+    },
+    "common.suggested_tag": {
+      "type": "status",
+      "msa": "مقترح",
+      "eg": "مقترح"
+    },
+    "common.all_ready": {
+      "type": "status",
+      "msa": "كل شيء جاهز",
+      "eg": "كله جاهز"
+    },
+    "common.kwd_unit": {
+      "type": "status",
+      "msa": "{amount} د.ك",
+      "eg": "{amount} د.ك"
+    },
+    "common.docs_count": {
+      "type": "status",
+      "msa": "{count} مستندات",
+      "eg": "{count} مستندات"
+    },
+    "common.one_doc": {
+      "type": "status",
+      "msa": "مستند واحد",
+      "eg": "مستند واحد"
+    },
+    "common.dismiss_tip": {
+      "type": "btn",
+      "msa": "إخفاء",
+      "eg": "تمام"
+    },
+    "topbar.app_title": {
+      "type": "title",
+      "msa": "مشاريعي",
+      "eg": "مشاريعي"
+    },
+    "topbar.active_label": {
+      "type": "label",
+      "msa": "المشروع الحالي",
+      "eg": "المشروع الحالي"
+    },
+    "topbar.no_active": {
+      "type": "option",
+      "msa": "بلا مشروع حالي",
+      "eg": "مفيش مشروع مفتوح"
+    },
+    "topbar.start_work": {
+      "type": "btn",
+      "msa": "بدء العمل",
+      "eg": "بدء الشغل"
+    },
+    "topbar.start_work_help": {
+      "type": "tooltip",
+      "msa": "تحديث الأرقام من لوج المشروع وتسجيل أي مستندات معلقة.",
+      "eg": "بيحدّث الأرقام من اللوج ويسجّل أي ورق كان مستني."
+    },
+    "topbar.end_work": {
+      "type": "btn",
+      "msa": "إنهاء العمل",
+      "eg": "إنهاء الشغل"
+    },
+    "topbar.end_work_help": {
+      "type": "tooltip",
+      "msa": "حفظ نسخة احتياطية بتاريخ اليوم قبل إغلاق الجهاز أو نقله.",
+      "eg": "بيعمل نسخة احتياطية بتاريخ النهارده قبل ما تقفل أو تنقل."
+    },
+    "topbar.scanner_on": {
+      "type": "btn",
+      "msa": "السكانر يعمل",
+      "eg": "السكانر شغال"
+    },
+    "topbar.scanner_off": {
+      "type": "btn",
+      "msa": "السكانر متوقف",
+      "eg": "السكانر واقف"
+    },
+    "topbar.ai_on": {
+      "type": "status",
+      "msa": "الذكاء يعمل",
+      "eg": "الذكاء شغال"
+    },
+    "topbar.ai_off": {
+      "type": "status",
+      "msa": "بلا ذكاء متصل",
+      "eg": "من غير ذكاء"
+    },
+    "topbar.trial_badge": {
+      "type": "status",
+      "msa": "وضع التجربة",
+      "eg": "وضع التجربة"
+    },
+    "topbar.trial_help": {
+      "type": "tooltip",
+      "msa": "معاينة الفرز فقط دون نقل أو تسمية أي ملف.",
+      "eg": "بيوريك النتيجة بس من غير ما ينقل أو يغيّر اسم ملف."
+    },
+    "topbar.decisions_btn": {
+      "type": "btn",
+      "msa": "أوراق للمراجعة",
+      "eg": "ورق للمراجعة"
+    },
+    "topbar.project_switched": {
+      "type": "toast",
+      "msa": "تم اختيار المشروع الحالي.",
+      "eg": "تم اختيار المشروع الحالي."
+    },
+    "topbar.project_cleared": {
+      "type": "toast",
+      "msa": "تم إلغاء تحديد المشروع الحالي.",
+      "eg": "اتشال تحديد المشروع الحالي."
+    },
+    "topbar.scanner_started": {
+      "type": "toast",
+      "msa": "بدأ تشغيل السكانر التلقائي.",
+      "eg": "السكانر التلقائي اشتغل."
+    },
+    "topbar.scanner_stopped": {
+      "type": "toast",
+      "msa": "توقف السكانر التلقائي.",
+      "eg": "السكانر التلقائي وقف."
+    },
+    "topbar.need_project_first": {
+      "type": "toast",
+      "msa": "يلزم اختيار مشروع أولاً.",
+      "eg": "لازم اختيار مشروع الأول."
+    },
+    "nav.projects": {
+      "type": "tab",
+      "msa": "مشاريعي",
+      "eg": "مشاريعي"
+    },
+    "nav.decisions": {
+      "type": "tab",
+      "msa": "أوراق للمراجعة",
+      "eg": "ورق للمراجعة"
+    },
+    "nav.settings": {
+      "type": "tab",
+      "msa": "الإعدادات",
+      "eg": "الإعدادات"
+    },
+    "nav.overview": {
+      "type": "tab",
+      "msa": "ملخص المشروع",
+      "eg": "ملخص المشروع"
+    },
+    "nav.logs": {
+      "type": "tab",
+      "msa": "لوج المشروع",
+      "eg": "لوج المشروع"
+    },
+    "nav.templates": {
+      "type": "tab",
+      "msa": "النماذج",
+      "eg": "النماذج"
+    },
+    "nav.sections_group": {
+      "type": "label",
+      "msa": "الأقسام",
+      "eg": "الأقسام"
+    },
+    "nav.collapse_sidebar": {
+      "type": "btn",
+      "msa": "طي القائمة",
+      "eg": "لمّ القائمة"
+    },
+    "nav.expand_sidebar": {
+      "type": "btn",
+      "msa": "إظهار القائمة",
+      "eg": "إظهار القائمة"
+    },
+    "nav.toggle_group_tip": {
+      "type": "tooltip",
+      "msa": "طي أو إظهار هذه المجموعة",
+      "eg": "ضم أو فرد المجموعة دي"
+    },
+    "nav.tools_group": {
+      "type": "label",
+      "msa": "أدوات الأرشفة والتنظيف",
+      "eg": "أدوات الأرشفة والتنضيف"
+    },
+    "sec.submittal": {
+      "type": "tab",
+      "msa": "الاعتمادات",
+      "eg": "الاعتمادات"
+    },
+    "sec.submittal_mar": {
+      "type": "tab",
+      "msa": "اعتماد مواد MAR",
+      "eg": "اعتماد مواد MAR"
+    },
+    "sec.submittal_mir": {
+      "type": "tab",
+      "msa": "فحص مواد MIR",
+      "eg": "فحص مواد MIR"
+    },
+    "sec.submittal_ir": {
+      "type": "tab",
+      "msa": "فحص أعمال WIR",
+      "eg": "فحص أعمال WIR"
+    },
+    "sec.submittal_sd": {
+      "type": "tab",
+      "msa": "مخططات تنفيذية SD",
+      "eg": "مخططات تنفيذية SD"
+    },
+    "sec.submittal_ms": {
+      "type": "tab",
+      "msa": "طريقة تنفيذ MS/PQ",
+      "eg": "طريقة تنفيذ MS/PQ"
+    },
+    "sec.outgoing": {
+      "type": "tab",
+      "msa": "الصادر",
+      "eg": "الصادر"
+    },
+    "sec.incoming": {
+      "type": "tab",
+      "msa": "الوارد",
+      "eg": "الوارد"
+    },
+    "sec.contract_ipc": {
+      "type": "tab",
+      "msa": "المستخلصات IPC",
+      "eg": "المستخلصات IPC"
+    },
+    "sec.variation_vo": {
+      "type": "tab",
+      "msa": "أوامر تغييرية VO",
+      "eg": "أوامر تغييرية VO"
+    },
+    "sec.purchase_po": {
+      "type": "tab",
+      "msa": "أوامر شراء PO",
+      "eg": "أوامر شراء PO"
+    },
+    "sec.petty_cash": {
+      "type": "tab",
+      "msa": "العهدة والفواتير",
+      "eg": "العهدة والفواتير"
+    },
+    "sec.site_report": {
+      "type": "tab",
+      "msa": "تقارير ومحاضر",
+      "eg": "تقارير ومحاضر"
+    },
+    "sec.general": {
+      "type": "tab",
+      "msa": "مستندات عامة",
+      "eg": "ورق عام"
+    },
+    "hub.title": {
+      "type": "title",
+      "msa": "اختيار مشروع",
+      "eg": "اختيار مشروع"
+    },
+    "hub.new_project": {
+      "type": "btn",
+      "msa": "مشروع جديد",
+      "eg": "مشروع جديد"
+    },
+    "hub.empty": {
+      "type": "empty",
+      "msa": "لا توجد مشاريع بعد.",
+      "eg": "مفيش مشاريع لسه."
+    },
+    "hub.tip_once": {
+      "type": "tip",
+      "msa": "لكل مشروع لوج إكسل خاص به ونماذجه المرفوعة فقط.",
+      "eg": "كل مشروع ليه شيت اللوج بتاعه والنماذج اللي تترفع له بس."
+    },
+    "hub.active_badge": {
+      "type": "status",
+      "msa": "المشروع الحالي",
+      "eg": "المشروع الحالي"
+    },
+    "hub.no_log_badge": {
+      "type": "status",
+      "msa": "بلا لوج مرفوع",
+      "eg": "من غير لوج"
+    },
+    "hub.moved_fields_badge": {
+      "type": "status",
+      "msa": "نموذج يحتاج مراجعة",
+      "eg": "نموذج محتاج مراجعة"
+    },
+    "hub.pending_badge": {
+      "type": "status",
+      "msa": "{count} للمراجعة",
+      "eg": "{count} للمراجعة"
+    },
+    "hub.stat_under_review": {
+      "type": "label",
+      "msa": "قيد المراجعة",
+      "eg": "تحت المراجعة"
+    },
+    "hub.stat_templates": {
+      "type": "label",
+      "msa": "النماذج",
+      "eg": "النماذج"
+    },
+    "hub.save_path": {
+      "type": "label",
+      "msa": "مكان الحفظ",
+      "eg": "مكان الحفظ"
+    },
+    "new_project.title": {
+      "type": "title",
+      "msa": "مشروع جديد",
+      "eg": "مشروع جديد"
+    },
+    "new_project.create_btn": {
+      "type": "btn",
+      "msa": "إنشاء المشروع",
+      "eg": "إنشاء المشروع"
+    },
+    "new_project.name": {
+      "type": "label",
+      "msa": "اسم المشروع",
+      "eg": "اسم المشروع"
+    },
+    "new_project.code": {
+      "type": "label",
+      "msa": "رمز المشروع",
+      "eg": "كود المشروع"
+    },
+    "new_project.contract": {
+      "type": "label",
+      "msa": "رقم العقد",
+      "eg": "رقم العقد"
+    },
+    "new_project.owner": {
+      "type": "label",
+      "msa": "المالك",
+      "eg": "المالك"
+    },
+    "new_project.consultant": {
+      "type": "label",
+      "msa": "الاستشاري",
+      "eg": "الاستشاري"
+    },
+    "new_project.contractor": {
+      "type": "label",
+      "msa": "المقاول",
+      "eg": "المقاول"
+    },
+    "new_project.location": {
+      "type": "label",
+      "msa": "الموقع",
+      "eg": "الموقع"
+    },
+    "new_project.engineer": {
+      "type": "label",
+      "msa": "مهندس المشروع",
+      "eg": "مهندس المشروع"
+    },
+    "new_project.folder": {
+      "type": "label",
+      "msa": "مكان الحفظ",
+      "eg": "مكان الحفظ"
+    },
+    "new_project.scanner_dir": {
+      "type": "label",
+      "msa": "مجلد السكانر",
+      "eg": "فولدر السكانر"
+    },
+    "new_project.aliases": {
+      "type": "label",
+      "msa": "أسماء مختصرة للمشروع",
+      "eg": "أسماء تانية للمشروع"
+    },
+    "new_project.aliases_help": {
+      "type": "tooltip",
+      "msa": "أسماء أخرى يظهر بها المشروع في الكتب، مفصولة بفاصلة.",
+      "eg": "أي اسم تاني للمشروع بيجي في الجوابات، وبينهم فاصلة."
+    },
+    "new_project.subs": {
+      "type": "label",
+      "msa": "مقاولو الباطن والموردون",
+      "eg": "مقاولين الباطن والموردين"
+    },
+    "new_project.subs_help": {
+      "type": "tooltip",
+      "msa": "تُربط فواتيرهم وكتبهم بهذا المشروع تلقائياً.",
+      "eg": "عشان فواتيرهم وجواباتهم تدخل على المشروع ده تلقائي."
+    },
+    "new_project.unrelated_policy": {
+      "type": "label",
+      "msa": "الأوراق خارج المشروع",
+      "eg": "الورق اللي بره المشروع"
+    },
+    "new_project.initial_log": {
+      "type": "label",
+      "msa": "لوج المشروع (Excel)",
+      "eg": "لوج المشروع (Excel)"
+    },
+    "new_project.initial_log_help": {
+      "type": "tooltip",
+      "msa": "ملف إكسل المشروع الحالي للتسجيل فيه مباشرةً.",
+      "eg": "شيت إكسل المشروع عشان التسجيل يتم فيه على طول."
+    },
+    "new_project.linked_log_label": {
+      "type": "label",
+      "msa": "أو ربط ملف مباشر",
+      "eg": "أو ربط شيت مباشر"
+    },
+    "new_project.linked_log_help": {
+      "type": "tip",
+      "msa": "تعديل نفس ملف Excel في مكانه على الجهاز أو الشبكة دون نسخه.",
+      "eg": "تعديل نفس ملف الإكسل في مكانه على الجهاز أو الشبكة من غير نسخ."
+    },
+    "new_project.created_toast": {
+      "type": "toast",
+      "msa": "تم إنشاء المشروع.",
+      "eg": "المشروع اتعمل خلاص."
+    },
+    "new_project.name_required": {
+      "type": "toast",
+      "msa": "اسم المشروع مطلوب.",
+      "eg": "لازم كتابة اسم المشروع."
+    },
+    "sync.title": {
+      "type": "title",
+      "msa": "ملخص بدء العمل",
+      "eg": "ملخص بداية الشغل"
+    },
+    "sync.ready_msg": {
+      "type": "toast",
+      "msa": "كل شيء جاهز وتم تحديث الأرقام من اللوج.",
+      "eg": "كله جاهز والأرقام اتحدّثت من اللوج."
+    },
+    "sync.flushed_msg": {
+      "type": "toast",
+      "msa": "تم تسجيل {count} مستندات معلقة في اللوج.",
+      "eg": "اتسجل {count} مستندات كانت مستنية في اللوج."
+    },
+    "sync.logs_label": {
+      "type": "label",
+      "msa": "لوج المشروع",
+      "eg": "لوج المشروع"
+    },
+    "sync.next_refs_label": {
+      "type": "label",
+      "msa": "الأرقام التالية",
+      "eg": "الأرقام الجاية"
+    },
+    "sync.next_disc_label": {
+      "type": "label",
+      "msa": "أرقام التخصصات",
+      "eg": "أرقام التخصصات"
+    },
+    "sync.next_ar_label": {
+      "type": "label",
+      "msa": "أرقام الكتب العربية",
+      "eg": "أرقام الجوابات"
+    },
+    "sync.open_project": {
+      "type": "btn",
+      "msa": "فتح المشروع",
+      "eg": "فتح المشروع"
+    },
+    "end_session.title": {
+      "type": "title",
+      "msa": "إنهاء العمل",
+      "eg": "إنهاء الشغل"
+    },
+    "end_session.ext_backup": {
+      "type": "label",
+      "msa": "نسخة للفلاشة أو القرص",
+      "eg": "نسخة للفلاشة أو الهارد"
+    },
+    "end_session.include_archive": {
+      "type": "label",
+      "msa": "تضمين كامل الأرشيف",
+      "eg": "نسخ الأرشيف كله كمان"
+    },
+    "end_session.run_btn": {
+      "type": "btn",
+      "msa": "حفظ وإنهاء",
+      "eg": "حفظ وإنهاء"
+    },
+    "end_session.done_title": {
+      "type": "title",
+      "msa": "تم إنهاء العمل",
+      "eg": "الشغل اتقفل بأمان"
+    },
+    "end_session.safe_msg": {
+      "type": "toast",
+      "msa": "تم حفظ النسخة الاحتياطية وإغلاق كل الملفات بأمان.",
+      "eg": "النسخة الاحتياطية اتحفظت وكل الملفات مقفولة تمام."
+    },
+    "end_session.open_files_warn": {
+      "type": "warn",
+      "msa": "بعض الملفات ما زالت مفتوحة في Excel أو Word. يُفضّل إغلاقها قبل نقل المجلد.",
+      "eg": "فيه ملفات لسه مفتوحة في Excel أو Word. الأحسن تتقفل قبل نقل الفولدر."
+    },
+    "end_session.backup_place": {
+      "type": "label",
+      "msa": "مكان النسخة الاحتياطية",
+      "eg": "مكان النسخة الاحتياطية"
+    },
+    "end_session.ext_place": {
+      "type": "label",
+      "msa": "النسخة الخارجية",
+      "eg": "النسخة الخارجية"
+    },
+    "overview.scan_now": {
+      "type": "btn",
+      "msa": "فرز السكانر",
+      "eg": "فرز السكانر"
+    },
+    "overview.scanning_progress": {
+      "type": "progress",
+      "msa": "جارٍ قراءة الأوراق",
+      "eg": "بيقرا الورق دلوقتي"
+    },
+    "overview.scan_done_toast": {
+      "type": "toast",
+      "msa": "تم الفرز: {archived} في الأرشيف، {pending} للمراجعة.",
+      "eg": "الفرز خلص: {archived} في الأرشيف، و{pending} للمراجعة."
+    },
+    "overview.files_uploaded_toast": {
+      "type": "toast",
+      "msa": "تم رفع {count} ملفات إلى مجلد السكانر.",
+      "eg": "اترفع {count} ملفات في فولدر السكانر."
+    },
+    "overview.no_log_warn": {
+      "type": "warn",
+      "msa": "لا يوجد لوج مرفوع لهذا المشروع بعد. يلزم رفع ملف اللوج للتسجيل فيه.",
+      "eg": "مفيش لوج مرفوع للمشروع ده لسه. ارفع شيت اللوج عشان يتسجل فيه."
+    },
+    "overview.upload_log_btn": {
+      "type": "btn",
+      "msa": "رفع اللوج",
+      "eg": "رفع اللوج"
+    },
+    "overview.folder_project": {
+      "type": "btn",
+      "msa": "مجلد المشروع",
+      "eg": "فولدر المشروع"
+    },
+    "overview.folder_scanner": {
+      "type": "btn",
+      "msa": "مجلد السكانر",
+      "eg": "فولدر السكانر"
+    },
+    "overview.folder_archive": {
+      "type": "btn",
+      "msa": "الأرشيف",
+      "eg": "الأرشيف"
+    },
+    "overview.folder_backups": {
+      "type": "btn",
+      "msa": "النسخ الاحتياطية",
+      "eg": "النسخ الاحتياطية"
+    },
+    "overview.import_old": {
+      "type": "btn",
+      "msa": "استيراد أرشيف",
+      "eg": "استيراد أرشيف"
+    },
+    "overview.contacts": {
+      "type": "btn",
+      "msa": "جهات الاتصال",
+      "eg": "أرقام التواصل"
+    },
+    "overview.smart_helper": {
+      "type": "btn",
+      "msa": "المساعد الذكي",
+      "eg": "المساعد الذكي"
+    },
+    "overview.kpi_total": {
+      "type": "label",
+      "msa": "المستندات",
+      "eg": "المستندات"
+    },
+    "overview.kpi_approved": {
+      "type": "label",
+      "msa": "معتمد (A/B)",
+      "eg": "معتمد (A/B)"
+    },
+    "overview.kpi_review": {
+      "type": "label",
+      "msa": "قيد المراجعة",
+      "eg": "تحت المراجعة"
+    },
+    "overview.kpi_overdue": {
+      "type": "status",
+      "msa": "متأخر: {count}",
+      "eg": "متأخر: {count}"
+    },
+    "overview.kpi_rejected": {
+      "type": "label",
+      "msa": "مرفوض (C/D)",
+      "eg": "مرفوض (C/D)"
+    },
+    "overview.kpi_amounts": {
+      "type": "label",
+      "msa": "إجمالي المبالغ",
+      "eg": "إجمالي المبالغ"
+    },
+    "overview.kpi_waiting": {
+      "type": "label",
+      "msa": "أوراق للمراجعة",
+      "eg": "ورق للمراجعة"
+    },
+    "overview.drop_title": {
+      "type": "title",
+      "msa": "رفع أوراق لمجلد السكانر",
+      "eg": "رفع ورق لفولدر السكانر"
+    },
+    "overview.recent_title": {
+      "type": "title",
+      "msa": "آخر المستندات",
+      "eg": "آخر المستندات"
+    },
+    "overview.search_placeholder": {
+      "type": "label",
+      "msa": "بحث بالرقم أو الموضوع",
+      "eg": "بحث بالرقم أو الموضوع"
+    },
+    "overview.empty_rows": {
+      "type": "empty",
+      "msa": "لا توجد مستندات هنا بعد.",
+      "eg": "مفيش مستندات هنا لسه."
+    },
+    "overview.empty_search": {
+      "type": "empty",
+      "msa": "لا توجد نتائج مطابقة.",
+      "eg": "مفيش نتائج مطابقة."
+    },
+    "overview.folder_opened": {
+      "type": "toast",
+      "msa": "تم فتح المجلد.",
+      "eg": "الفولدر اتفتح."
+    },
+    "table.col_ref": {
+      "type": "label",
+      "msa": "المرجع",
+      "eg": "المرجع"
+    },
+    "table.col_rev": {
+      "type": "label",
+      "msa": "المراجعة",
+      "eg": "المراجعة"
+    },
+    "table.col_sheet": {
+      "type": "label",
+      "msa": "الشيت",
+      "eg": "الشيت"
+    },
+    "table.col_subject": {
+      "type": "label",
+      "msa": "الموضوع",
+      "eg": "الموضوع"
+    },
+    "table.col_date": {
+      "type": "label",
+      "msa": "التاريخ",
+      "eg": "التاريخ"
+    },
+    "table.col_status": {
+      "type": "label",
+      "msa": "الحالة",
+      "eg": "الحالة"
+    },
+    "table.col_amount": {
+      "type": "label",
+      "msa": "المبلغ",
+      "eg": "المبلغ"
+    },
+    "table.col_file": {
+      "type": "label",
+      "msa": "الملف",
+      "eg": "الملف"
+    },
+    "table.col_party": {
+      "type": "label",
+      "msa": "الجهة",
+      "eg": "الجهة"
+    },
+    "legacy.title": {
+      "type": "title",
+      "msa": "استيراد أرشيف سابق",
+      "eg": "استيراد أرشيف قديم"
+    },
+    "legacy.folder": {
+      "type": "label",
+      "msa": "مسار المجلد",
+      "eg": "مكان الفولدر"
+    },
+    "legacy.max_files": {
+      "type": "label",
+      "msa": "عدد الملفات بالدفعة",
+      "eg": "عدد الملفات في المرة"
+    },
+    "legacy.pace": {
+      "type": "label",
+      "msa": "الفاصل بالثواني",
+      "eg": "الفاصل بالثواني"
+    },
+    "legacy.preview_btn": {
+      "type": "btn",
+      "msa": "فحص العدد",
+      "eg": "فحص العدد"
+    },
+    "legacy.start_btn": {
+      "type": "btn",
+      "msa": "بدء الاستيراد",
+      "eg": "بدء الاستيراد"
+    },
+    "legacy.found_msg": {
+      "type": "toast",
+      "msa": "وُجد {count} ملفاً جاهزاً للنسخ الآمن.",
+      "eg": "فيه {count} ملف جاهزين للنسخ بأمان."
+    },
+    "contacts.title": {
+      "type": "title",
+      "msa": "جهات الاتصال",
+      "eg": "أرقام التواصل"
+    },
+    "contacts.name": {
+      "type": "label",
+      "msa": "الاسم",
+      "eg": "الاسم"
+    },
+    "contacts.phone": {
+      "type": "label",
+      "msa": "رقم الهاتف",
+      "eg": "رقم التليفون"
+    },
+    "contacts.role": {
+      "type": "label",
+      "msa": "الصفة",
+      "eg": "الوظيفة"
+    },
+    "contacts.add_btn": {
+      "type": "btn",
+      "msa": "إضافة جهة",
+      "eg": "إضافة رقم"
+    },
+    "contacts.empty": {
+      "type": "empty",
+      "msa": "لا توجد جهات اتصال بعد.",
+      "eg": "مفيش أرقام محفوظة لسه."
+    },
+    "contacts.saved_toast": {
+      "type": "toast",
+      "msa": "تم حفظ جهة الاتصال.",
+      "eg": "الرقم اتحفظ."
+    },
+    "logs.title": {
+      "type": "title",
+      "msa": "لوج المشروع",
+      "eg": "لوج المشروع"
+    },
+    "logs.help": {
+      "type": "tooltip",
+      "msa": "يُسجّل البرنامج المستندات والمراجعات داخل ملف إكسل المشروع مباشرةً.",
+      "eg": "البرنامج بيسجّل الورق والمراجعات جوه شيت إكسل المشروع نفسه."
+    },
+    "logs.upload_btn": {
+      "type": "btn",
+      "msa": "رفع لوج إكسل",
+      "eg": "رفع شيت اللوج"
+    },
+    "logs.uploading_progress": {
+      "type": "progress",
+      "msa": "جارٍ قراءة اللوج",
+      "eg": "بيقرا شيت اللوج"
+    },
+    "logs.uploaded_toast": {
+      "type": "toast",
+      "msa": "تم رفع لوج المشروع.",
+      "eg": "شيت اللوج اترفع تمام."
+    },
+    "logs.flush_btn": {
+      "type": "btn",
+      "msa": "تسجيل المعلق ({count})",
+      "eg": "تسجيل المستني ({count})"
+    },
+    "logs.flushed_toast": {
+      "type": "toast",
+      "msa": "تم تسجيل {count} مستندات في اللوج.",
+      "eg": "اتسجل {count} مستندات في اللوج."
+    },
+    "logs.waiting_warn": {
+      "type": "warn",
+      "msa": "توجد {count} مستندات بانتظار التسجيل لأن اللوج كان مفتوحاً. يُغلق ملف Excel ثم يُضغط تسجيل المعلق.",
+      "eg": "فيه {count} مستندات مستنية تتسجل عشان الشيت كان مفتوح. اقفل Excel ودوس تسجيل المستني."
+    },
+    "logs.counters_btn": {
+      "type": "btn",
+      "msa": "أرقام البداية",
+      "eg": "أرقام البداية"
+    },
+    "logs.open_folder": {
+      "type": "btn",
+      "msa": "فتح المجلد",
+      "eg": "فتح الفولدر"
+    },
+    "logs.map_btn": {
+      "type": "btn",
+      "msa": "ربط الأعمدة",
+      "eg": "ربط الأعمدة"
+    },
+    "logs.macro_badge": {
+      "type": "status",
+      "msa": "ماكرو إكسل محفوظ",
+      "eg": "بماكرو محفوظ"
+    },
+    "logs.sheets_badge": {
+      "type": "status",
+      "msa": "{enabled} من {total} شيت",
+      "eg": "{enabled} من {total} شيت"
+    },
+    "logs.cols_changed_warn": {
+      "type": "warn",
+      "msa": "تغيّرت بعض عناوين الأعمدة في اللوج. يلزم فتح ربط الأعمدة للمراجعة.",
+      "eg": "فيه عناوين أعمدة اتغيرت في اللوج. افتح ربط الأعمدة وراجعها."
+    },
+    "logs.empty": {
+      "type": "empty",
+      "msa": "لم يُرفع لوج لهذا المشروع بعد.",
+      "eg": "مفيش شيت لوج مرفوع للمشروع ده لسه."
+    },
+    "logs.next_refs_title": {
+      "type": "title",
+      "msa": "الأرقام التالية من اللوج",
+      "eg": "الأرقام الجاية من اللوج"
+    },
+    "logs.archive_confirm": {
+      "type": "confirm",
+      "msa": "سيُنقل ملف اللوج «{name}» إلى الأرشيف الجانبي دون حذفه.",
+      "eg": "شيت اللوج «{name}» هيتنقل للأرشيف الجانبي من غير ما يتمسح."
+    },
+    "logs.archive_confirm_btn": {
+      "type": "btn",
+      "msa": "نقل اللوج",
+      "eg": "نقل اللوج"
+    },
+    "logs.archived_toast": {
+      "type": "toast",
+      "msa": "تم نقل اللوج إلى الأرشيف الجانبي.",
+      "eg": "اللوج اتنقل للأرشيف الجانبي."
+    },
+    "logs.link_direct_title": {
+      "type": "title",
+      "msa": "ربط ملف لوج مباشر",
+      "eg": "ربط شيت لوج مباشر"
+    },
+    "logs.link_direct_hint": {
+      "type": "tip",
+      "msa": "اختيار ملف Excel على الجهاز أو الشبكة للتعديل عليه مباشرة.",
+      "eg": "ربط شيت إكسل من على الجهاز أو الشبكة للتعديل في مكانه."
+    },
+    "logs.link_direct_btn": {
+      "type": "btn",
+      "msa": "ربط الملف",
+      "eg": "ربط الملف"
+    },
+    "logs.browse_excel_btn": {
+      "type": "btn",
+      "msa": "تصفح ملف",
+      "eg": "اختيار ملف"
+    },
+    "logs.linked_badge": {
+      "type": "status",
+      "msa": "مربوط في مكانه",
+      "eg": "مربوط في مكانه"
+    },
+    "logs.linked_toast": {
+      "type": "toast",
+      "msa": "تم ربط الملف — سيُحدَّث نفس الملف في مكانه.",
+      "eg": "تم ربط الملف — التعديل هيتحفظ في مكانه."
+    },
+    "logs.unlink_btn": {
+      "type": "btn",
+      "msa": "إزالة الربط",
+      "eg": "فك الربط"
+    },
+    "logs.unlink_confirm": {
+      "type": "confirm",
+      "msa": "سيتم فك ارتباط «{name}» من المشروع مع بقاء الملف الأصلي محفوظاً في مكانه.",
+      "eg": "هيتفك ربط «{name}» من المشروع والملف الأصلي هيفضل محفوظ زي ما هو في مكانه."
+    },
+    "logs.unlink_confirm_btn": {
+      "type": "btn",
+      "msa": "فك الربط فقط",
+      "eg": "فك الربط بس"
+    },
+    "logs.unlinked_toast": {
+      "type": "toast",
+      "msa": "تم فك الربط مع بقاء الملف الأصلي في مكانه.",
+      "eg": "اتفك الربط والملف الأصلي زي ما هو في مكانه."
+    },
+    "logs.missing_file_warn": {
+      "type": "warn",
+      "msa": "ملف اللوج المربوط غير متاح حالياً في مساره.",
+      "eg": "ملف اللوج المربوط مش ظاهر دلوقتي في مكانه."
+    },
+    "logs.open_file_btn": {
+      "type": "btn",
+      "msa": "فتح الملف",
+      "eg": "فتح الملف"
+    },
+    "log_mapper.title": {
+      "type": "title",
+      "msa": "ربط أعمدة اللوج",
+      "eg": "ربط أعمدة اللوج"
+    },
+    "log_mapper.sheet_enabled": {
+      "type": "label",
+      "msa": "التسجيل في هذا الشيت",
+      "eg": "التسجيل في الشيت ده"
+    },
+    "log_mapper.layout": {
+      "type": "label",
+      "msa": "شكل الجدول",
+      "eg": "شكل الجدول"
+    },
+    "log_mapper.layout_standard": {
+      "type": "option",
+      "msa": "جدول عادي",
+      "eg": "جدول عادي"
+    },
+    "log_mapper.layout_multirev": {
+      "type": "option",
+      "msa": "مراجعات متعددة (REV)",
+      "eg": "مراجعات متعددة (REV)"
+    },
+    "log_mapper.layout_skip": {
+      "type": "option",
+      "msa": "ملخص (بلا تسجيل)",
+      "eg": "ملخص (من غير تسجيل)"
+    },
+    "log_mapper.header_row": {
+      "type": "label",
+      "msa": "صف العناوين",
+      "eg": "صف العناوين"
+    },
+    "log_mapper.data_row": {
+      "type": "label",
+      "msa": "أول صف بيانات",
+      "eg": "أول صف بيانات"
+    },
+    "log_mapper.routes": {
+      "type": "label",
+      "msa": "الأقسام والتخصصات",
+      "eg": "الأقسام والتخصصات"
+    },
+    "log_mapper.routes_help": {
+      "type": "tooltip",
+      "msa": "رموز التخصصات مثل EL أو CIV لتوجيه المستندات لهذا الشيت.",
+      "eg": "رموز التخصصات زي EL أو CIV عشان الورق يروح للشيت ده."
+    },
+    "log_mapper.multirev_detected": {
+      "type": "status",
+      "msa": "{count} خانات مراجعة (REV)",
+      "eg": "{count} خانات مراجعة (REV)"
+    },
+    "log_mapper.formula_cols": {
+      "type": "label",
+      "msa": "أعمدة معادلات ثابتة",
+      "eg": "أعمدة معادلات مقفولة"
+    },
+    "log_mapper.preview_title": {
+      "type": "title",
+      "msa": "معاينة الشيت",
+      "eg": "معاينة الشيت"
+    },
+    "log_mapper.empty_sheet": {
+      "type": "empty",
+      "msa": "هذا الشيت فارغ.",
+      "eg": "الشيت ده فاضي."
+    },
+    "log_mapper.save_btn": {
+      "type": "btn",
+      "msa": "حفظ الربط",
+      "eg": "حفظ الربط"
+    },
+    "log_mapper.saved_toast": {
+      "type": "toast",
+      "msa": "تم حفظ ربط الأعمدة.",
+      "eg": "ربط الأعمدة اتحفظ."
+    },
+    "log_mapper.col_ref_no": {
+      "type": "label",
+      "msa": "رقم المرجع",
+      "eg": "رقم المرجع"
+    },
+    "log_mapper.col_subject": {
+      "type": "label",
+      "msa": "الموضوع / البيان",
+      "eg": "الموضوع / البيان"
+    },
+    "log_mapper.col_doc_date": {
+      "type": "label",
+      "msa": "تاريخ التقديم",
+      "eg": "تاريخ التقديم"
+    },
+    "log_mapper.col_reply_date": {
+      "type": "label",
+      "msa": "تاريخ الرد",
+      "eg": "تاريخ الرد"
+    },
+    "log_mapper.col_status": {
+      "type": "label",
+      "msa": "الحالة / كود الاعتماد",
+      "eg": "الحالة / كود الاعتماد"
+    },
+    "log_mapper.col_revision": {
+      "type": "label",
+      "msa": "المراجعة (REV)",
+      "eg": "المراجعة (REV)"
+    },
+    "log_mapper.col_discipline": {
+      "type": "label",
+      "msa": "التخصص",
+      "eg": "التخصص"
+    },
+    "log_mapper.col_subtype": {
+      "type": "label",
+      "msa": "نوع المستند",
+      "eg": "نوع المستند"
+    },
+    "log_mapper.col_party_name": {
+      "type": "label",
+      "msa": "الجهة / المورد",
+      "eg": "الجهة / المورد"
+    },
+    "log_mapper.col_amount": {
+      "type": "label",
+      "msa": "المبلغ (د.ك)",
+      "eg": "المبلغ (د.ك)"
+    },
+    "log_mapper.col_notes": {
+      "type": "label",
+      "msa": "ملاحظات",
+      "eg": "ملاحظات"
+    },
+    "log_mapper.col_hyperlink": {
+      "type": "label",
+      "msa": "رابط الملف",
+      "eg": "رابط الملف"
+    },
+    "log_mapper.col_serial": {
+      "type": "label",
+      "msa": "التسلسل",
+      "eg": "المسلسل"
+    },
+    "counters.title": {
+      "type": "title",
+      "msa": "أرقام البداية",
+      "eg": "أرقام البداية"
+    },
+    "counters.help": {
+      "type": "tooltip",
+      "msa": "يُعتمد دائماً الرقم الأكبر بين لوج المشروع وهذه الخانات.",
+      "eg": "البرنامج بياخد دايماً الرقم الأكبر بين اللوج والخانات دي."
+    },
+    "counters.sections_label": {
+      "type": "label",
+      "msa": "الأقسام",
+      "eg": "الأقسام"
+    },
+    "counters.disc_label": {
+      "type": "label",
+      "msa": "التخصصات",
+      "eg": "التخصصات"
+    },
+    "counters.saved_toast": {
+      "type": "toast",
+      "msa": "تم حفظ أرقام البداية.",
+      "eg": "أرقام البداية اتحفظت."
+    },
+    "section.next_ref": {
+      "type": "label",
+      "msa": "الرقم التالي: {ref}",
+      "eg": "الرقم الجاي: {ref}"
+    },
+    "section.upload_tpl": {
+      "type": "btn",
+      "msa": "رفع نموذج",
+      "eg": "رفع نموذج"
+    },
+    "section.templates_title": {
+      "type": "title",
+      "msa": "نماذج القسم",
+      "eg": "نماذج القسم"
+    },
+    "section.empty_templates": {
+      "type": "empty",
+      "msa": "لا توجد نماذج مرفوعة هنا بعد.",
+      "eg": "مفيش نماذج مرفوعة هنا لسه."
+    },
+    "section.log_title": {
+      "type": "title",
+      "msa": "مستندات القسم",
+      "eg": "مستندات القسم"
+    },
+    "section.empty_rows": {
+      "type": "empty",
+      "msa": "لا توجد مستندات هنا بعد.",
+      "eg": "مفيش مستندات هنا لسه."
+    },
+    "templates.title": {
+      "type": "title",
+      "msa": "النماذج",
+      "eg": "النماذج"
+    },
+    "templates.upload_btn": {
+      "type": "btn",
+      "msa": "رفع نموذج",
+      "eg": "رفع نموذج"
+    },
+    "templates.open_folder": {
+      "type": "btn",
+      "msa": "مجلد النماذج",
+      "eg": "فولدر النماذج"
+    },
+    "templates.empty": {
+      "type": "empty",
+      "msa": "لا توجد نماذج مرفوعة بعد.",
+      "eg": "مفيش نماذج مرفوعة لسه."
+    },
+    "templates.uploading_progress": {
+      "type": "progress",
+      "msa": "جارٍ رفع النموذج",
+      "eg": "بيرفع النموذج"
+    },
+    "templates.uploaded_toast": {
+      "type": "toast",
+      "msa": "تم رفع النموذج.",
+      "eg": "النموذج اترفع."
+    },
+    "templates.status_ready": {
+      "type": "status",
+      "msa": "جاهز للإصدار",
+      "eg": "جاهز للإصدار"
+    },
+    "templates.status_setup": {
+      "type": "status",
+      "msa": "يحتاج إعداداً",
+      "eg": "محتاج تظبيط"
+    },
+    "templates.status_moved": {
+      "type": "status",
+      "msa": "خانات تغيّر مكانها ({count})",
+      "eg": "خانات مكانها اتغير ({count})"
+    },
+    "templates.no_section": {
+      "type": "status",
+      "msa": "بلا قسم",
+      "eg": "من غير قسم"
+    },
+    "templates.fields_count": {
+      "type": "status",
+      "msa": "{count} خانات",
+      "eg": "{count} خانات"
+    },
+    "templates.tables_count": {
+      "type": "status",
+      "msa": "{count} جدول بنود",
+      "eg": "{count} جدول بنود"
+    },
+    "templates.setup_btn": {
+      "type": "btn",
+      "msa": "إعداد الخانات",
+      "eg": "تظبيط الخانات"
+    },
+    "templates.issue_btn": {
+      "type": "btn",
+      "msa": "إصدار مستند",
+      "eg": "إصدار مستند"
+    },
+    "templates.download_orig": {
+      "type": "btn",
+      "msa": "تنزيل الأصل",
+      "eg": "تنزيل الأصل"
+    },
+    "templates.archive_confirm": {
+      "type": "confirm",
+      "msa": "سيُنقل النموذج «{name}» إلى الأرشيف الجانبي دون حذفه.",
+      "eg": "النموذج «{name}» هيتنقل للأرشيف الجانبي من غير ما يتمسح."
+    },
+    "templates.archive_confirm_btn": {
+      "type": "btn",
+      "msa": "نقل النموذج",
+      "eg": "نقل النموذج"
+    },
+    "templates.archived_toast": {
+      "type": "toast",
+      "msa": "تم نقل النموذج إلى الأرشيف الجانبي.",
+      "eg": "النموذج اتنقل للأرشيف الجانبي."
+    },
+    "role.manual": {
+      "type": "option",
+      "msa": "تعبئة يدوية",
+      "eg": "كتابة يدوي"
+    },
+    "role.auto_project": {
+      "type": "option",
+      "msa": "تلقائي من المشروع",
+      "eg": "تلقائي من المشروع"
+    },
+    "role.auto_system": {
+      "type": "option",
+      "msa": "تلقائي (رقم وتاريخ)",
+      "eg": "تلقائي (رقم وتاريخ)"
+    },
+    "role.fixed": {
+      "type": "option",
+      "msa": "نص ثابت",
+      "eg": "نص ثابت"
+    },
+    "role.formula_protected": {
+      "type": "option",
+      "msa": "معادلة ثابتة",
+      "eg": "معادلة مقفولة"
+    },
+    "role.repeating_table": {
+      "type": "option",
+      "msa": "جدول بنود",
+      "eg": "جدول بنود"
+    },
+    "itype.text": {
+      "type": "option",
+      "msa": "نص قصير",
+      "eg": "نص قصير"
+    },
+    "itype.textarea": {
+      "type": "option",
+      "msa": "نص طويل",
+      "eg": "نص طويل"
+    },
+    "itype.date": {
+      "type": "option",
+      "msa": "تاريخ",
+      "eg": "تاريخ"
+    },
+    "itype.number": {
+      "type": "option",
+      "msa": "رقم أو كمية",
+      "eg": "رقم أو كمية"
+    },
+    "itype.kwd": {
+      "type": "option",
+      "msa": "مبلغ (0.000 د.ك)",
+      "eg": "مبلغ (0.000 د.ك)"
+    },
+    "itype.dropdown": {
+      "type": "option",
+      "msa": "قائمة اختيارات",
+      "eg": "قائمة اختيارات"
+    },
+    "itype.approval_code": {
+      "type": "option",
+      "msa": "كود اعتماد (A/B/C/D)",
+      "eg": "كود اعتماد (A/B/C/D)"
+    },
+    "itype.auto_index": {
+      "type": "option",
+      "msa": "ترقيم تلقائي",
+      "eg": "ترقيم تلقائي"
+    },
+    "itype.formula_protected": {
+      "type": "option",
+      "msa": "معادلة ثابتة",
+      "eg": "معادلة مقفولة"
+    },
+    "autosrc.project_name": {
+      "type": "option",
+      "msa": "اسم المشروع",
+      "eg": "اسم المشروع"
+    },
+    "autosrc.project_code": {
+      "type": "option",
+      "msa": "رمز المشروع",
+      "eg": "كود المشروع"
+    },
+    "autosrc.project_contract_no": {
+      "type": "option",
+      "msa": "رقم العقد",
+      "eg": "رقم العقد"
+    },
+    "autosrc.project_owner": {
+      "type": "option",
+      "msa": "المالك",
+      "eg": "المالك"
+    },
+    "autosrc.project_consultant": {
+      "type": "option",
+      "msa": "الاستشاري",
+      "eg": "الاستشاري"
+    },
+    "autosrc.project_contractor": {
+      "type": "option",
+      "msa": "المقاول",
+      "eg": "المقاول"
+    },
+    "autosrc.project_location": {
+      "type": "option",
+      "msa": "الموقع",
+      "eg": "الموقع"
+    },
+    "autosrc.project_engineer": {
+      "type": "option",
+      "msa": "مهندس المشروع",
+      "eg": "مهندس المشروع"
+    },
+    "autosrc.system_next_ref": {
+      "type": "option",
+      "msa": "الرقم التالي من اللوج",
+      "eg": "الرقم الجاي من اللوج"
+    },
+    "autosrc.system_today_iso": {
+      "type": "option",
+      "msa": "تاريخ اليوم (سنة-شهر-يوم)",
+      "eg": "تاريخ النهارده (سنة-شهر-يوم)"
+    },
+    "autosrc.system_today_dmy": {
+      "type": "option",
+      "msa": "تاريخ اليوم (يوم/شهر/سنة)",
+      "eg": "تاريخ النهارده (يوم/شهر/سنة)"
+    },
+    "autosrc.system_day_name_ar": {
+      "type": "option",
+      "msa": "اسم اليوم",
+      "eg": "اسم اليوم"
+    },
+    "autosrc.system_revision": {
+      "type": "option",
+      "msa": "رقم المراجعة (R00)",
+      "eg": "رقم المراجعة (R00)"
+    },
+    "autosrc.system_year": {
+      "type": "option",
+      "msa": "السنة الحالية",
+      "eg": "السنة الحالية"
+    },
+    "studio.back_btn": {
+      "type": "btn",
+      "msa": "كل النماذج",
+      "eg": "كل النماذج"
+    },
+    "studio.pick_section": {
+      "type": "option",
+      "msa": "اختيار القسم",
+      "eg": "اختيار القسم"
+    },
+    "studio.prefix_label": {
+      "type": "label",
+      "msa": "بادئة الرقم",
+      "eg": "بداية الرقم"
+    },
+    "studio.log_on_issue": {
+      "type": "label",
+      "msa": "تسجيل في اللوج",
+      "eg": "تسجيل في اللوج"
+    },
+    "studio.suggest_btn": {
+      "type": "btn",
+      "msa": "اقتراح الخانات",
+      "eg": "اقتراح الخانات"
+    },
+    "studio.suggesting_progress": {
+      "type": "progress",
+      "msa": "جارٍ فحص النموذج",
+      "eg": "بيفحص النموذج"
+    },
+    "studio.suggested_toast": {
+      "type": "toast",
+      "msa": "وُجدت {count} خانات مقترحة للمراجعة.",
+      "eg": "لقينا {count} خانات مقترحة للمراجعة."
+    },
+    "studio.preview_btn": {
+      "type": "btn",
+      "msa": "معاينة",
+      "eg": "معاينة"
+    },
+    "studio.save_btn": {
+      "type": "btn",
+      "msa": "حفظ الإعدادات",
+      "eg": "حفظ الإعدادات"
+    },
+    "studio.saved_toast": {
+      "type": "toast",
+      "msa": "تم حفظ إعدادات النموذج.",
+      "eg": "إعدادات النموذج اتحفظت."
+    },
+    "studio.section_required": {
+      "type": "toast",
+      "msa": "يلزم اختيار القسم قبل الحفظ.",
+      "eg": "لازم اختيار القسم قبل الحفظ."
+    },
+    "studio.tip_once": {
+      "type": "tip",
+      "msa": "النقر على أي خلية يحدد نوعها، والسحب يحدد جدول بنود.",
+      "eg": "دوس على أي خانة لتحديد نوعها، أو اسحب لعمل جدول بنود."
+    },
+    "studio.docx_edit_view": {
+      "type": "tab",
+      "msa": "تحديد الخانات",
+      "eg": "تحديد الخانات"
+    },
+    "studio.docx_page_view": {
+      "type": "tab",
+      "msa": "شكل الطباعة",
+      "eg": "شكل الطباعة"
+    },
+    "studio.make_items_table": {
+      "type": "btn",
+      "msa": "تعيين جدول بنود",
+      "eg": "تعيين جدول بنود"
+    },
+    "studio.moved_warn": {
+      "type": "warn",
+      "msa": "تغيّر مكان {count} خانات بعد تعديل ملف النموذج. يلزم تحديد مكانها الجديد ثم الحفظ.",
+      "eg": "مكان {count} خانات اتغير بعد تعديل ملف النموذج. حدد مكانها الجديد واحفظ."
+    },
+    "studio.rebind_btn": {
+      "type": "btn",
+      "msa": "ربط بالمحدد",
+      "eg": "ربط بالمحدد"
+    },
+    "studio.rebound_info": {
+      "type": "toast",
+      "msa": "تم تحديث مكان {count} خانات تلقائياً.",
+      "eg": "مكان {count} خانات اتحدّث تلقائي."
+    },
+    "studio.tab_selected": {
+      "type": "tab",
+      "msa": "الخانة المحددة",
+      "eg": "الخانة المحددة"
+    },
+    "studio.tab_fields": {
+      "type": "tab",
+      "msa": "الخانات ({count})",
+      "eg": "الخانات ({count})"
+    },
+    "studio.tab_tables": {
+      "type": "tab",
+      "msa": "البنود ({count})",
+      "eg": "البنود ({count})"
+    },
+    "studio.tab_suggested": {
+      "type": "tab",
+      "msa": "مقترح ({count})",
+      "eg": "مقترح ({count})"
+    },
+    "studio.display_name": {
+      "type": "label",
+      "msa": "اسم النموذج",
+      "eg": "اسم النموذج"
+    },
+    "studio.default_disc": {
+      "type": "label",
+      "msa": "التخصص الافتراضي",
+      "eg": "التخصص الافتراضي"
+    },
+    "studio.use_disc_series": {
+      "type": "label",
+      "msa": "ترقيم حسب التخصص",
+      "eg": "ترقيم حسب التخصص"
+    },
+    "studio.use_disc_help": {
+      "type": "tooltip",
+      "msa": "إصدار أرقام مثل EL-212 أو CIV-206 من شيت التخصص.",
+      "eg": "يطلّع أرقام زي EL-212 أو CIV-206 من شيت التخصص."
+    },
+    "studio.target_sheet": {
+      "type": "label",
+      "msa": "شيت اللوج",
+      "eg": "شيت اللوج"
+    },
+    "studio.field_role": {
+      "type": "label",
+      "msa": "نوع الخانة",
+      "eg": "نوع الخانة"
+    },
+    "studio.field_label": {
+      "type": "label",
+      "msa": "اسم الخانة",
+      "eg": "اسم الخانة"
+    },
+    "studio.proj_source": {
+      "type": "label",
+      "msa": "بيان المشروع",
+      "eg": "بيان المشروع"
+    },
+    "studio.sys_source": {
+      "type": "label",
+      "msa": "البيان التلقائي",
+      "eg": "البيان التلقائي"
+    },
+    "studio.input_type": {
+      "type": "label",
+      "msa": "صيغة الإدخال",
+      "eg": "نوع الكتابة"
+    },
+    "studio.dropdown_opts": {
+      "type": "label",
+      "msa": "الاختيارات (بفاصلة)",
+      "eg": "الاختيارات (بفاصلة)"
+    },
+    "studio.default_val": {
+      "type": "label",
+      "msa": "القيمة الافتراضية",
+      "eg": "القيمة الافتراضية"
+    },
+    "studio.required": {
+      "type": "label",
+      "msa": "خانة مطلوبة",
+      "eg": "خانة لازمة"
+    },
+    "studio.para_mode": {
+      "type": "label",
+      "msa": "موضع النص",
+      "eg": "مكان الكتابة"
+    },
+    "studio.para_after_colon": {
+      "type": "option",
+      "msa": "بعد النقطتين (:)",
+      "eg": "بعد النقطتين (:)"
+    },
+    "studio.para_replace": {
+      "type": "option",
+      "msa": "استبدال السطر",
+      "eg": "تبديل السطر كله"
+    },
+    "studio.formula_notice": {
+      "type": "status",
+      "msa": "معادلة ثابتة لا تتغير",
+      "eg": "معادلة مقفولة مبتتغيرش"
+    },
+    "studio.add_field_btn": {
+      "type": "btn",
+      "msa": "تثبيت الخانة",
+      "eg": "تثبيت الخانة"
+    },
+    "studio.update_field_btn": {
+      "type": "btn",
+      "msa": "تحديث الخانة",
+      "eg": "تحديث الخانة"
+    },
+    "studio.remove_field_btn": {
+      "type": "btn",
+      "msa": "إزالة الربط",
+      "eg": "شيل الربط"
+    },
+    "studio.range_table_name": {
+      "type": "label",
+      "msa": "اسم الجدول",
+      "eg": "اسم الجدول"
+    },
+    "studio.range_total_row": {
+      "type": "label",
+      "msa": "صف الإجمالي",
+      "eg": "صف الإجمالي"
+    },
+    "studio.create_table_btn": {
+      "type": "btn",
+      "msa": "إنشاء جدول بنود",
+      "eg": "عمل جدول بنود"
+    },
+    "studio.lock_cells_btn": {
+      "type": "btn",
+      "msa": "قفل الخلايا",
+      "eg": "قفل الخانات"
+    },
+    "studio.empty_fields": {
+      "type": "empty",
+      "msa": "لم تُحدد أي خانات بعد.",
+      "eg": "مفيش خانات متحددة لسه."
+    },
+    "studio.empty_tables": {
+      "type": "empty",
+      "msa": "لا يوجد جدول بنود في هذا النموذج.",
+      "eg": "مفيش جدول بنود في النموذج ده."
+    },
+    "studio.empty_suggested": {
+      "type": "empty",
+      "msa": "لا توجد اقتراحات حالياً.",
+      "eg": "مفيش اقتراحات دلوقتي."
+    },
+    "studio.accept_btn": {
+      "type": "btn",
+      "msa": "اعتماد",
+      "eg": "اعتماد"
+    },
+    "studio.accept_all_btn": {
+      "type": "btn",
+      "msa": "اعتماد الكل",
+      "eg": "اعتماد الكل"
+    },
+    "studio.need_label_toast": {
+      "type": "toast",
+      "msa": "اسم الخانة مطلوب.",
+      "eg": "لازم كتابة اسم الخانة."
+    },
+    "studio.need_opts_toast": {
+      "type": "toast",
+      "msa": "يلزم إدخال خيار واحد على الأقل.",
+      "eg": "لازم كتابة اختيار واحد على الأقل."
+    },
+    "studio.need_select_toast": {
+      "type": "toast",
+      "msa": "يلزم تحديد خلية أولاً.",
+      "eg": "لازم تحديد خانة الأول."
+    },
+    "issue.title": {
+      "type": "title",
+      "msa": "إصدار مستند",
+      "eg": "إصدار مستند"
+    },
+    "issue.ref_no": {
+      "type": "label",
+      "msa": "رقم المرجع",
+      "eg": "رقم المرجع"
+    },
+    "issue.revision": {
+      "type": "label",
+      "msa": "المراجعة",
+      "eg": "المراجعة"
+    },
+    "issue.doc_date": {
+      "type": "label",
+      "msa": "التاريخ",
+      "eg": "التاريخ"
+    },
+    "issue.discipline": {
+      "type": "label",
+      "msa": "التخصص",
+      "eg": "التخصص"
+    },
+    "issue.subject": {
+      "type": "label",
+      "msa": "الموضوع",
+      "eg": "الموضوع"
+    },
+    "issue.party": {
+      "type": "label",
+      "msa": "الجهة",
+      "eg": "الجهة"
+    },
+    "issue.add_row_btn": {
+      "type": "btn",
+      "msa": "إضافة بند",
+      "eg": "إضافة بند"
+    },
+    "issue.preview_btn": {
+      "type": "btn",
+      "msa": "معاينة قبل الحفظ",
+      "eg": "معاينة قبل الحفظ"
+    },
+    "issue.submit_btn": {
+      "type": "btn",
+      "msa": "إصدار وحفظ",
+      "eg": "إصدار وحفظ"
+    },
+    "issue.preparing_progress": {
+      "type": "progress",
+      "msa": "جارٍ تجهيز النموذج",
+      "eg": "بيجهّز النموذج"
+    },
+    "issue.done_toast": {
+      "type": "toast",
+      "msa": "تم إصدار المستند {ref} وتسجيله في اللوج.",
+      "eg": "المستند {ref} طلع واتسجل في اللوج."
+    },
+    "issue.queued_toast": {
+      "type": "toast",
+      "msa": "حُفظ المستند {ref}، وسيُسجّل فور إغلاق اللوج.",
+      "eg": "المستند {ref} اتحفظ، وهيتسجل أول ما اللوج يتقفل."
+    },
+    "issue.download_btn": {
+      "type": "btn",
+      "msa": "تنزيل المستند",
+      "eg": "تنزيل المستند"
+    },
+    "issue.open_file_btn": {
+      "type": "btn",
+      "msa": "فتح الملف",
+      "eg": "فتح الملف"
+    },
+    "decisions.title": {
+      "type": "title",
+      "msa": "أوراق للمراجعة",
+      "eg": "ورق للمراجعة"
+    },
+    "decisions.tab_pending": {
+      "type": "tab",
+      "msa": "بانتظار القرار ({count})",
+      "eg": "مستني قرار ({count})"
+    },
+    "decisions.tab_journal": {
+      "type": "tab",
+      "msa": "سجل التسمية ({count})",
+      "eg": "سجل الأسماء ({count})"
+    },
+    "decisions.tab_rules": {
+      "type": "tab",
+      "msa": "القواعد المحفوظة ({count})",
+      "eg": "القواعد المحفوظة ({count})"
+    },
+    "decisions.empty": {
+      "type": "empty",
+      "msa": "لا توجد أوراق تحتاج مراجعة.",
+      "eg": "مفيش ورق محتاج مراجعة."
+    },
+    "decisions.kind_conflict": {
+      "type": "status",
+      "msa": "تخص مشروعاً آخر",
+      "eg": "تبع مشروع تاني"
+    },
+    "decisions.kind_unrelated": {
+      "type": "status",
+      "msa": "خارج المشروع",
+      "eg": "بره المشروع"
+    },
+    "decisions.kind_unclear": {
+      "type": "status",
+      "msa": "ورقة غير واضحة",
+      "eg": "ورقة مش واضحة"
+    },
+    "decisions.kind_trial": {
+      "type": "status",
+      "msa": "معاينة فقط",
+      "eg": "معاينة بس"
+    },
+    "decisions.target_project": {
+      "type": "label",
+      "msa": "المشروع",
+      "eg": "المشروع"
+    },
+    "decisions.clean_name": {
+      "type": "label",
+      "msa": "الاسم المقترح",
+      "eg": "الاسم المقترح"
+    },
+    "decisions.entity_name": {
+      "type": "label",
+      "msa": "اسم الجهة",
+      "eg": "اسم الجهة"
+    },
+    "decisions.remember_rule": {
+      "type": "label",
+      "msa": "تطبيق دائماً للمشابه",
+      "eg": "تطبيق دايماً للي زيه"
+    },
+    "decisions.act_attach": {
+      "type": "btn",
+      "msa": "حفظ في المشروع",
+      "eg": "حفظ في المشروع"
+    },
+    "decisions.act_rename": {
+      "type": "btn",
+      "msa": "تسمية في مكانه",
+      "eg": "تسمية في مكانه"
+    },
+    "decisions.act_entity": {
+      "type": "btn",
+      "msa": "نقل لمجلد الجهة",
+      "eg": "نقل لفولدر الجهة"
+    },
+    "decisions.act_ignore": {
+      "type": "btn",
+      "msa": "تجاهل",
+      "eg": "تجاهل"
+    },
+    "decisions.act_ignore_ext": {
+      "type": "btn",
+      "msa": "تجاهل هذا النوع",
+      "eg": "تجاهل النوع ده"
+    },
+    "decisions.resolved_toast": {
+      "type": "toast",
+      "msa": "تم تنفيذ الإجراء.",
+      "eg": "تم خلاص."
+    },
+    "journal.empty": {
+      "type": "empty",
+      "msa": "لم تُغيّر أسماء أي أوراق بعد.",
+      "eg": "مفيش أسماء ورق اتغيرت لسه."
+    },
+    "journal.col_time": {
+      "type": "label",
+      "msa": "الوقت",
+      "eg": "الوقت"
+    },
+    "journal.col_old": {
+      "type": "label",
+      "msa": "الاسم السابق",
+      "eg": "الاسم القديم"
+    },
+    "journal.col_new": {
+      "type": "label",
+      "msa": "الاسم الجديد",
+      "eg": "الاسم الجديد"
+    },
+    "journal.undo_btn": {
+      "type": "btn",
+      "msa": "استعادة الاسم",
+      "eg": "رجّع الاسم"
+    },
+    "journal.undone_status": {
+      "type": "status",
+      "msa": "تمت الاستعادة",
+      "eg": "رجع لأصله"
+    },
+    "journal.undone_toast": {
+      "type": "toast",
+      "msa": "تمت استعادة الاسم الأصلي للملف.",
+      "eg": "اسم الملف الأصلي رجع تاني."
+    },
+    "rules.add_title": {
+      "type": "title",
+      "msa": "قاعدة جديدة",
+      "eg": "قاعدة جديدة"
+    },
+    "rules.match_type": {
+      "type": "label",
+      "msa": "المطابقة حسب",
+      "eg": "المطابقة حسب"
+    },
+    "rules.match_entity": {
+      "type": "option",
+      "msa": "اسم الجهة",
+      "eg": "اسم الجهة"
+    },
+    "rules.match_keyword": {
+      "type": "option",
+      "msa": "كلمة في الورقة",
+      "eg": "كلمة في الورقة"
+    },
+    "rules.match_sender": {
+      "type": "option",
+      "msa": "المرسل",
+      "eg": "الراسل"
+    },
+    "rules.match_filename": {
+      "type": "option",
+      "msa": "اسم الملف",
+      "eg": "اسم الملف"
+    },
+    "rules.pattern": {
+      "type": "label",
+      "msa": "الكلمة أو الاسم",
+      "eg": "الكلمة أو الاسم"
+    },
+    "rules.action": {
+      "type": "label",
+      "msa": "الإجراء التلقائي",
+      "eg": "يتعمل إيه تلقائي"
+    },
+    "rules.act_ignore_always": {
+      "type": "option",
+      "msa": "تجاهل دائماً",
+      "eg": "تجاهل دايماً"
+    },
+    "rules.note": {
+      "type": "label",
+      "msa": "ملاحظة",
+      "eg": "ملاحظة"
+    },
+    "rules.enabled": {
+      "type": "label",
+      "msa": "مفعّلة",
+      "eg": "شغالة"
+    },
+    "rules.save_btn": {
+      "type": "btn",
+      "msa": "حفظ القاعدة",
+      "eg": "حفظ القاعدة"
+    },
+    "rules.empty": {
+      "type": "empty",
+      "msa": "لا توجد قواعد محفوظة بعد.",
+      "eg": "مفيش قواعد محفوظة لسه."
+    },
+    "rules.saved_toast": {
+      "type": "toast",
+      "msa": "تم حفظ القاعدة.",
+      "eg": "القاعدة اتحفظت."
+    },
+    "rules.deleted_toast": {
+      "type": "toast",
+      "msa": "تم حذف القاعدة.",
+      "eg": "القاعدة اتمسحت."
+    },
+    "policy.rename_in_place": {
+      "type": "option",
+      "msa": "تسمية في مكانه فقط",
+      "eg": "تسمية في مكانه بس"
+    },
+    "policy.new_project_by_name": {
+      "type": "option",
+      "msa": "مجلد مستقل باسم الجهة",
+      "eg": "فولدر لوحده باسم الجهة"
+    },
+    "policy.ask": {
+      "type": "option",
+      "msa": "السؤال قبل أي إجراء",
+      "eg": "يسألني الأول"
+    },
+    "policy.use_device_default": {
+      "type": "option",
+      "msa": "مثل إعداد الجهاز",
+      "eg": "زي إعداد الجهاز"
+    },
+    "settings.title": {
+      "type": "title",
+      "msa": "الإعدادات",
+      "eg": "الإعدادات"
+    },
+    "settings.tab_device": {
+      "type": "tab",
+      "msa": "هذا الجهاز",
+      "eg": "الجهاز ده"
+    },
+    "settings.tab_project": {
+      "type": "tab",
+      "msa": "المشروع ({code})",
+      "eg": "المشروع ({code})"
+    },
+    "settings.ui_style": {
+      "type": "label",
+      "msa": "أسلوب الواجهة",
+      "eg": "أسلوب الواجهة"
+    },
+    "settings.style_msa": {
+      "type": "option",
+      "msa": "فصحى مبسطة (الافتراضي)",
+      "eg": "فصحى مبسطة (الافتراضي)"
+    },
+    "settings.style_eg": {
+      "type": "option",
+      "msa": "عامية مصرية",
+      "eg": "عامية مصرية"
+    },
+    "settings.process_mode": {
+      "type": "label",
+      "msa": "نطاق السكانر التلقائي",
+      "eg": "السكانر يشتغل على"
+    },
+    "settings.mode_active": {
+      "type": "option",
+      "msa": "المشروع الحالي فقط",
+      "eg": "المشروع الحالي بس"
+    },
+    "settings.mode_all": {
+      "type": "option",
+      "msa": "كل المشاريع معاً",
+      "eg": "كل المشاريع مع بعض"
+    },
+    "settings.unrelated_default": {
+      "type": "label",
+      "msa": "الأوراق خارج المشروع",
+      "eg": "الورق اللي بره المشروع"
+    },
+    "settings.unrelated_help": {
+      "type": "tooltip",
+      "msa": "طريقة التعامل مع أي ورقة لا تخص المشروع الحالي.",
+      "eg": "البرنامج يعمل إيه لو لقى ورقة مش تبع المشروع الحالي."
+    },
+    "settings.sensitivity": {
+      "type": "label",
+      "msa": "دقة مطابقة المشروع",
+      "eg": "دقة مطابقة المشروع"
+    },
+    "settings.sensitivity_help": {
+      "type": "tooltip",
+      "msa": "رفع الرقم يقلل دخول الأوراق المشتبهة إلى المشروع.",
+      "eg": "كل ما الرقم يعلى، الورق المشكوك فيه مايدخلش المشروع."
+    },
+    "settings.backup_days": {
+      "type": "label",
+      "msa": "التذكير بالنسخ الاحتياطي (أيام)",
+      "eg": "التذكير بالنسخة الاحتياطية (أيام)"
+    },
+    "settings.ext_backup_dir": {
+      "type": "label",
+      "msa": "مكان النسخة الخارجية",
+      "eg": "مكان النسخة الخارجية"
+    },
+    "settings.ignore_list": {
+      "type": "label",
+      "msa": "ملفات مستثناة من الفرز",
+      "eg": "ملفات ميتعملهاش فرز"
+    },
+    "settings.trial_mode": {
+      "type": "label",
+      "msa": "وضع التجربة",
+      "eg": "وضع التجربة"
+    },
+    "settings.ai_service": {
+      "type": "label",
+      "msa": "خدمة القراءة الذكية",
+      "eg": "طريقة القراءة الذكية"
+    },
+    "settings.ai_gemini": {
+      "type": "option",
+      "msa": "Gemini المجاني",
+      "eg": "Gemini المجاني"
+    },
+    "settings.ai_ollama": {
+      "type": "option",
+      "msa": "Ollama بدون إنترنت",
+      "eg": "Ollama من غير نت"
+    },
+    "settings.ollama_address": {
+      "type": "label",
+      "msa": "عنوان Ollama",
+      "eg": "عنوان Ollama"
+    },
+    "settings.ollama_model": {
+      "type": "label",
+      "msa": "نموذج Ollama",
+      "eg": "نموذج Ollama"
+    },
+    "settings.ai_key_title": {
+      "type": "title",
+      "msa": "مفتاح الذكاء المجاني",
+      "eg": "مفتاح الذكاء المجاني"
+    },
+    "settings.save_key_btn": {
+      "type": "btn",
+      "msa": "حفظ المفتاح",
+      "eg": "حفظ المفتاح"
+    },
+    "settings.clear_key_btn": {
+      "type": "btn",
+      "msa": "مسح المفتاح",
+      "eg": "مسح المفتاح"
+    },
+    "settings.key_saved_toast": {
+      "type": "toast",
+      "msa": "تم حفظ مفتاح الذكاء.",
+      "eg": "مفتاح الذكاء اتحفظ."
+    },
+    "settings.key_cleared_toast": {
+      "type": "toast",
+      "msa": "تم مسح مفتاح الذكاء.",
+      "eg": "مفتاح الذكاء اتمسح."
+    },
+    "settings.backup_key_saved_toast": {
+      "type": "toast",
+      "msa": "تم حفظ المفتاح الاحتياطي.",
+      "eg": "المفتاح الاحتياطي اتحفظ."
+    },
+    "settings.backup_key_cleared_toast": {
+      "type": "toast",
+      "msa": "تم مسح المفتاح الاحتياطي.",
+      "eg": "المفتاح الاحتياطي اتمسح."
+    },
+    "settings.backup_key_promoted_toast": {
+      "type": "toast",
+      "msa": "تم تعيين المفتاح كأساسي.",
+      "eg": "المفتاح بقى أساسي دلوقتي."
+    },
+    "settings.backup_key_removed_toast": {
+      "type": "toast",
+      "msa": "تم حذف المفتاح الاحتياطي.",
+      "eg": "المفتاح الاحتياطي اتحذف."
+    },
+    "settings.saved_toast": {
+      "type": "toast",
+      "msa": "تم حفظ الإعدادات.",
+      "eg": "الإعدادات اتحفظت."
+    },
+    "settings.keywords": {
+      "type": "label",
+      "msa": "كلمات مميزة للمشروع",
+      "eg": "كلمات مميزة للمشروع"
+    },
+    "settings.unrelated_sheet": {
+      "type": "label",
+      "msa": "شيت منفصل لخارج المشروع",
+      "eg": "شيت لوحده للورق الخارجي"
+    },
+    "settings.unlink_btn": {
+      "type": "btn",
+      "msa": "إخفاء المشروع",
+      "eg": "إخفاء المشروع"
+    },
+    "settings.unlink_confirm": {
+      "type": "confirm",
+      "msa": "سيُخفى المشروع من القائمة فقط، وتبقى جميع ملفاته محفوظة في مكانها.",
+      "eg": "المشروع هيتشال من القائمة بس، وكل ملفاته هتفضل محفوظة زي ما هي."
+    },
+    "settings.unlink_confirm_btn": {
+      "type": "btn",
+      "msa": "إخفاء من القائمة",
+      "eg": "إخفاء من القائمة"
+    },
+    "settings.unlinked_toast": {
+      "type": "toast",
+      "msa": "أُخفي المشروع من القائمة وبقيت ملفاته محفوظة.",
+      "eg": "المشروع اتشال من القائمة وملفاته موجودة زي ما هي."
+    },
+    "server.project_not_found": {
+      "type": "error",
+      "msa": "المشروع غير موجود. قد يكون أُخفي من القائمة.",
+      "eg": "المشروع مش موجود. ممكن يكون اتشال من القائمة."
+    },
+    "server.file_not_found": {
+      "type": "error",
+      "msa": "الملف غير موجود في هذا المكان. ربما نُقل أو تغيّر اسمه.",
+      "eg": "الملف مش موجود في المكان ده. يمكن اتنقل أو اسمه اتغير."
+    },
+    "server.folder_not_found": {
+      "type": "error",
+      "msa": "المجلد غير موجود: {path}. يُرجى مراجعة المسار.",
+      "eg": "الفولدر مش موجود: {path}. راجع المكان المكتوب."
+    },
+    "server.log_not_found": {
+      "type": "error",
+      "msa": "ملف اللوج غير موجود. يلزم رفعه من تبويب لوج المشروع.",
+      "eg": "شيت اللوج مش موجود. ارفعه من تبويب لوج المشروع."
+    },
+    "server.no_log_uploaded": {
+      "type": "error",
+      "msa": "لا يوجد لوج مرفوع لهذا المشروع بعد.",
+      "eg": "مفيش شيت لوج مرفوع للمشروع ده لسه."
+    },
+    "server.log_open_locked": {
+      "type": "error",
+      "msa": "ملف اللوج «{name}» مفتوح حالياً في Excel. يلزم إغلاقه ثم إعادة المحاولة.",
+      "eg": "شيت اللوج «{name}» مفتوح دلوقتي في Excel. اقفله وجرّب تاني."
+    },
+    "server.log_corrupt": {
+      "type": "error",
+      "msa": "تعذّرت قراءة ملف اللوج. قد يكون تالفاً أو محمياً بكلمة مرور.",
+      "eg": "معرفناش نقرا شيت اللوج. يمكن بايظ أو عليه كلمة سر."
+    },
+    "server.tpl_not_ready": {
+      "type": "error",
+      "msa": "النموذج غير جاهز بعد. يلزم تحديد القسم والخانات ثم الحفظ.",
+      "eg": "النموذج لسه مش جاهز. حدد القسم والخانات واحفظ الأول."
+    },
+    "server.tpl_moved_fields": {
+      "type": "error",
+      "msa": "توقّف الإصدار لأن {count} خانات تغيّر مكانها في «{name}». يلزم فتح إعداد الخانات وتحديد مكانها.",
+      "eg": "الإصدار وقف عشان فيه {count} خانات مكانها اتغير في «{name}». افتح تظبيط الخانات وحدد مكانها."
+    },
+    "server.tpl_formula_blocked": {
+      "type": "error",
+      "msa": "هذه الخلية تحتوي على معادلة ثابتة ({cell}). يلزم اختيار خلية فارغة بجانبها.",
+      "eg": "الخانة دي فيها معادلة مقفولة ({cell}). اختار خانة فاضية جنبها."
+    },
+    "server.tpl_corrupt": {
+      "type": "error",
+      "msa": "تعذّر فتح ملف النموذج. يلزم رفع ملف Excel أو Word سليم.",
+      "eg": "معرفناش نفتح ملف النموذج. ارفع ملف Excel أو Word سليم."
+    },
+    "server.tpl_ext_unsupported": {
+      "type": "error",
+      "msa": "صيغة الملف غير مدعومة. الصيغ المقبولة هي Excel وWord فقط.",
+      "eg": "نوع الملف ده مش مدعوم. المسموح ملفات Excel وWord بس."
+    },
+    "server.file_type_blocked": {
+      "type": "error",
+      "msa": "لا يمكن رفع هذا النوع من الملفات ({ext}).",
+      "eg": "مينفعش رفع النوع ده من الملفات ({ext})."
+    },
+    "server.file_too_large": {
+      "type": "error",
+      "msa": "حجم الملف أكبر من الحد المسموح.",
+      "eg": "حجم الملف أكبر من المسموح."
+    },
+    "server.no_files_uploaded": {
+      "type": "error",
+      "msa": "لم يُختر أي ملف للرفع.",
+      "eg": "مفيش ملفات اتحددت للرفع."
+    },
+    "server.path_blocked": {
+      "type": "error",
+      "msa": "لا يمكن فتح ملف خارج مجلد المشروع.",
+      "eg": "مينفعش فتح ملف بره فولدر المشروع."
+    },
+    "server.request_blocked": {
+      "type": "error",
+      "msa": "رُفض الطلب لحماية الجهاز. يُفتح البرنامج من نفس الجهاز فقط.",
+      "eg": "الطلب اترفض لحماية الجهاز. افتح البرنامج من نفس الجهاز بس."
+    },
+    "server.delete_disabled": {
+      "type": "error",
+      "msa": "حذف الملفات معطّل لحماية الأرشيف. يمكن النقل إلى الأرشيف الجانبي.",
+      "eg": "مسح الملفات مقفول عشان الأرشيف يفضل في أمان. ممكن تنقله للأرشيف الجانبي."
+    },
+    "server.scan_already_running": {
+      "type": "toast",
+      "msa": "فرز مجلد السكانر جارٍ حالياً.",
+      "eg": "فرز السكانر شغال دلوقتي."
+    },
+    "server.scan_started": {
+      "type": "progress",
+      "msa": "جارٍ فرز مجلد السكانر",
+      "eg": "بيفرز فولدر السكانر"
+    },
+    "server.import_running": {
+      "type": "toast",
+      "msa": "الاستيراد جارٍ حالياً لهذا المشروع.",
+      "eg": "الاستيراد شغال دلوقتي للمشروع ده."
+    },
+    "server.import_started": {
+      "type": "toast",
+      "msa": "بدأ نسخ {count} ملفات بأمان دون لمس الأصل.",
+      "eg": "بدأ نسخ {count} ملفات بأمان من غير ما يلمس الأصل."
+    },
+    "server.contact_required": {
+      "type": "error",
+      "msa": "الاسم ورقم الهاتف مطلوبان.",
+      "eg": "الاسم ورقم التليفون مطلوبين."
+    },
+    "server.ai_key_short": {
+      "type": "error",
+      "msa": "مفتاح الذكاء غير مكتمل. يُنسخ المفتاح كاملاً ثم يُعاد الحفظ.",
+      "eg": "مفتاح الذكاء ناقص. انسخه كله واحفظ تاني."
+    },
+    "server.sensitivity_range": {
+      "type": "error",
+      "msa": "قيمة الدقة تكون بين 0.10 و0.95.",
+      "eg": "رقم الدقة لازم يكون بين 0.10 و0.95."
+    },
+    "server.decision_done": {
+      "type": "error",
+      "msa": "تم تنفيذ قرار سابق لهذه الورقة.",
+      "eg": "الورقة دي اتاخد فيها قرار قبل كده."
+    },
+    "server.undo_done": {
+      "type": "error",
+      "msa": "تمت استعادة اسم هذا الملف سابقاً.",
+      "eg": "اسم الملف ده رجع لأصله قبل كده."
+    },
+    "server.file_in_use": {
+      "type": "error",
+      "msa": "الملف «{name}» مفتوح حالياً في برنامج آخر. يلزم إغلاقه أولاً.",
+      "eg": "الملف «{name}» مفتوح دلوقتي في برنامج تاني. اقفله الأول."
+    },
+    "server.windows_only_helper": {
+      "type": "toast",
+      "msa": "المساعد التفاعلي يعمل على نظام Windows المحلي.",
+      "eg": "المساعد ده بيشتغل على Windows بس."
+    },
+    "server.conflict_warn": {
+      "type": "warn",
+      "msa": "تبدو هذه الورقة تابعة للمشروع «{project}». تُراجَع من أوراق للمراجعة.",
+      "eg": "الورقة دي شكلها تبع مشروع «{project}». افتحها من ورق للمراجعة وقرر."
+    },
+    "server.unclear_warn": {
+      "type": "warn",
+      "msa": "الورقة غير واضحة بما يكفي. حُفظت في أوراق للمراجعة.",
+      "eg": "الورقة مش واضحة كفاية. اتحطت في ورق للمراجعة."
+    },
+    "server.shared_scanner_warn": {
+      "type": "warn",
+      "msa": "المشروعان «{a}» و«{b}» يستخدمان نفس مجلد السكانر. يُفضّل تخصيص مجلد مستقل لكل مشروع.",
+      "eg": "مشروع «{a}» و«{b}» على نفس فولدر السكانر. الأحسن كل مشروع يكون ليه فولدر لوحده."
+    },
+    "server.backup_overdue_warn": {
+      "type": "warn",
+      "msa": "مرّ {days} أيام دون نسخة احتياطية للمشروع «{project}». يُحفظ الآن عبر إنهاء العمل.",
+      "eg": "عدى {days} أيام من غير نسخة احتياطية لمشروع «{project}». اعمل إنهاء الشغل عشان تتحفظ."
+    },
+    "server.open_files_warn": {
+      "type": "warn",
+      "msa": "ملفات مفتوحة حالياً: {files}. يلزم إغلاقها لتسجيل التحديثات.",
+      "eg": "فيه ملفات مفتوحة دلوقتي: {files}. اقفلها عشان التحديثات تتسجل."
+    },
+    "server.app_ready_console": {
+      "type": "toast",
+      "msa": "مشاريعي يعمل الآن على هذا الجهاز.",
+      "eg": "مشاريعي شغال دلوقتي على الجهاز ده."
+    },
+    "server.app_stopped_console": {
+      "type": "toast",
+      "msa": "توقف البرنامج بأمان.",
+      "eg": "البرنامج قفل بأمان."
+    },
+    "watcher.started": {
+      "type": "toast",
+      "msa": "السكانر التلقائي يعمل الآن.",
+      "eg": "السكانر التلقائي شغال دلوقتي."
+    },
+    "watcher.stopped": {
+      "type": "toast",
+      "msa": "توقف السكانر التلقائي بأمان.",
+      "eg": "السكانر التلقائي وقف بأمان."
+    },
+    "watcher.new_paper": {
+      "type": "progress",
+      "msa": "جارٍ قراءة ورقة جديدة",
+      "eg": "بيقرا ورقة جديدة"
+    },
+    "watcher.new_office_file": {
+      "type": "progress",
+      "msa": "جارٍ قراءة ملف جديد",
+      "eg": "بيقرا ملف جديد"
+    },
+    "watcher.duplicate_moved": {
+      "type": "toast",
+      "msa": "نسخة مكررة، نُقلت إلى مجلد المكررات.",
+      "eg": "نسخة متكررة، اتنقلت لفولدر المكرر."
+    },
+    "watcher.read_failed_retry": {
+      "type": "error",
+      "msa": "تعذّرت قراءة الورقة. ستُعاد المحاولة تلقائياً.",
+      "eg": "معرفناش نقرا الورقة دلوقتي. هنجرب تاني لوحده."
+    },
+    "watcher.unclear_saved": {
+      "type": "warn",
+      "msa": "ورقة غير واضحة. حُفظت في أوراق للمراجعة.",
+      "eg": "ورقة مش واضحة. اتحفظت في ورق للمراجعة."
+    },
+    "watcher.archived_ok": {
+      "type": "toast",
+      "msa": "تم حفظ الورقة وتسجيلها في اللوج: {name}",
+      "eg": "الورقة اتحفظت واتسجلت في اللوج: {name}"
+    },
+    "watcher.linked_stamped": {
+      "type": "toast",
+      "msa": "رُبطت النسخة المختومة بالمستند {ref} وحُدّثت حالته.",
+      "eg": "النسخة المختومة اتربطت بالمستند {ref} وحالته اتحدثت."
+    },
+    "watcher.original_saved": {
+      "type": "toast",
+      "msa": "حُفظ المستند {ref} بانتظار النسخة المختومة.",
+      "eg": "المستند {ref} اتحفظ ومستني النسخة المختومة."
+    },
+    "watcher.excel_open_queued": {
+      "type": "warn",
+      "msa": "ملف اللوج مفتوح حالياً. سيُسجّل المستند تلقائياً فور إغلاقه.",
+      "eg": "شيت اللوج مفتوح دلوقتي. الورقة هتتسجل لوحدها أول ما يتقفل."
+    },
+    "watcher.whatsapp_saved": {
+      "type": "toast",
+      "msa": "تم حفظ محادثة واتساب في الأرشيف.",
+      "eg": "محادثة الواتساب اتحفظت في الأرشيف."
+    },
+    "watcher.bad_ai_key": {
+      "type": "error",
+      "msa": "مفتاح الذكاء غير صحيح. يُرجى مراجعته من الإعدادات.",
+      "eg": "مفتاح الذكاء مش مظبوط. راجعه من الإعدادات."
+    },
+    "watcher.ai_busy": {
+      "type": "error",
+      "msa": "تعذّرت القراءة الذكية حالياً. ستُعاد المحاولة تلقائياً.",
+      "eg": "القراءة الذكية مش متاحة دلوقتي. هنجرب تاني لوحده."
+    },
+    "validation.required": {
+      "type": "error",
+      "msa": "هذه الخانة مطلوبة.",
+      "eg": "الخانة دي لازمة."
+    },
+    "validation.bad_date": {
+      "type": "error",
+      "msa": "التاريخ غير صحيح. يُكتب بصيغة سنة-شهر-يوم.",
+      "eg": "التاريخ مش مظبوط. يتكتب سنة-شهر-يوم."
+    },
+    "validation.bad_number": {
+      "type": "error",
+      "msa": "القيمة ليست رقماً صحيحاً.",
+      "eg": "ده مش رقم مظبوط."
+    },
+    "validation.bad_kwd": {
+      "type": "error",
+      "msa": "المبلغ غير صحيح. يُكتب بالدينار والفلس مثل 12.500.",
+      "eg": "المبلغ مش مظبوط. يتكتب بالدينار والفلس زي 12.500."
+    },
+    "validation.bad_option": {
+      "type": "error",
+      "msa": "القيمة ليست ضمن الاختيارات المتاحة.",
+      "eg": "القيمة دي مش من الاختيارات الموجودة."
+    },
+    "validation.sheet_missing": {
+      "type": "error",
+      "msa": "الشيت «{sheet}» غير موجود في الملف.",
+      "eg": "شيت «{sheet}» مش موجود في الملف."
+    },
+    "validation.table_needs_col": {
+      "type": "error",
+      "msa": "جدول البنود يحتاج عموداً واحداً على الأقل.",
+      "eg": "جدول البنود محتاج عمود واحد على الأقل."
+    },
+    "validation.rule_pattern_req": {
+      "type": "error",
+      "msa": "الكلمة أو اسم الجهة مطلوب.",
+      "eg": "لازم كتابة الكلمة أو اسم الجهة."
+    },
+    "validation.rule_project_req": {
+      "type": "error",
+      "msa": "يلزم اختيار المشروع لهذه القاعدة.",
+      "eg": "لازم اختيار المشروع للقاعدة دي."
+    },
+    "rules.delete_confirm": {
+      "type": "confirm",
+      "msa": "ستُحذف القاعدة «{pattern}» نهائياً.",
+      "eg": "القاعدة «{pattern}» هتتمسح خالص."
+    },
+    "settings.device_name": {
+      "type": "label",
+      "msa": "اسم هذا الجهاز",
+      "eg": "اسم الجهاز ده"
+    },
+    "settings.save_place": {
+      "type": "label",
+      "msa": "مكان الحفظ",
+      "eg": "مكان الحفظ"
+    },
+    "common.confirm_title": {
+      "type": "title",
+      "msa": "تأكيد الإجراء",
+      "eg": "تأكيد الإجراء"
+    },
+    "common.error_generic": {
+      "type": "error",
+      "msa": "تعذّر إتمام العملية. يُرجى إعادة المحاولة.",
+      "eg": "العملية مكملتش. جرّب تاني."
+    },
+    "common.open_file": {
+      "type": "btn",
+      "msa": "فتح الملف",
+      "eg": "فتح الملف"
+    },
+    "common.cancel_confirm": {
+      "type": "btn",
+      "msa": "تراجع",
+      "eg": "رجوع"
+    },
+    "common.general": {
+      "type": "label",
+      "msa": "عام",
+      "eg": "عام"
+    },
+    "common.unclassified": {
+      "type": "label",
+      "msa": "غير مصنف",
+      "eg": "غير مصنف"
+    },
+    "common.unspecified": {
+      "type": "status",
+      "msa": "غير محدد",
+      "eg": "مش محدد"
+    },
+    "status.approved": {
+      "type": "status",
+      "msa": "معتمد",
+      "eg": "معتمد"
+    },
+    "status.approved_notes": {
+      "type": "status",
+      "msa": "معتمد بملاحظات",
+      "eg": "معتمد بملاحظات"
+    },
+    "status.under_review": {
+      "type": "status",
+      "msa": "قيد المراجعة",
+      "eg": "قيد المراجعة"
+    },
+    "status.rejected": {
+      "type": "status",
+      "msa": "مرفوض",
+      "eg": "مرفوض"
+    },
+    "status.cancelled": {
+      "type": "status",
+      "msa": "ملغي",
+      "eg": "ملغي"
+    },
+    "status.overdue": {
+      "type": "status",
+      "msa": "متأخر",
+      "eg": "متأخر"
+    },
+    "status.active": {
+      "type": "status",
+      "msa": "مفعّل",
+      "eg": "مفعّل"
+    },
+    "status.paused": {
+      "type": "status",
+      "msa": "متوقف",
+      "eg": "واقف"
+    },
+    "hub.stat_overdue": {
+      "type": "label",
+      "msa": "متأخر",
+      "eg": "متأخر"
+    },
+    "hub.stat_waiting": {
+      "type": "label",
+      "msa": "بانتظار التسجيل",
+      "eg": "مستني التسجيل"
+    },
+    "overview.open_log_btn": {
+      "type": "btn",
+      "msa": "فتح اللوج",
+      "eg": "فتح اللوج"
+    },
+    "overview.new_tpl_btn": {
+      "type": "btn",
+      "msa": "رفع نموذج",
+      "eg": "رفع نموذج"
+    },
+    "overview.drop_btn": {
+      "type": "btn",
+      "msa": "اختيار ملفات",
+      "eg": "اختيار ملفات"
+    },
+    "legacy.pace_fast": {
+      "type": "option",
+      "msa": "سريع",
+      "eg": "سريع"
+    },
+    "legacy.pace_normal": {
+      "type": "option",
+      "msa": "متوازن",
+      "eg": "متوازن"
+    },
+    "legacy.pace_calm": {
+      "type": "option",
+      "msa": "هادئ",
+      "eg": "هادي"
+    },
+    "logs.rows_count": {
+      "type": "status",
+      "msa": "{count} مستندات",
+      "eg": "{count} مستندات"
+    },
+    "log_mapper.auto_col": {
+      "type": "option",
+      "msa": "غير مستخدم في الشيت",
+      "eg": "مش مستخدم في الشيت"
+    },
+    "log_mapper.rev_groups_label": {
+      "type": "label",
+      "msa": "مجموعات المراجعات: {count}",
+      "eg": "مجموعات المراجعات: {count}"
+    },
+    "log_mapper.col_amount_total": {
+      "type": "option",
+      "msa": "الإجمالي",
+      "eg": "الإجمالي"
+    },
+    "log_mapper.col_payment_method": {
+      "type": "option",
+      "msa": "طريقة الدفع",
+      "eg": "طريقة الدفع"
+    },
+    "log_mapper.col_device": {
+      "type": "option",
+      "msa": "اسم الجهاز",
+      "eg": "اسم الجهاز"
+    },
+    "studio.page_label": {
+      "type": "label",
+      "msa": "صفحة {num}",
+      "eg": "صفحة {num}"
+    },
+    "studio.table_label": {
+      "type": "label",
+      "msa": "جدول {num}",
+      "eg": "جدول {num}"
+    },
+    "studio.sheet_label": {
+      "type": "label",
+      "msa": "شيت {name}",
+      "eg": "شيت {name}"
+    },
+    "studio.selected_cell": {
+      "type": "label",
+      "msa": "المحدد: {ref}",
+      "eg": "المحدد: {ref}"
+    },
+    "studio.selected_range": {
+      "type": "label",
+      "msa": "النطاق: {ref}",
+      "eg": "النطاق: {ref}"
+    },
+    "studio.no_preview": {
+      "type": "empty",
+      "msa": "لا تتوفر معاينة حالياً.",
+      "eg": "مفيش معاينة متاحة دلوقتي."
+    },
+    "studio.col_role_label": {
+      "type": "label",
+      "msa": "نوع العمود",
+      "eg": "نوع العمود"
+    },
+    "studio.col_name_label": {
+      "type": "label",
+      "msa": "اسم العمود",
+      "eg": "اسم العمود"
+    },
+    "studio.locked_badge": {
+      "type": "status",
+      "msa": "ثابتة",
+      "eg": "مقفولة"
+    },
+    "issue.remove_row_btn": {
+      "type": "btn",
+      "msa": "حذف السطر",
+      "eg": "مسح السطر"
+    },
+    "issue.preview_title": {
+      "type": "title",
+      "msa": "معاينة المستند",
+      "eg": "معاينة المستند"
+    },
+    "decisions.confidence_label": {
+      "type": "label",
+      "msa": "الوضوح: {pct}%",
+      "eg": "الوضوح: {pct}%"
+    },
+    "decisions.file_label": {
+      "type": "label",
+      "msa": "الملف",
+      "eg": "الملف"
+    },
+    "decisions.reason_label": {
+      "type": "label",
+      "msa": "السبب",
+      "eg": "السبب"
+    },
+    "decisions.action_col": {
+      "type": "label",
+      "msa": "الإجراء",
+      "eg": "الإجراء"
+    },
+    "rules.act_attach": {
+      "type": "option",
+      "msa": "حفظ في مشروع محدد",
+      "eg": "حفظ في مشروع معين"
+    },
+    "rules.act_entity": {
+      "type": "option",
+      "msa": "نقل لمجلد الجهة",
+      "eg": "نقل لفولدر الجهة"
+    },
+    "rules.act_rename": {
+      "type": "option",
+      "msa": "تسمية في مكانه",
+      "eg": "تسمية في مكانه"
+    },
+    "settings.key_active": {
+      "type": "status",
+      "msa": "المفتاح محفوظ",
+      "eg": "المفتاح محفوظ"
+    },
+    "settings.key_missing": {
+      "type": "status",
+      "msa": "بلا مفتاح محفوظ",
+      "eg": "مفيش مفتاح محفوظ"
+    },
+    "settings.key_placeholder": {
+      "type": "label",
+      "msa": "لصق مفتاح الذكاء هنا",
+      "eg": "لصق مفتاح الذكاء هنا"
+    },
+    "settings.primary_key_label": {
+      "type": "label",
+      "msa": "المفتاح الأساسي",
+      "eg": "المفتاح الأساسي"
+    },
+    "settings.backup_key_label": {
+      "type": "label",
+      "msa": "المفتاح الاحتياطي التلقائي",
+      "eg": "المفتاح الاحتياطي التلقائي"
+    },
+    "settings.backup_key_tip": {
+      "type": "tip",
+      "msa": "عند نفاد حصة المفتاح الأساسي يحول النظام العمل تلقائياً إلى المفتاح الاحتياطي بدون توقف.",
+      "eg": "لما حصة المفتاح الأساسي تخلص النظام بيحوّل تلقائي للمفتاح الاحتياطي من غير ما يقف."
+    },
+    "settings.backup_key_active": {
+      "type": "status",
+      "msa": "الاحتياطي محفوظ",
+      "eg": "الاحتياطي محفوظ"
+    },
+    "settings.backup_key_missing": {
+      "type": "status",
+      "msa": "بلا مفتاح احتياطي",
+      "eg": "مفيش مفتاح احتياطي"
+    },
+    "settings.backup_key_switched": {
+      "type": "status",
+      "msa": "تحويل تلقائي للمفتاح الاحتياطي",
+      "eg": "تحول للمفتاح الاحتياطي تلقائي"
+    },
+    "settings.backup_key_placeholder": {
+      "type": "label",
+      "msa": "لصق المفتاح الاحتياطي هنا",
+      "eg": "لصق المفتاح الاحتياطي هنا"
+    },
+    "settings.save_backup_key_btn": {
+      "type": "btn",
+      "msa": "حفظ الاحتياطي",
+      "eg": "حفظ الاحتياطي"
+    },
+    "settings.clear_backup_key_btn": {
+      "type": "btn",
+      "msa": "مسح الاحتياطي",
+      "eg": "مسح الاحتياطي"
+    },
+    "settings.backup_keys_label": {
+      "type": "label",
+      "msa": "المفاتيح الاحتياطية التلقائية",
+      "eg": "المفاتيح الاحتياطية التلقائية"
+    },
+    "settings.backup_keys_tip": {
+      "type": "tip",
+      "msa": "يمكن إضافة عدة مفاتيح بسطور أو فواصل؛ عند نفاد مفتاح يتحول للتالي.",
+      "eg": "ينفع تضيف عدة مفاتيح بسطور أو فواصل؛ لو واحد خلص بيحوّل للتالي."
+    },
+    "settings.backup_key_add_placeholder": {
+      "type": "label",
+      "msa": "لصق عدة مفاتيح هنا",
+      "eg": "لصق عدة مفاتيح هنا"
+    },
+    "settings.add_backup_key_btn": {
+      "type": "btn",
+      "msa": "إضافة احتياطي",
+      "eg": "إضافة احتياطي"
+    },
+    "settings.clear_all_backup_btn": {
+      "type": "btn",
+      "msa": "مسح كل الاحتياطيات",
+      "eg": "مسح كل الاحتياطيات"
+    },
+    "settings.promote_key_btn": {
+      "type": "btn",
+      "msa": "تعيين كأساسي",
+      "eg": "تعيين كأساسي"
+    },
+    "settings.key_ready_status": {
+      "type": "status",
+      "msa": "جاهز",
+      "eg": "جاهز"
+    },
+    "settings.key_exhausted_status": {
+      "type": "status",
+      "msa": "نفدت حصته مؤقتاً",
+      "eg": "حصته خلصت مؤقتاً"
+    },
+    "settings.style_saved_toast": {
+      "type": "toast",
+      "msa": "تم تحديث أسلوب الواجهة.",
+      "eg": "أسلوب الواجهة اتحدّث."
+    },
+    "settings.version_label": {
+      "type": "label",
+      "msa": "الإصدار",
+      "eg": "الإصدار"
+    },
+    "sync.folders_ok": {
+      "type": "toast",
+      "msa": "مجلدات المشروع جاهزة.",
+      "eg": "فولدرات المشروع جاهزة."
+    },
+    "sync.scanner_ok": {
+      "type": "toast",
+      "msa": "مجلد السكانر متصل.",
+      "eg": "فولدر السكانر متوصل."
+    },
+    "sync.scanner_missing": {
+      "type": "warn",
+      "msa": "مجلد السكانر غير موجود حالياً. يُرجى مراجعة مساره من الإعدادات.",
+      "eg": "فولدر السكانر مش موجود دلوقتي. راجع مكانه من الإعدادات."
+    },
+    "sync.log_ready": {
+      "type": "toast",
+      "msa": "لوج المشروع جاهز ({names}).",
+      "eg": "شيت اللوج جاهز ({names})."
+    },
+    "sync.counters_ready": {
+      "type": "toast",
+      "msa": "تحدّثت الأرقام التالية من اللوج ({count} مستندات).",
+      "eg": "الأرقام الجاية اتحدّثت من اللوج ({count} مستندات)."
+    },
+    "sync.waiting_count": {
+      "type": "warn",
+      "msa": "بقي {count} مستندات بانتظار التسجيل في اللوج.",
+      "eg": "فاضل {count} مستندات مستنية تتسجل في اللوج."
+    },
+    "sync.moved_templates": {
+      "type": "warn",
+      "msa": "نماذج تحتاج مراجعة الخانات: {names}.",
+      "eg": "نماذج محتاجة مراجعة الخانات: {names}."
+    },
+    "server.invalid_setting": {
+      "type": "error",
+      "msa": "الإعداد المختار غير صحيح.",
+      "eg": "الاختيار ده مش مظبوط."
+    },
+    "server.not_found": {
+      "type": "error",
+      "msa": "العنصر المطلوب غير موجود.",
+      "eg": "الحاجة المطلوبة مش موجودة."
+    },
+    "server.invalid_filename": {
+      "type": "error",
+      "msa": "اسم الملف غير مسموح به. يُرجى تغيير اسمه ثم إعادة المحاولة.",
+      "eg": "اسم الملف ده مش مسموح. غيّر اسمه وجرّب تاني."
+    },
+    "server.decision_not_found": {
+      "type": "error",
+      "msa": "هذه الورقة غير موجودة في القائمة.",
+      "eg": "الورقة دي مش موجودة في القائمة."
+    },
+    "server.rule_not_found": {
+      "type": "error",
+      "msa": "القاعدة غير موجودة.",
+      "eg": "القاعدة دي مش موجودة."
+    },
+    "server.journal_not_found": {
+      "type": "error",
+      "msa": "سجل التسمية غير موجود.",
+      "eg": "سجل الاسم ده مش موجود."
+    },
+    "server.section_unknown": {
+      "type": "error",
+      "msa": "القسم المختار غير معروف.",
+      "eg": "القسم المختار مش معروف."
+    },
+    "server.helper_opened": {
+      "type": "toast",
+      "msa": "فُتح المساعد الذكي في مجلد المشروع.",
+      "eg": "المساعد الذكي فتح في فولدر المشروع."
+    },
+    "server.ext_backup_failed": {
+      "type": "warn",
+      "msa": "تعذّر النسخ إلى القرص الخارجي. يُرجى مراجعة توصيله.",
+      "eg": "معرفناش ننسخ للهارد الخارجي. راجع توصيله."
+    },
+    "server.ext_backup_missing": {
+      "type": "warn",
+      "msa": "لم تُحفظ نسخة خارجية للمشروع بعد. يُحفظ الآن عبر إنهاء العمل.",
+      "eg": "لسه متعملش نسخة خارجية للمشروع. اعمل إنهاء الشغل عشان تتحفظ."
+    },
+    "server.nested_scanner_warn": {
+      "type": "warn",
+      "msa": "مجلد السكانر للمشروع «{a}» متداخل مع «{b}». يُفضّل فصل المجلدين.",
+      "eg": "فولدر السكانر بتاع «{a}» داخل مع «{b}». الأحسن فصل الفولدرين."
+    },
+    "server.queued_no_log": {
+      "type": "warn",
+      "msa": "لم يُرفع لوج مرتبط بهذا القسم بعد. حُفظ المستند بانتظار رفع اللوج.",
+      "eg": "مفيش شيت لوج مربوط بالقسم ده لسه. الورقة اتحفظت ومستنية رفع اللوج."
+    },
+    "server.queued_log_open": {
+      "type": "warn",
+      "msa": "ملف اللوج «{name}» مفتوح حالياً في Excel. سيُسجّل المستند تلقائياً فور إغلاقه.",
+      "eg": "شيت اللوج «{name}» مفتوح دلوقتي في Excel. الورقة هتتسجل لوحدها أول ما يتقفل."
+    },
+    "server.col_changed": {
+      "type": "warn",
+      "msa": "العمود «{col}» في شيت «{sheet}» تغيّر مكانه. يلزم مراجعة ربط الأعمدة.",
+      "eg": "العمود «{col}» في شيت «{sheet}» مكانه اتغير. راجع ربط الأعمدة."
+    },
+    "server.field_moved": {
+      "type": "warn",
+      "msa": "تغيّر مكان الخانة «{field}» بعد تعديل ملف النموذج.",
+      "eg": "مكان الخانة «{field}» اتغير بعد تعديل ملف النموذج."
+    },
+    "server.table_moved": {
+      "type": "warn",
+      "msa": "تغيّرت عناوين جدول البنود «{table}» بعد تعديل ملف النموذج.",
+      "eg": "عناوين جدول البنود «{table}» اتغيرت بعد تعديل ملف النموذج."
+    },
+    "server.rule_matched": {
+      "type": "toast",
+      "msa": "طُبّقت قاعدة محفوظة: {pattern}",
+      "eg": "اتطبّقت قاعدة محفوظة: {pattern}"
+    },
+    "server.rule_from_decision": {
+      "type": "toast",
+      "msa": "حُفظت من أوراق للمراجعة",
+      "eg": "اتحفظت من ورق للمراجعة"
+    },
+    "server.unrelated_personal": {
+      "type": "warn",
+      "msa": "تبدو هذه الورقة مستنداً شخصياً خارج المشروع.",
+      "eg": "الورقة دي شكلها ورق شخصي بره المشروع."
+    },
+    "server.unrelated_entity": {
+      "type": "warn",
+      "msa": "تبدو هذه الورقة تابعة لجهة أخرى «{entity}» وليست للمشروع الحالي.",
+      "eg": "الورقة دي شكلها تبع جهة تانية «{entity}» مش المشروع الحالي."
+    },
+    "server.unrelated_none": {
+      "type": "warn",
+      "msa": "لا تظهر صلة واضحة بالمشروع «{project}».",
+      "eg": "مفيش صلة واضحة بمشروع «{project}»."
+    },
+    "server.matched_active": {
+      "type": "toast",
+      "msa": "مرتبط بالمشروع الحالي.",
+      "eg": "تبع المشروع الحالي."
+    },
+    "server.trial_preview": {
+      "type": "warn",
+      "msa": "معاينة في وضع التجربة دون نقل أو تعديل الملف.",
+      "eg": "معاينة في وضع التجربة من غير نقل أو تعديل الملف."
+    },
+    "server.shared_unclear_warn": {
+      "type": "warn",
+      "msa": "مجلد السكانر مشترك ولم يظهر اسم المشروع بوضوح. حُفظت الورقة للمراجعة.",
+      "eg": "فولدر السكانر مشترك واسم المشروع مش باين. الورقة اتحطت للمراجعة."
+    },
+    "watcher.need_ai_key": {
+      "type": "error",
+      "msa": "مفتاح الذكاء غير مضاف بعد. يُضاف مرة واحدة من الإعدادات.",
+      "eg": "مفتاح الذكاء لسه متضافش. ضيفه مرة واحدة من الإعدادات."
+    },
+    "watcher.version_upgraded": {
+      "type": "toast",
+      "msa": "حُفظت النسخة الأحدث ونُقلت السابقة إلى قبل التعديل.",
+      "eg": "النسخة الأحدث اتحفظت والقديمة اتنقلت لفولدر قبل التعديل."
+    },
+    "validation.bad_cell": {
+      "type": "error",
+      "msa": "مكان الخانة المختار غير صحيح في «{field}».",
+      "eg": "مكان الخانة المختار مش مظبوط في «{field}»."
+    },
+    "validation.field_default": {
+      "type": "label",
+      "msa": "خانة {index}",
+      "eg": "خانة {index}"
+    },
+    "validation.col_default": {
+      "type": "label",
+      "msa": "عمود {index}",
+      "eg": "عمود {index}"
+    },
+    "validation.table_default": {
+      "type": "label",
+      "msa": "جدول بنود {index}",
+      "eg": "جدول بنود {index}"
+    },
+    "validation.row_prefix": {
+      "type": "label",
+      "msa": "{field} (سطر {row})",
+      "eg": "{field} (سطر {row})"
+    },
+    "common.choose_option": {
+      "type": "option",
+      "msa": "اختيار",
+      "eg": "اختيار"
+    },
+    "common.file_read_failed": {
+      "type": "error",
+      "msa": "تعذّرت قراءة الملف «{name}». يُرجى إعادة المحاولة.",
+      "eg": "مش قادر يقرا الملف «{name}». جرّب تاني."
+    },
+    "studio.locked_toast": {
+      "type": "toast",
+      "msa": "تم قفل الخلايا المحددة.",
+      "eg": "اتقفلت الخانات المتحددة."
+    },
+    "studio.table_added_toast": {
+      "type": "toast",
+      "msa": "أُضيف جدول البنود.",
+      "eg": "اتضاف جدول البنود."
+    },
+    "studio.field_pinned_toast": {
+      "type": "toast",
+      "msa": "تم تثبيت الخانة.",
+      "eg": "اتثبّتت الخانة."
+    },
+    "studio.default_table_name": {
+      "type": "label",
+      "msa": "جدول البنود",
+      "eg": "جدول البنود"
+    },
+    "studio.clear_range_btn": {
+      "type": "btn",
+      "msa": "إلغاء التحديد",
+      "eg": "شيل التحديد"
+    },
+    "issue.saved_place": {
+      "type": "label",
+      "msa": "مكان الحفظ",
+      "eg": "مكان الحفظ"
+    },
+    "issue.no_log_saved_toast": {
+      "type": "toast",
+      "msa": "حُفظ المستند {ref} في الأرشيف.",
+      "eg": "اتحفظ المستند {ref} في الأرشيف."
+    },
+    "issue.auto_ready_status": {
+      "type": "status",
+      "msa": "تعبئة تلقائية كاملة",
+      "eg": "بيتملي لوحده بالكامل"
+    },
+    "decisions.ignore_ext_title": {
+      "type": "title",
+      "msa": "تجاهل نوع ملفات",
+      "eg": "تجاهل نوع ملفات"
+    },
+    "decisions.ignore_ext_label": {
+      "type": "label",
+      "msa": "الامتداد أو الاسم",
+      "eg": "الامتداد أو الاسم"
+    },
+    "decisions.ignore_ext_btn": {
+      "type": "btn",
+      "msa": "حفظ التجاهل",
+      "eg": "احفظ التجاهل"
+    },
+    "journal.col_entity": {
+      "type": "label",
+      "msa": "الجهة",
+      "eg": "الجهة"
+    },
+    "journal.act_rename": {
+      "type": "status",
+      "msa": "تسمية في مكانه",
+      "eg": "اتسمّى في مكانه"
+    },
+    "journal.act_entity": {
+      "type": "status",
+      "msa": "نقل لمجلد الجهة",
+      "eg": "اتنقل لمجلد الجهة"
+    },
+    "rules.col_target": {
+      "type": "label",
+      "msa": "الجهة أو المشروع",
+      "eg": "الجهة أو المشروع"
+    },
+    "settings.ignore_help": {
+      "type": "tooltip",
+      "msa": "أسماء أو امتدادات ملفات لا يفرزها البرنامج، واحد في كل سطر.",
+      "eg": "أسامي أو امتدادات ملفات البرنامج يسيبها، واحد في كل سطر."
+    },
+    "settings.unrelated_sheet_help": {
+      "type": "tooltip",
+      "msa": "يضيف شيتاً منفصلاً بالأوراق الخارجية دون لمس شيتات المشروع.",
+      "eg": "يضيف شيت لوحده للورق اللي بره المشروع من غير ما يلمس شيتاتك."
+    },
+    "overview.status_inactive": {
+      "type": "status",
+      "msa": "غير محدد حالياً",
+      "eg": "مش شغال دلوقتي"
+    },
+    "common.help_mark": {
+      "type": "btn",
+      "msa": "؟",
+      "eg": "؟"
+    },
+    "watcher.pymupdf_missing": {
+      "type": "warn",
+      "msa": "مكتبة قراءة ملفات PDF غير مثبتة على الجهاز.",
+      "eg": "مكتبة قراءة ملفات PDF مش متثبتة على الجهاز."
+    },
+    "overview.scan_errors_title": {
+      "type": "title",
+      "msa": "تنبيهات فرز السكانر",
+      "eg": "تحذيرات فرز السكانر"
+    },
+    "overview.scan_errors_toast": {
+      "type": "toast",
+      "msa": "اكتمل الفرز مع {count} أخطاء في القراءة.",
+      "eg": "الفرز خلص بس فيه {count} أخطاء في القراءة."
+    },
+    "overview.kpi_withdrawn": {
+      "type": "label",
+      "msa": "ملغي ({count})",
+      "eg": "ملغي ({count})"
+    },
+    "table.col_moh": {
+      "type": "label",
+      "msa": "الوزارة",
+      "eg": "الوزارة"
+    },
+    "log_mapper.col_moh_status": {
+      "type": "label",
+      "msa": "حالة الوزارة",
+      "eg": "حالة الوزارة"
+    },
+    "logs.global_next_label": {
+      "type": "label",
+      "msa": "الترقيم الموحد التالي",
+      "eg": "الرقم الموحد الجاي"
+    },
+    "settings.global_submittal_numbering": {
+      "type": "label",
+      "msa": "ترقيم موحد لكل التخصصات",
+      "eg": "ترقيم موحد لكل التخصصات"
+    },
+    "settings.global_submittal_help": {
+      "type": "tooltip",
+      "msa": "يعطي الاعتمادات أرقاماً متسلسلة موحدة دون تكرار الرقم بين التخصصات.",
+      "eg": "بيدي الاعتمادات أرقام ورا بعضها من غير ما الرقم يتكرر بين التخصصات."
+    },
+    "settings.overdue_days": {
+      "type": "label",
+      "msa": "أيام اعتبار الاعتماد متأخراً",
+      "eg": "أيام اعتبار الاعتماد متأخر"
+    },
+    "settings.tab_whatsapp": {
+      "type": "tab",
+      "msa": "ربط واتساب",
+      "eg": "ربط واتساب"
+    },
+    "settings.whatsapp_title": {
+      "type": "title",
+      "msa": "إعدادات واتساب",
+      "eg": "إعدادات واتساب"
+    },
+    "settings.whatsapp_cc": {
+      "type": "label",
+      "msa": "مفتاح الدولة الافتراضي",
+      "eg": "كود الدولة الافتراضي"
+    },
+    "settings.whatsapp_phone_id": {
+      "type": "label",
+      "msa": "معرّف رقم العمل",
+      "eg": "رقم معرّف البيزنس"
+    },
+    "settings.whatsapp_token": {
+      "type": "label",
+      "msa": "رمز الوصول الرسمي",
+      "eg": "كود الربط الرسمي"
+    },
+    "settings.save_wa_btn": {
+      "type": "btn",
+      "msa": "حفظ إعدادات واتساب",
+      "eg": "احفظ إعدادات واتساب"
+    },
+    "settings.whatsapp_saved_toast": {
+      "type": "toast",
+      "msa": "تم حفظ إعدادات واتساب.",
+      "eg": "اتحفظت إعدادات واتساب."
+    },
+    "contacts.send_wa_btn": {
+      "type": "btn",
+      "msa": "إرسال واتساب",
+      "eg": "ابعت واتساب"
+    },
+    "contacts.wa_message": {
+      "type": "label",
+      "msa": "نص الرسالة",
+      "eg": "نص الرسالة"
+    },
+    "contacts.wa_sent_toast": {
+      "type": "toast",
+      "msa": "تم تجهيز رسالة واتساب بنجاح.",
+      "eg": "اتجهزت رسالة واتساب تمام."
+    },
+    "nav.main_group": {
+      "type": "label",
+      "msa": "التنقل الرئيسي",
+      "eg": "القائمة الرئيسية"
+    },
+    "nav.project_group": {
+      "type": "label",
+      "msa": "المشروع: {code}",
+      "eg": "المشروع: {code}"
+    },
+    "legacy.started_toast": {
+      "type": "toast",
+      "msa": "بدأ استيراد الملفات في الخلفية.",
+      "eg": "بدأنا استيراد الملفات في الخلفية."
+    },
+    "studio.use_global_help": {
+      "type": "tooltip",
+      "msa": "يظهر الترقيم الموحد تلقائياً عند اعتماده في اللوج.",
+      "eg": "الرقم الموحد بيظهر لوحده لما يكون مطبّق في اللوج."
+    },
+    "overview.last_scan_label": {
+      "type": "label",
+      "msa": "آخر فرز",
+      "eg": "آخر فرز"
+    },
+    "common.browse_folder": {
+      "type": "btn",
+      "msa": "اختيار مجلد",
+      "eg": "اختيار فولدر"
+    },
+    "common.reload_project": {
+      "type": "btn",
+      "msa": "تحديث المشروع",
+      "eg": "تحديث المشروع"
+    },
+    "common.back_to_projects": {
+      "type": "btn",
+      "msa": "قائمة المشاريع",
+      "eg": "قائمة المشاريع"
+    },
+    "common.edit": {
+      "type": "btn",
+      "msa": "تعديل",
+      "eg": "تعديل"
+    },
+    "common.advanced_options": {
+      "type": "label",
+      "msa": "خيارات إضافية",
+      "eg": "خيارات زيادة"
+    },
+    "new_project.archive_dir": {
+      "type": "label",
+      "msa": "مجلد الإخراج",
+      "eg": "فولدر الإخراج"
+    },
+    "new_project.archive_dir_help": {
+      "type": "tooltip",
+      "msa": "المكان الذي تُحفظ فيه الملفات المنظمة بعد الموافقة أو الإصدار.",
+      "eg": "المكان اللي بيتحفظ فيه الورق المنظم بعد الموافقة أو الإصدار."
+    },
+    "new_project.scanner_help": {
+      "type": "tooltip",
+      "msa": "المجلد الذي يضع فيه جهاز السكانر الأوراق الجديدة.",
+      "eg": "الفولدر اللي جهاز السكانر بيحط فيه الورق الجديد."
+    },
+    "new_project.folder_opt_help": {
+      "type": "tooltip",
+      "msa": "يُنشأ تلقائياً باسم المشروع إن بقي فارغاً.",
+      "eg": "بيتعمل لوحده باسم المشروع لو اتساب فاضي."
+    },
+    "new_project.browse_unavailable": {
+      "type": "toast",
+      "msa": "تعذّر فتح نافذة المجلدات. يُكتب المسار يدوياً.",
+      "eg": "معرفناش نفتح شاشة الفولدرات. اكتب المسار يدوي."
+    },
+    "sections.manage_btn": {
+      "type": "btn",
+      "msa": "إدارة الأقسام",
+      "eg": "تعديل الأقسام"
+    },
+    "sections.manage_title": {
+      "type": "title",
+      "msa": "إضافة وتعديل الأقسام",
+      "eg": "إضافة وتعديل الأقسام"
+    },
+    "sections.add_btn": {
+      "type": "btn",
+      "msa": "إضافة قسم",
+      "eg": "إضافة قسم"
+    },
+    "sections.name_label": {
+      "type": "label",
+      "msa": "اسم القسم",
+      "eg": "اسم القسم"
+    },
+    "sections.prefix_label": {
+      "type": "label",
+      "msa": "بادئة الرقم",
+      "eg": "بداية الرقم"
+    },
+    "sections.folder_label": {
+      "type": "label",
+      "msa": "مجلد الإخراج الفرعي",
+      "eg": "فولدر الحفظ جوه الإخراج"
+    },
+    "sections.save_btn": {
+      "type": "btn",
+      "msa": "حفظ الأقسام",
+      "eg": "احفظ الأقسام"
+    },
+    "sections.saved_toast": {
+      "type": "toast",
+      "msa": "تم تحديث أسماء الأقسام.",
+      "eg": "أسامي الأقسام اتحدثت."
+    },
+    "sections.name_required": {
+      "type": "toast",
+      "msa": "اسم القسم مطلوب.",
+      "eg": "لازم كتابة اسم القسم."
+    },
+    "sections.visible_label": {
+      "type": "label",
+      "msa": "إظهار بالقائمة",
+      "eg": "ظاهر في القائمة"
+    },
+    "role.auto_date": {
+      "type": "option",
+      "msa": "تلقائي من تاريخ",
+      "eg": "تلقائي من تاريخ"
+    },
+    "role.auto_counter": {
+      "type": "option",
+      "msa": "تلقائي عداد",
+      "eg": "تلقائي عداد"
+    },
+    "studio.date_format": {
+      "type": "label",
+      "msa": "صيغة التاريخ",
+      "eg": "شكل التاريخ"
+    },
+    "studio.counter_prefix": {
+      "type": "label",
+      "msa": "الكلمة الثابتة",
+      "eg": "الكلمة الثابتة"
+    },
+    "studio.counter_start": {
+      "type": "label",
+      "msa": "رقم العداد التالي",
+      "eg": "الرقم الجاي للعداد"
+    },
+    "studio.counter_digits": {
+      "type": "label",
+      "msa": "عدد الخانات",
+      "eg": "عدد الأرقام"
+    },
+    "studio.counter_suffix": {
+      "type": "label",
+      "msa": "لاحقة اختيارية",
+      "eg": "تكملة بعد الرقم"
+    },
+    "studio.counter_preview": {
+      "type": "label",
+      "msa": "معاينة الرقم",
+      "eg": "شكل الرقم الجاي"
+    },
+    "studio.counter_sync_log": {
+      "type": "label",
+      "msa": "متابعة الترقيم من اللوج",
+      "eg": "كمّل الترقيم من اللوج"
+    },
+    "autosrc.system_today_dmy_dash": {
+      "type": "option",
+      "msa": "تاريخ اليوم (DD-MM-YYYY)",
+      "eg": "تاريخ النهارده (DD-MM-YYYY)"
+    },
+    "autosrc.system_month_year": {
+      "type": "option",
+      "msa": "الشهر والسنة (MM/YYYY)",
+      "eg": "الشهر والسنة (MM/YYYY)"
+    },
+    "log_mapper.skip_notice": {
+      "type": "tip",
+      "msa": "هذا الشيت للملخص فقط ولا يُسجّل فيه أي صفوف جديدة.",
+      "eg": "الشيت ده للملخص بس ومبيتسجلش فيه صفوف جديدة."
+    },
+    "log_mapper.core_cols_title": {
+      "type": "title",
+      "msa": "الأعمدة الأساسية",
+      "eg": "الأعمدة الأساسية"
+    },
+    "log_mapper.extra_cols_title": {
+      "type": "label",
+      "msa": "أعمدة إضافية ({count})",
+      "eg": "أعمدة زيادة ({count})"
+    },
+    "log_mapper.auto_summary": {
+      "type": "status",
+      "msa": "مربوط تلقائياً: {count}",
+      "eg": "اتربط لوحده: {count}"
+    },
+    "nav.scanner": {
+      "type": "tab",
+      "msa": "فرز السكانر",
+      "eg": "فرز السكانر"
+    },
+    "scanner.title": {
+      "type": "title",
+      "msa": "فرز السكانر",
+      "eg": "فرز السكانر"
+    },
+    "scanner.tip": {
+      "type": "tip",
+      "msa": "تبقى الملفات الأصلية بمجلد السكانر حتى تأكيد الموافقة فتُنقل للأرشيف.",
+      "eg": "الورق بيفضل في فولدر السكانر، واللي يتوافق عليه يتنقل للأرشيف."
+    },
+    "scanner.scan_btn": {
+      "type": "btn",
+      "msa": "فحص السكانر الآن",
+      "eg": "افحص السكانر دلوقتي"
+    },
+    "scanner.auto_on": {
+      "type": "btn",
+      "msa": "التلقائي يعمل",
+      "eg": "التلقائي شغال"
+    },
+    "scanner.auto_off": {
+      "type": "btn",
+      "msa": "التلقائي متوقف",
+      "eg": "التلقائي واقف"
+    },
+    "scanner.auto_help": {
+      "type": "tooltip",
+      "msa": "يفحص الأوراق الجديدة ويجهز ملخصها بانتظار الموافقة أو الرفض.",
+      "eg": "بيفحص الورق الجديد ويجهزه هنا عشان توافق أو ترفض."
+    },
+    "scanner.approve_btn": {
+      "type": "btn",
+      "msa": "موافقة",
+      "eg": "موافقة"
+    },
+    "scanner.reject_btn": {
+      "type": "btn",
+      "msa": "رفض",
+      "eg": "رفض"
+    },
+    "scanner.approve_all_btn": {
+      "type": "btn",
+      "msa": "موافقة للكل",
+      "eg": "موافقة للكل"
+    },
+    "scanner.reject_all_btn": {
+      "type": "btn",
+      "msa": "رفض للكل",
+      "eg": "رفض للكل"
+    },
+    "scanner.restore_btn": {
+      "type": "btn",
+      "msa": "إعادة للفرز",
+      "eg": "رجّعه للفرز"
+    },
+    "scanner.tab_pending": {
+      "type": "tab",
+      "msa": "جاهز للفرز ({count})",
+      "eg": "جاهز للفرز ({count})"
+    },
+    "scanner.tab_approved": {
+      "type": "tab",
+      "msa": "الموافق عليها ({count})",
+      "eg": "اتوافق عليها ({count})"
+    },
+    "scanner.tab_rejected": {
+      "type": "tab",
+      "msa": "المرفوضة ({count})",
+      "eg": "المرفوضة ({count})"
+    },
+    "scanner.empty_pending": {
+      "type": "empty",
+      "msa": "لا توجد أوراق جديدة بانتظار الفرز.",
+      "eg": "مفيش ورق جديد مستني الفرز."
+    },
+    "scanner.empty_approved": {
+      "type": "empty",
+      "msa": "لا توجد ملفات موافق عليها بعد.",
+      "eg": "مفيش ملفات متوافق عليها لسه."
+    },
+    "scanner.empty_rejected": {
+      "type": "empty",
+      "msa": "لا توجد ملفات مرفوضة.",
+      "eg": "مفيش ملفات مرفوضة."
+    },
+    "scanner.approved_toast": {
+      "type": "toast",
+      "msa": "تمت الموافقة ونُقل الملف للأرشيف.",
+      "eg": "تمت الموافقة والملف اتنقل للأرشيف."
+    },
+    "scanner.rejected_toast": {
+      "type": "toast",
+      "msa": "تم الرفض وبقي الملف بمجلد السكانر.",
+      "eg": "اترفض والملف فضل في مكانه في السكانر."
+    },
+    "scanner.bulk_approved_toast": {
+      "type": "toast",
+      "msa": "نُقلت {count} ملفات للأرشيف.",
+      "eg": "{count} ملفات اتنقلوا للأرشيف."
+    },
+    "scanner.bulk_rejected_toast": {
+      "type": "toast",
+      "msa": "بقي {count} ملفات في السكانر.",
+      "eg": "{count} ملفات فضلوا مكانهم في السكانر."
+    },
+    "scanner.restored_toast": {
+      "type": "toast",
+      "msa": "أُعيد الملف لقائمة الفرز.",
+      "eg": "الملف رجع لقائمة الفرز."
+    },
+    "scanner.scanned_toast": {
+      "type": "toast",
+      "msa": "تم فحص السكانر: {added} ملفات جديدة للفرز.",
+      "eg": "الفحص خلص: فيه {added} ملفات جديدة للفرز."
+    },
+    "scanner.summary_label": {
+      "type": "label",
+      "msa": "ملخص المستند",
+      "eg": "ملخص الورقة (بتاعة إيه)"
+    },
+    "scanner.target_dest_label": {
+      "type": "label",
+      "msa": "المسار في الإخراج",
+      "eg": "مكان الحفظ في الإخراج"
+    },
+    "scanner.section_label": {
+      "type": "label",
+      "msa": "القسم",
+      "eg": "القسم"
+    },
+    "scanner.status_connected": {
+      "type": "status",
+      "msa": "السكانر متصل",
+      "eg": "السكانر متوصل"
+    },
+    "scanner.status_missing": {
+      "type": "status",
+      "msa": "مجلد السكانر مفقود",
+      "eg": "فولدر السكانر مش موجود"
+    },
+    "scanner.dir_label": {
+      "type": "label",
+      "msa": "مجلد السكانر",
+      "eg": "فولدر السكانر"
+    },
+    "scanner.archive_dir_label": {
+      "type": "label",
+      "msa": "مجلد الإخراج",
+      "eg": "فولدر الإخراج"
+    },
+    "scanner.files_in_folder": {
+      "type": "status",
+      "msa": "{count} ملفات بالمجلد",
+      "eg": "{count} ملفات جوه الفولدر"
+    },
+    "scanner.auto_mode_note": {
+      "type": "status",
+      "msa": "تجهيز للفرز فقط",
+      "eg": "بيجهز للفرز بس"
+    },
+    "scanner.file_missing_warn": {
+      "type": "error",
+      "msa": "الملف لم يعد موجوداً بمجلد السكانر.",
+      "eg": "الملف مبقاش موجود في فولدر السكانر."
+    },
+    "scanner.unreadable_summary": {
+      "type": "status",
+      "msa": "مستند مصوّر جاهز للمراجعة.",
+      "eg": "ورقة مصورة جاهزة للمراجعة."
+    },
+    "scanner.project_match": {
+      "type": "status",
+      "msa": "يخص المشروع",
+      "eg": "تبع المشروع"
+    },
+    "scanner.outside_match": {
+      "type": "status",
+      "msa": "قد يخص جهة أخرى",
+      "eg": "ممكن مش تبع المشروع"
+    },
+    "scanner.sum_type_mar": {
+      "type": "label",
+      "msa": "اعتماد مواد (MAR)",
+      "eg": "اعتماد مواد (MAR)"
+    },
+    "scanner.sum_type_mir": {
+      "type": "label",
+      "msa": "فحص مواد (MIR)",
+      "eg": "فحص مواد (MIR)"
+    },
+    "scanner.sum_type_ir": {
+      "type": "label",
+      "msa": "فحص أعمال (WIR)",
+      "eg": "استلام أعمال (WIR)"
+    },
+    "scanner.sum_type_sd": {
+      "type": "label",
+      "msa": "مخطط تنفيذي (SD)",
+      "eg": "لوحة تنفيذية (SD)"
+    },
+    "scanner.sum_type_ms": {
+      "type": "label",
+      "msa": "طريقة تنفيذ (MS)",
+      "eg": "طريقة تنفيذ (MS)"
+    },
+    "scanner.sum_type_outgoing": {
+      "type": "label",
+      "msa": "كتاب صادر",
+      "eg": "جواب صادر"
+    },
+    "scanner.sum_type_incoming": {
+      "type": "label",
+      "msa": "كتاب وارد",
+      "eg": "جواب وارد"
+    },
+    "scanner.sum_type_ipc": {
+      "type": "label",
+      "msa": "مستخلص (IPC)",
+      "eg": "مستخلص (IPC)"
+    },
+    "scanner.sum_type_vo": {
+      "type": "label",
+      "msa": "أمر تغييري (VO)",
+      "eg": "أمر تغييري (VO)"
+    },
+    "scanner.sum_type_po": {
+      "type": "label",
+      "msa": "أمر شراء (PO)",
+      "eg": "أمر شرا (PO)"
+    },
+    "scanner.sum_type_petty": {
+      "type": "label",
+      "msa": "فاتورة / عهدة",
+      "eg": "فاتورة / عهدة"
+    },
+    "scanner.sum_type_report": {
+      "type": "label",
+      "msa": "تقرير موقع",
+      "eg": "تقرير موقع"
+    },
+    "scanner.sum_type_general": {
+      "type": "label",
+      "msa": "مستند عام",
+      "eg": "ورقة عامة"
+    },
+    "scanner.sum_part_ref": {
+      "type": "status",
+      "msa": "المرجع: {val}",
+      "eg": "المرجع: {val}"
+    },
+    "scanner.sum_part_disc": {
+      "type": "status",
+      "msa": "التخصص: {val}",
+      "eg": "التخصص: {val}"
+    },
+    "scanner.sum_part_party": {
+      "type": "status",
+      "msa": "الجهة: {val}",
+      "eg": "الجهة: {val}"
+    },
+    "scanner.sum_part_date": {
+      "type": "status",
+      "msa": "التاريخ: {val}",
+      "eg": "التاريخ: {val}"
+    },
+    "scanner.sum_part_amount": {
+      "type": "status",
+      "msa": "المبلغ: {val} د.ك",
+      "eg": "المبلغ: {val} د.ك"
+    },
+    "scanner.sum_part_status": {
+      "type": "status",
+      "msa": "الحالة: {val}",
+      "eg": "الحالة: {val}"
+    },
+    "scanner.subject_label": {
+      "type": "label",
+      "msa": "الموضوع",
+      "eg": "الموضوع"
+    },
+    "scanner.ref_label": {
+      "type": "label",
+      "msa": "المرجع",
+      "eg": "المرجع"
+    },
+    "scanner.default_date_today": {
+      "type": "status",
+      "msa": "بلا تاريخ محدد",
+      "eg": "مش مكتوب تاريخ"
+    },
+    "scanner.network_missing_hint": {
+      "type": "warn",
+      "msa": "تعذر الوصول إلى مجلد السكانر المحدد. إذا كان المجلد على شبكة داخلية أو ويندوز سيرفر (\\\\Server\\Share)، يلزم فتحه من مستكشف الملفات أولاً مع توفر صلاحية القراءة.",
+      "eg": "البرنامج مش لاقي فولدر السكانر ده. لو الفولدر على شبكة داخلية أو ويندوز سيرفر (\\\\Server\\Share)، يلزم فتحه من الويندوز الأول مع وجود صلاحية قراية عليه."
+    },
+    "scanner.scan_errors_hint": {
+      "type": "error",
+      "msa": "ملاحظات أثناء فحص مجلد السكانر: {errs}",
+      "eg": "ملاحظات حصلت وقت فحص فولدر السكانر: {errs}"
+    },
+    "viewer.expand_btn": {
+      "type": "btn",
+      "msa": "تكبير العرض",
+      "eg": "تكبير العرض"
+    },
+    "viewer.collapse_btn": {
+      "type": "btn",
+      "msa": "تصغير العرض",
+      "eg": "تصغير العرض"
+    },
+    "viewer.zoom_in_title": {
+      "type": "btn",
+      "msa": "تكبير المقياس",
+      "eg": "تكبير الحجم"
+    },
+    "viewer.zoom_out_title": {
+      "type": "btn",
+      "msa": "تصغير المقياس",
+      "eg": "تصغير الحجم"
+    },
+    "viewer.zoom_reset_title": {
+      "type": "btn",
+      "msa": "الحجم الأصلي",
+      "eg": "الحجم الطبيعي"
+    },
+    "nav.organizer": {
+      "type": "btn",
+      "msa": "تنظيم مشروع ضخم",
+      "eg": "ترتيب مشروع ضخم"
+    },
+    "organizer.title": {
+      "type": "title",
+      "msa": "تنظيم وأرشفة المشاريع القائمة الضخمة",
+      "eg": "ترتيب وأرشفة المشاريع الكبيرة القديمة"
+    },
+    "organizer.tip_scale": {
+      "type": "tip",
+      "msa": "فحص وتنظيم آلاف الملفات المتداخلة وعزل المكررات والمراجعات القديمة بأمان قبل التنفيذ.",
+      "eg": "فحص وترتيب آلاف الملفات المتلخبطة وعزل المكرر والنسخ القديمة بأمان قبل التنفيذ."
+    },
+    "organizer.tab_organize": {
+      "type": "tab",
+      "msa": "تنظيم آلاف الملفات",
+      "eg": "ترتيب آلاف الملفات"
+    },
+    "organizer.tab_audit": {
+      "type": "tab",
+      "msa": "تدقيق اللوج والمتابعة",
+      "eg": "تدقيق اللوج والمتابعة"
+    },
+    "organizer.tab_pdf": {
+      "type": "tab",
+      "msa": "تقسيم ودمج PDF",
+      "eg": "تقطيع ودمج PDF"
+    },
+    "organizer.src_folder_label": {
+      "type": "label",
+      "msa": "مجلد المشروع الفوضوي",
+      "eg": "فولدر المشروع المتلخبط"
+    },
+    "organizer.src_folder_ph": {
+      "type": "label",
+      "msa": "مسار المجلد أو الشبكة",
+      "eg": "مسار الفولدر أو الشبكة"
+    },
+    "organizer.opt_extract_archives": {
+      "type": "option",
+      "msa": "فك الملفات المضغوطة تلقائياً",
+      "eg": "فك الملفات المضغوطة تلقائي"
+    },
+    "organizer.opt_read_text": {
+      "type": "option",
+      "msa": "قراءة أول صفحتين لتحديد المرجع",
+      "eg": "قراية أول صفحتين لتحديد المرجع"
+    },
+    "organizer.scan_btn": {
+      "type": "btn",
+      "msa": "فحص وتجهيز الخطة",
+      "eg": "فحص وتجهيز الخطة"
+    },
+    "organizer.scanning_prog": {
+      "type": "progress",
+      "msa": "يجري فحص الملفات وتحديد المكررات...",
+      "eg": "شغال فحص الملفات وكشف المكرر..."
+    },
+    "organizer.executing_prog": {
+      "type": "progress",
+      "msa": "يجري ترتيب الملفات وإنشاء التقرير...",
+      "eg": "شغال ترتيب الملفات وعمل التقرير..."
+    },
+    "organizer.stop_btn": {
+      "type": "btn",
+      "msa": "إيقاف المهمة",
+      "eg": "وقف الشغل"
+    },
+    "organizer.kpi_total": {
+      "type": "label",
+      "msa": "إجمالي الملفات",
+      "eg": "كل الملفات"
+    },
+    "organizer.kpi_keep": {
+      "type": "label",
+      "msa": "ملفات رئيسية",
+      "eg": "ملفات أساسية"
+    },
+    "organizer.kpi_dup": {
+      "type": "label",
+      "msa": "مكررات متطابقة",
+      "eg": "مكرر متطابق"
+    },
+    "organizer.kpi_sup": {
+      "type": "label",
+      "msa": "مراجعات أقدم",
+      "eg": "مراجعات قديمة"
+    },
+    "organizer.kpi_unlogged": {
+      "type": "label",
+      "msa": "غير مسجلة باللوج",
+      "eg": "مش متسجلة باللوج"
+    },
+    "organizer.kpi_unclass": {
+      "type": "label",
+      "msa": "غير مصنفة",
+      "eg": "مش متصنفة"
+    },
+    "organizer.exclude_dups_btn": {
+      "type": "btn",
+      "msa": "استبعاد المكررات",
+      "eg": "استبعاد المكرر"
+    },
+    "organizer.isolate_dups_btn": {
+      "type": "btn",
+      "msa": "عزل المكررات",
+      "eg": "عزل المكرر"
+    },
+    "organizer.isolate_sup_btn": {
+      "type": "btn",
+      "msa": "عزل الأقدم",
+      "eg": "عزل القديم"
+    },
+    "organizer.filter_all": {
+      "type": "tab",
+      "msa": "كل الملفات",
+      "eg": "كل الملفات"
+    },
+    "organizer.filter_keep": {
+      "type": "tab",
+      "msa": "الرئيسية",
+      "eg": "الأساسية"
+    },
+    "organizer.filter_dup": {
+      "type": "tab",
+      "msa": "المكررات",
+      "eg": "المكرر"
+    },
+    "organizer.filter_sup": {
+      "type": "tab",
+      "msa": "مراجعات أقدم",
+      "eg": "مراجعات قديمة"
+    },
+    "organizer.filter_unlogged": {
+      "type": "tab",
+      "msa": "غير مسجلة",
+      "eg": "مش متسجلة"
+    },
+    "organizer.filter_unclass": {
+      "type": "tab",
+      "msa": "غير مصنفة",
+      "eg": "مش متصنفة"
+    },
+    "organizer.col_include": {
+      "type": "label",
+      "msa": "تنفيذ",
+      "eg": "تنفيذ"
+    },
+    "organizer.col_before": {
+      "type": "label",
+      "msa": "المسار والاسم القديم",
+      "eg": "المكان والاسم القديم"
+    },
+    "organizer.col_after": {
+      "type": "label",
+      "msa": "المسار الجديد المقترح",
+      "eg": "المكان الجديد المقترح"
+    },
+    "organizer.col_status": {
+      "type": "label",
+      "msa": "الحالة واللوج",
+      "eg": "الحالة واللوج"
+    },
+    "organizer.mode_copy": {
+      "type": "option",
+      "msa": "نسخ للأرشيف المرتب وبقاء الأصل",
+      "eg": "نسخ للأرشيف المرتب مع الأصل"
+    },
+    "organizer.mode_move": {
+      "type": "option",
+      "msa": "نقل فعلي للملفات للأرشيف المرتب",
+      "eg": "نقل فعلي للملفات للأرشيف"
+    },
+    "organizer.opt_update_log": {
+      "type": "option",
+      "msa": "تسجيل وتحديث اللوج تلقائياً",
+      "eg": "تسجيل وتحديث اللوج تلقائي"
+    },
+    "organizer.execute_btn": {
+      "type": "btn",
+      "msa": "تنفيذ الترتيب",
+      "eg": "تنفيذ الترتيب"
+    },
+    "organizer.exec_done_toast": {
+      "type": "toast",
+      "msa": "اكتمل ترتيب {copied} ملف وحفظ تقرير الترتيب.",
+      "eg": "خلص ترتيب {copied} ملف واتحفظ تقرير الترتيب."
+    },
+    "organizer.dup_pending_badge": {
+      "type": "status",
+      "msa": "بانتظار القرار",
+      "eg": "مستني قرار"
+    },
+    "organizer.dup_excluded_badge": {
+      "type": "status",
+      "msa": "تقرر استبعاده",
+      "eg": "اتقرر استبعاده"
+    },
+    "organizer.dup_isolated_badge": {
+      "type": "status",
+      "msa": "تقرر عزله",
+      "eg": "اتقرر عزله"
+    },
+    "organizer.dup_kept_badge": {
+      "type": "status",
+      "msa": "تقرر إبقاؤه",
+      "eg": "اتقرر يفضل"
+    },
+    "organizer.dup_match_label": {
+      "type": "label",
+      "msa": "مطابق للملف",
+      "eg": "نسخة من"
+    },
+    "organizer.sup_newer_label": {
+      "type": "label",
+      "msa": "توجد مراجعة أحدث",
+      "eg": "فيه مراجعة أحدث"
+    },
+    "organizer.act_exclude_btn": {
+      "type": "btn",
+      "msa": "استبعاد",
+      "eg": "استبعاد"
+    },
+    "organizer.act_isolate_btn": {
+      "type": "btn",
+      "msa": "عزل",
+      "eg": "عزل"
+    },
+    "organizer.act_keep_btn": {
+      "type": "btn",
+      "msa": "إبقاء",
+      "eg": "إبقاء"
+    },
+    "organizer.dup_cleared_msg": {
+      "type": "toast",
+      "msa": "حُسم قرار جميع المكررات ({count}) وصُفّرت قائمتها.",
+      "eg": "كل المكررات ({count}) اتاخد فيها قرار والقائمة اتصفّرت."
+    },
+    "organizer.sup_cleared_msg": {
+      "type": "toast",
+      "msa": "حُسم قرار المراجعات الأقدم ({count}) وصُفّرت قائمتها.",
+      "eg": "كل المراجعات الأقدم ({count}) اتاخد فيها قرار والقائمة اتصفّرت."
+    },
+    "organizer.show_resolved_btn": {
+      "type": "btn",
+      "msa": "عرض المحسومة",
+      "eg": "إظهار المحسومة"
+    },
+    "organizer.hide_resolved_btn": {
+      "type": "btn",
+      "msa": "إخفاء المحسومة",
+      "eg": "إخفاء المحسومة"
+    },
+    "organizer.open_archive_btn": {
+      "type": "btn",
+      "msa": "فتح الأرشيف",
+      "eg": "فتح الأرشيف"
+    },
+    "organizer.exec_cleared_tip": {
+      "type": "tip",
+      "msa": "صُفّرت الشاشة بعد اكتمال التنفيذ بنجاح؛ التقرير محفوظ في مجلد التقارير.",
+      "eg": "الشاشة اتصفرت بعد التنفيذ بنجاح والتقرير محفوظ في فولدر التقارير."
+    },
+    "organizer.kpi_near_dup": {
+      "type": "label",
+      "msa": "مكرر بالاسم والبيانات",
+      "eg": "مكرر بالاسم والبيانات"
+    },
+    "organizer.filter_near_dup": {
+      "type": "tab",
+      "msa": "بالاسم والبيانات",
+      "eg": "بالاسم والبيانات"
+    },
+    "organizer.filter_excluded": {
+      "type": "tab",
+      "msa": "مستبعد من التغيير",
+      "eg": "مستبعد من التغيير"
+    },
+    "organizer.reject_hide_btn": {
+      "type": "btn",
+      "msa": "رفض وإخفاء",
+      "eg": "رفض وإخفاء"
+    },
+    "organizer.status_near_dup": {
+      "type": "status",
+      "msa": "مكرر اسم وبيانات",
+      "eg": "مكرر اسم وبيانات"
+    },
+    "organizer.exclude_near_dups_btn": {
+      "type": "btn",
+      "msa": "استبعاد الاسم/البيانات",
+      "eg": "استبعاد الاسم/البيانات"
+    },
+    "organizer.isolate_near_dups_btn": {
+      "type": "btn",
+      "msa": "عزل الاسم/البيانات",
+      "eg": "عزل الاسم/البيانات"
+    },
+    "organizer.near_dup_match_label": {
+      "type": "label",
+      "msa": "قريب من الملف",
+      "eg": "قريب من الملف"
+    },
+    "organizer.reason_name": {
+      "type": "status",
+      "msa": "تشابه اسم الملف",
+      "eg": "تشابه اسم الملف"
+    },
+    "organizer.reason_content": {
+      "type": "status",
+      "msa": "تطابق بيانات الملف",
+      "eg": "تطابق بيانات الملف"
+    },
+    "organizer.reason_ref": {
+      "type": "status",
+      "msa": "تطابق المرجع والمراجعة",
+      "eg": "تطابق المرجع والمراجعة"
+    },
+    "organizer.reason_name_content": {
+      "type": "status",
+      "msa": "تطابق الاسم والبيانات",
+      "eg": "تطابق الاسم والبيانات"
+    },
+    "organizer.near_dup_cleared_msg": {
+      "type": "toast",
+      "msa": "حُسم قرار مكررات الاسم والبيانات ({count}) وصُفّرت قائمتها.",
+      "eg": "كل مكررات الاسم والبيانات ({count}) اتاخد فيها قرار والقائمة اتصفّرت."
+    },
+    "organizer.scan_done_toast": {
+      "type": "toast",
+      "msa": "جهزت خطة التنظيم لعدد {total} ملف.",
+      "eg": "جهزت خطة الترتيب لعدد {total} ملف."
+    },
+    "organizer.updated_toast": {
+      "type": "toast",
+      "msa": "حُدثت خطة التنظيم بنجاح.",
+      "eg": "خطة الترتيب اتحدثت تمام."
+    },
+    "organizer.download_report_btn": {
+      "type": "btn",
+      "msa": "تنزيل التقرير",
+      "eg": "تنزيل التقرير"
+    },
+    "organizer.open_reports_btn": {
+      "type": "btn",
+      "msa": "مجلد التقارير",
+      "eg": "فولدر التقارير"
+    },
+    "organizer.empty_plan": {
+      "type": "empty",
+      "msa": "لا توجد خطة تنظيم محفوظة لهذا المشروع بعد.",
+      "eg": "مفيش خطة ترتيب محفوظة للمشروع ده لسه."
+    },
+    "organizer.status_keep": {
+      "type": "status",
+      "msa": "ملف رئيسي",
+      "eg": "ملف أساسي"
+    },
+    "organizer.status_dup": {
+      "type": "status",
+      "msa": "مكرر",
+      "eg": "مكرر"
+    },
+    "organizer.status_sup": {
+      "type": "status",
+      "msa": "مراجعة أقدم",
+      "eg": "مراجعة قديمة"
+    },
+    "organizer.status_skip": {
+      "type": "status",
+      "msa": "مستبعد",
+      "eg": "مستبعد"
+    },
+    "organizer.audit_title": {
+      "type": "title",
+      "msa": "تدقيق الأرشيف وتقرير المتابعة الأسبوعي",
+      "eg": "تدقيق الأرشيف وتقرير المتابعة الأسبوعي"
+    },
+    "organizer.audit_btn": {
+      "type": "btn",
+      "msa": "تشغيل التدقيق",
+      "eg": "تشغيل التدقيق"
+    },
+    "organizer.register_unlogged_btn": {
+      "type": "btn",
+      "msa": "تسجيل باللوج",
+      "eg": "تسجيل باللوج"
+    },
+    "organizer.audit_gaps_title": {
+      "type": "title",
+      "msa": "الأرقام الناقصة في التسلسل",
+      "eg": "الأرقام الناقصة في التسلسل"
+    },
+    "organizer.audit_missing_files": {
+      "type": "label",
+      "msa": "صفوف لوج بلا ملف",
+      "eg": "صفوف لوج بلا ملف"
+    },
+    "organizer.audit_unlogged_files": {
+      "type": "label",
+      "msa": "ملفات أرشيف بلا لوج",
+      "eg": "ملفات أرشيف مش باللوج"
+    },
+    "organizer.audit_overdue": {
+      "type": "label",
+      "msa": "معاملات متأخرة",
+      "eg": "معاملات متأخرة"
+    },
+    "organizer.audit_rejected": {
+      "type": "label",
+      "msa": "معاملات مرفوضة",
+      "eg": "معاملات مرفوضة"
+    },
+    "organizer.registered_toast": {
+      "type": "toast",
+      "msa": "سُجّل {count} ملف من الأرشيف داخل اللوج.",
+      "eg": "اتسجل {count} ملف من الأرشيف جوه اللوج."
+    },
+    "organizer.pdf_title": {
+      "type": "title",
+      "msa": "تقسيم ودمج مستندات PDF",
+      "eg": "تقطيع ودمج ملفات PDF"
+    },
+    "organizer.pdf_split_title": {
+      "type": "title",
+      "msa": "تقسيم ملف PDF ضخم",
+      "eg": "تقطيع ملف PDF كبير"
+    },
+    "organizer.pdf_merge_title": {
+      "type": "title",
+      "msa": "دمج عدة ملفات PDF",
+      "eg": "دمج كذا ملف PDF"
+    },
+    "organizer.pdf_browse_btn": {
+      "type": "btn",
+      "msa": "تصفح PDF",
+      "eg": "تصفح PDF"
+    },
+    "organizer.pdf_every_n_label": {
+      "type": "label",
+      "msa": "عدد الصفحات بكل جزء",
+      "eg": "صفحات كل جزء"
+    },
+    "organizer.pdf_ranges_label": {
+      "type": "label",
+      "msa": "نطاقات الصفحات",
+      "eg": "نطاقات الصفحات"
+    },
+    "organizer.pdf_split_btn": {
+      "type": "btn",
+      "msa": "تقسيم PDF",
+      "eg": "تقطيع PDF"
+    },
+    "organizer.pdf_merge_btn": {
+      "type": "btn",
+      "msa": "دمج PDF",
+      "eg": "دمج PDF"
+    },
+    "organizer.pdf_add_btn": {
+      "type": "btn",
+      "msa": "إضافة ملف",
+      "eg": "إضافة ملف"
+    },
+    "organizer.pdf_lib_missing": {
+      "type": "error",
+      "msa": "مكتبة PDF غير مثبتة على هذا الجهاز.",
+      "eg": "مكتبة PDF مش نازلة على الجهاز ده."
+    },
+    "organizer.pdf_split_done": {
+      "type": "toast",
+      "msa": "قُسّم الملف إلى {count} أجزاء داخل المجلد المحدد.",
+      "eg": "الملف اتقطع لعدد {count} أجزاء جوه الفولدر ده."
+    },
+    "organizer.pdf_merge_done": {
+      "type": "toast",
+      "msa": "دُمج {pages} صفحة في ملف PDF واحد.",
+      "eg": "اتدمج {pages} صفحة في ملف PDF واحد."
+    },
+    "organizer.phase_walking": {
+      "type": "status",
+      "msa": "جرد المجلدات والملفات",
+      "eg": "حصر الفولدرات والملفات"
+    },
+    "organizer.phase_extracting": {
+      "type": "status",
+      "msa": "فك الملفات المضغوطة",
+      "eg": "فك الملفات المضغوطة"
+    },
+    "organizer.phase_hashing": {
+      "type": "status",
+      "msa": "كشف الملفات المكررة",
+      "eg": "تدوير الملفات المكررة"
+    },
+    "organizer.phase_analyzing": {
+      "type": "status",
+      "msa": "تصنيف المستندات الآن",
+      "eg": "تصنيف المستندات دلوقتي"
+    },
+    "organizer.phase_executing": {
+      "type": "status",
+      "msa": "نسخ وتسجيل المستندات",
+      "eg": "نسخ وتسجيل المستندات"
+    },
+    "organizer.stat_folders": {
+      "type": "label",
+      "msa": "المجلدات المفحوصة",
+      "eg": "الفولدرات المفحوصة"
+    },
+    "organizer.stat_files": {
+      "type": "label",
+      "msa": "الملفات المكتشفة",
+      "eg": "الملفات اللي اتلقت"
+    },
+    "organizer.stat_archives": {
+      "type": "label",
+      "msa": "ملفات مضغوطة",
+      "eg": "ملفات مضغوطة"
+    },
+    "organizer.stat_progress": {
+      "type": "label",
+      "msa": "التقدم الحالي",
+      "eg": "نسبة التقدم"
+    },
+    "organizer.stat_copied": {
+      "type": "label",
+      "msa": "تم النسخ",
+      "eg": "اتنسخ"
+    },
+    "organizer.stat_elapsed": {
+      "type": "label",
+      "msa": "الوقت المنقضي",
+      "eg": "الوقت"
+    },
+    "organizer.current_label": {
+      "type": "label",
+      "msa": "الجاري الآن",
+      "eg": "شغال على"
+    },
+    "organizer.working_pulse": {
+      "type": "status",
+      "msa": "يعمل بنشاط",
+      "eg": "شغال دلوقتي"
+    },
+    "scanner.sum_part_cons_reply": {
+      "type": "status",
+      "msa": "رد الاستشاري {val}",
+      "eg": "رد الاستشاري {val}"
+    },
+    "scanner.sum_part_moh_reply": {
+      "type": "status",
+      "msa": "رد الوزارة {val}",
+      "eg": "رد الوزارة {val}"
+    },
+    "scanner.authority_label": {
+      "type": "label",
+      "msa": "الجهة والأختام",
+      "eg": "الجهة والأختام"
+    },
+    "scanner.auth_opt_auto": {
+      "type": "option",
+      "msa": "حسب قراءة المستند",
+      "eg": "حسب قراية الورقة"
+    },
+    "scanner.auth_opt_cons": {
+      "type": "option",
+      "msa": "ختم الاستشاري فقط",
+      "eg": "ختم الاستشاري بس"
+    },
+    "scanner.auth_opt_moh": {
+      "type": "option",
+      "msa": "ختم مهندس أو وكيل الوزارة",
+      "eg": "ختم مهندس أو وكيل الوزارة"
+    },
+    "scanner.auth_opt_both": {
+      "type": "option",
+      "msa": "ختم الاستشاري والوزارة معاً",
+      "eg": "ختم الاستشاري والوزارة سوا"
+    },
+    "scanner.cons_reply_label": {
+      "type": "label",
+      "msa": "تاريخ رد الاستشاري",
+      "eg": "تاريخ رد الاستشاري"
+    },
+    "scanner.moh_reply_label": {
+      "type": "label",
+      "msa": "تاريخ رد الوزارة",
+      "eg": "تاريخ رد الوزارة"
+    },
+    "log.moh_remark_date": {
+      "type": "status",
+      "msa": "رد الوزارة: {date}",
+      "eg": "رد الوزارة: {date}"
+    },
+    "log.missing_cons_date_flag": {
+      "type": "status",
+      "msa": "مطلوب تاريخ رد الاستشاري",
+      "eg": "ناقص تاريخ رد الاستشاري"
+    },
+    "log.missing_moh_date_flag": {
+      "type": "status",
+      "msa": "مطلوب تاريخ رد الوزارة",
+      "eg": "ناقص تاريخ رد الوزارة"
+    },
+    "logs.missing_dates_title": {
+      "type": "title",
+      "msa": "معاملات بانتظار تاريخ الرد",
+      "eg": "معاملات ناقصها تاريخ الرد"
+    },
+    "logs.missing_dates_tip": {
+      "type": "tip",
+      "msa": "المعاملات التالية لها قرار رد دون تاريخ وتظللت بالأصفر في Excel لإكمالها يدوياً.",
+      "eg": "المعاملات دي اترد عليها من غير تاريخ واضح واتعلمت بالأصفر في Excel."
+    },
+    "logs.save_date_btn": {
+      "type": "btn",
+      "msa": "حفظ التاريخ",
+      "eg": "حفظ التاريخ"
+    },
+    "logs.date_saved_toast": {
+      "type": "toast",
+      "msa": "حُفظ تاريخ الرد في ملف اللوج وأُزيلت إشارة النقص.",
+      "eg": "تاريخ الرد اتحفظ جوه اللوج والعلامة الصفرا اتشالت."
+    },
+    "logs.add_extra_toggle": {
+      "type": "btn",
+      "msa": "إضافة لوج إضافي",
+      "eg": "إضافة لوج زيادة"
+    },
+    "logs.add_extra_hint": {
+      "type": "tip",
+      "msa": "يُفتح هذا القسم فقط عند الحاجة لربط ملف لوج ثانٍ للمشروع.",
+      "eg": "القسم ده بيتفتح بس لو المشروع محتاج ملف لوج تاني زيادة."
+    },
+    "overview.missing_dates_warn": {
+      "type": "warn",
+      "msa": "يوجد {count} معاملة بقرار رد بانتظار إدخال تاريخ الرد يدوياً.",
+      "eg": "فيه {count} معاملة اترد عليها ومستنية كتابة تاريخ الرد يدوي."
+    },
+    "overview.fix_dates_btn": {
+      "type": "btn",
+      "msa": "إدخال التواريخ",
+      "eg": "كتابة التواريخ"
+    },
+    "scanner.leave_blank_tip": {
+      "type": "tip",
+      "msa": "عند ترك تاريخ الرد فارغاً تُظلَّل خليته بالأصفر في Excel للإكمال اليدوي.",
+      "eg": "لو سبت تاريخ الرد فاضي هيتعلم بالأصفر في Excel عشان تكتبه يدوي."
+    },
+    "table.col_related": {
+      "type": "label",
+      "msa": "الكتب المرتبطة",
+      "eg": "الكتب المرتبطة"
+    },
+    "letters.link_btn": {
+      "type": "btn",
+      "msa": "ربط كتاب",
+      "eg": "ربط كتاب"
+    },
+    "letters.auto_link_btn": {
+      "type": "btn",
+      "msa": "ربط المواضيع المتطابقة",
+      "eg": "ربط المواضيع المتطابقة"
+    },
+    "letters.link_modal_title": {
+      "type": "title",
+      "msa": "ربط المراسلات المتصلة",
+      "eg": "ربط الكتب ببعضها"
+    },
+    "letters.auto_modal_title": {
+      "type": "title",
+      "msa": "اقتراحات الربط التلقائي",
+      "eg": "اقتراحات الربط التلقائي"
+    },
+    "letters.current_thread": {
+      "type": "label",
+      "msa": "الكتب المرتبطة حالياً",
+      "eg": "الكتب المرتبطة دلوقتي"
+    },
+    "letters.suggested_matches": {
+      "type": "label",
+      "msa": "مقترحات نفس الموضوع",
+      "eg": "مقترحات نفس الموضوع"
+    },
+    "letters.all_letters": {
+      "type": "label",
+      "msa": "كافة كتب المشروع",
+      "eg": "كل كتب المشروع"
+    },
+    "letters.link_action": {
+      "type": "btn",
+      "msa": "تأكيد الربط",
+      "eg": "ربط الكتاب"
+    },
+    "letters.unlink_action": {
+      "type": "btn",
+      "msa": "فك الربط",
+      "eg": "فك الربط"
+    },
+    "letters.apply_auto_btn": {
+      "type": "btn",
+      "msa": "حفظ الربط المختار",
+      "eg": "حفظ الربط المختار"
+    },
+    "letters.empty_thread": {
+      "type": "empty",
+      "msa": "لا توجد كتب مرتبطة بعد.",
+      "eg": "مفيش كتب مرتبطة لسه."
+    },
+    "letters.empty_suggestions": {
+      "type": "empty",
+      "msa": "لا توجد اقتراحات مطابقة حالياً.",
+      "eg": "مفيش اقتراحات مطابقة دلوقتي."
+    },
+    "letters.empty_auto": {
+      "type": "empty",
+      "msa": "لا توجد مراسلات جديدة للربط.",
+      "eg": "مفيش مراسلات جديدة للربط."
+    },
+    "letters.linked_toast": {
+      "type": "toast",
+      "msa": "تم ربط الكتب وحفظها في السجل.",
+      "eg": "تم ربط الكتب وتسجيلها في اللوج."
+    },
+    "letters.unlinked_toast": {
+      "type": "toast",
+      "msa": "تم فك ارتباط الكتاب وتحديث السجل.",
+      "eg": "تم فك ربط الكتاب وتحديث اللوج."
+    },
+    "letters.auto_done_toast": {
+      "type": "toast",
+      "msa": "تم ربط {count} من المراسلات المتطابقة.",
+      "eg": "تم ربط {count} مراسلة متطابقة."
+    },
+    "letters.match_pct": {
+      "type": "status",
+      "msa": "تطابق {pct}%",
+      "eg": "تطابق {pct}%"
+    },
+    "letters.keywords_label": {
+      "type": "label",
+      "msa": "كلمات مشتركة: {words}",
+      "eg": "كلمات مشتركة: {words}"
+    },
+    "letters.role_out_cons": {
+      "type": "label",
+      "msa": "صادر للاستشاري",
+      "eg": "صادر للاستشاري"
+    },
+    "letters.role_in_cons": {
+      "type": "label",
+      "msa": "وارد الاستشاري",
+      "eg": "وارد الاستشاري"
+    },
+    "letters.role_out_sub": {
+      "type": "label",
+      "msa": "صادر لمقاول الباطن",
+      "eg": "صادر لمقاول الباطن"
+    },
+    "letters.role_in_sub": {
+      "type": "label",
+      "msa": "وارد مقاول الباطن",
+      "eg": "وارد مقاول الباطن"
+    },
+    "letters.role_out_owner": {
+      "type": "label",
+      "msa": "صادر للمالك",
+      "eg": "صادر للمالك"
+    },
+    "letters.role_in_owner": {
+      "type": "label",
+      "msa": "وارد المالك",
+      "eg": "وارد المالك"
+    },
+    "letters.role_out_contr": {
+      "type": "label",
+      "msa": "صادر للمقاول",
+      "eg": "صادر للمقاول"
+    },
+    "letters.role_in_contr": {
+      "type": "label",
+      "msa": "وارد المقاول",
+      "eg": "وارد المقاول"
+    },
+    "letters.role_out_gen": {
+      "type": "label",
+      "msa": "صادر",
+      "eg": "صادر"
+    },
+    "letters.role_in_gen": {
+      "type": "label",
+      "msa": "وارد",
+      "eg": "وارد"
+    },
+    "letters.excel_col_hdr": {
+      "type": "label",
+      "msa": "الكتاب المرتبط",
+      "eg": "الكتاب المرتبط"
+    },
+    "letters.remark_prefix": {
+      "type": "label",
+      "msa": "الكتب المرتبطة",
+      "eg": "الكتب المرتبطة"
+    },
+    "letters.reason_explicit": {
+      "type": "status",
+      "msa": "إشارة صريحة للرقم",
+      "eg": "إشارة صريحة للرقم"
+    },
+    "letters.reason_topic": {
+      "type": "status",
+      "msa": "تشابه موضوع الكتاب",
+      "eg": "نفس موضوع الكتاب"
+    },
+    "letters.need_two": {
+      "type": "error",
+      "msa": "مطلوب كتابان على الأقل للربط.",
+      "eg": "لازم كتابين على الأقل للربط."
+    },
+    "letters.excel_locked_warn": {
+      "type": "warn",
+      "msa": "حُفظ الربط بالنظام، بينما ملف السجل مفتوح حالياً.",
+      "eg": "الربط اتحفظ في النظام، بس ملف اللوج مفتوح دلوقتي."
+    },
+    "scanner.link_to_letter": {
+      "type": "label",
+      "msa": "ربط بكتاب مرتبط",
+      "eg": "ربط بكتاب مرتبط"
+    },
+    "scanner.link_none_opt": {
+      "type": "option",
+      "msa": "بدون ربط",
+      "eg": "بدون ربط"
+    },
+    "scanner.link_hint_line": {
+      "type": "status",
+      "msa": "ربط مقترح: {ref}",
+      "eg": "ربط مقترح: {ref}"
+    },
+    "issue.link_letter_label": {
+      "type": "label",
+      "msa": "رداً على / مرتبط بكتاب",
+      "eg": "رد على / مرتبط بكتاب"
+    },
+    "log_mapper.col_moh_reply_date": {
+      "type": "label",
+      "msa": "تاريخ رد الوزارة",
+      "eg": "تاريخ رد الوزارة"
+    },
+    "log_mapper.col_related_letters": {
+      "type": "label",
+      "msa": "الكتاب المرتبط",
+      "eg": "الكتاب المرتبط"
+    },
+    "overview.more_tools": {
+      "type": "btn",
+      "msa": "المجلدات والأدوات",
+      "eg": "الفولدرات والأدوات"
+    },
+    "overview.filter_all": {
+      "type": "tab",
+      "msa": "كل الأقسام",
+      "eg": "كل الأقسام"
+    },
+    "organizer.col_missing_nums": {
+      "type": "label",
+      "msa": "الأرقام الناقصة",
+      "eg": "الأرقام الناقصة"
+    },
+    "scanner.multipage_badge": {
+      "type": "status",
+      "msa": "{count} صفحات — متعدد",
+      "eg": "{count} صفحات — متعدد"
+    },
+    "scanner.multipage_files_badge": {
+      "type": "status",
+      "msa": "{count} ملفات متعددة الصفحات",
+      "eg": "{count} ملفات متعددة الصفحات"
+    },
+    "scanner.multipage_banner": {
+      "type": "tip",
+      "msa": "تظهر الملفات متعددة الصفحات أولاً لفرزها عبر زر «فرز وتقسيم ذكي».",
+      "eg": "الملفات اللي من صفحتين وأكتر بتظهر الأول عشان تتفصل بزر «فرز وتقسيم ذكي»."
+    },
+    "scanner.multipage_card_tip": {
+      "type": "tip",
+      "msa": "ملف من {count} صفحات؛ يتاح فصله عبر زر «فرز وتقسيم ذكي».",
+      "eg": "الملف ده {count} صفحات؛ ولو فيه أوراق مختلفة يتفصل بزر «فرز وتقسيم ذكي»."
+    },
+    "scanner.smart_split_btn": {
+      "type": "btn",
+      "msa": "فرز وتقسيم ذكي",
+      "eg": "فرز وتقسيم ذكي"
+    },
+    "scanner.split_cached_badge": {
+      "type": "status",
+      "msa": "⚡ نتيجة محفوظة",
+      "eg": "⚡ نتيجة محفوظة"
+    },
+    "scanner.split_reanalyze_btn": {
+      "type": "btn",
+      "msa": "إعادة الفرز",
+      "eg": "إعادة الفرز"
+    },
+    "scanner.split_modal_title": {
+      "type": "title",
+      "msa": "فرز وتقسيم الصفحات بالذكاء",
+      "eg": "فرز وتقسيم الصفحات بالذكاء"
+    },
+    "scanner.split_analyzing": {
+      "type": "progress",
+      "msa": "جاري تحليل الصفحات...",
+      "eg": "بنراجع الصفحات..."
+    },
+    "scanner.split_ai_used": {
+      "type": "status",
+      "msa": "فرز ذكي ({count} مستند)",
+      "eg": "فرز ذكي ({count} مستند)"
+    },
+    "scanner.split_heuristic_used": {
+      "type": "status",
+      "msa": "فرز مبدئي ({count})",
+      "eg": "فرز مبدئي ({count})"
+    },
+    "scanner.split_single_hint": {
+      "type": "tip",
+      "msa": "تبدو الصفحات معاملة واحدة متصلة ويمكن تعديل النطاقات يدوياً",
+      "eg": "الورق شكله معاملة واحدة على بعضها، وتقدر تعدّل التقسيمة بإيدك"
+    },
+    "scanner.split_from_page": {
+      "type": "label",
+      "msa": "من صفحة",
+      "eg": "من صفحة"
+    },
+    "scanner.split_to_page": {
+      "type": "label",
+      "msa": "إلى صفحة",
+      "eg": "لحد صفحة"
+    },
+    "scanner.split_add_range": {
+      "type": "btn",
+      "msa": "إضافة نطاق",
+      "eg": "إضافة نطاق"
+    },
+    "scanner.split_merge_prev": {
+      "type": "btn",
+      "msa": "دمج بالسابق",
+      "eg": "دمج باللي قبله"
+    },
+    "scanner.split_preview_page": {
+      "type": "btn",
+      "msa": "معاينة الصفحة",
+      "eg": "شوف الصفحة"
+    },
+    "scanner.split_to_inbox_btn": {
+      "type": "btn",
+      "msa": "تقسيم إلى الصندوق",
+      "eg": "تقسيم في الصندوق"
+    },
+    "scanner.split_and_archive_btn": {
+      "type": "btn",
+      "msa": "تقسيم وتفييل الكل",
+      "eg": "تقسيم وتفييل الكل"
+    },
+    "scanner.split_done_toast": {
+      "type": "toast",
+      "msa": "تم تقسيم الملف إلى {count} معاملات في الصندوق",
+      "eg": "الملف اتقسم لـ {count} معاملات في الصندوق"
+    },
+    "scanner.split_archived_toast": {
+      "type": "toast",
+      "msa": "تم تقسيم وتفييل {count} معاملات في الأرشيف والسجل",
+      "eg": "تم تقسيم وتفييل {count} معاملات في الأرشيف واللوج"
+    },
+    "scanner.split_bad_range": {
+      "type": "error",
+      "msa": "يرجى تحديد نطاق صفحات صالح لكل مستند.",
+      "eg": "حدّد صفحات مظبوطة لكل مستند."
+    },
+    "scanner.split_tab_label": {
+      "type": "status",
+      "msa": "تم تقسيمه ({count})",
+      "eg": "متقسم ({count})"
+    },
+    "scanner.clear_resolved_btn": {
+      "type": "btn",
+      "msa": "إخفاء المعالجين",
+      "eg": "إخفاء المتعالجين"
+    },
+    "scanner.cleared_resolved_toast": {
+      "type": "toast",
+      "msa": "تم إخفاء {count} عناصر من الشاشة",
+      "eg": "تم إخفاء {count} ملفات من الشاشة"
+    },
+    "letters.replied_status_val": {
+      "type": "status",
+      "msa": "تم الرد",
+      "eg": "تم الرد"
+    },
+    "letters.unreplied_status": {
+      "type": "status",
+      "msa": "بانتظار الرد",
+      "eg": "مستني الرد"
+    },
+    "letters.days_waiting": {
+      "type": "status",
+      "msa": "منذ {days} يوم",
+      "eg": "من {days} يوم"
+    },
+    "overview.kpi_unreplied": {
+      "type": "label",
+      "msa": "وارد بدون رد",
+      "eg": "وارد بدون رد"
+    },
+    "overview.filter_unreplied": {
+      "type": "tab",
+      "msa": "وارد بدون رد",
+      "eg": "وارد بدون رد"
+    },
+    "section.filter_replied": {
+      "type": "tab",
+      "msa": "تم الرد",
+      "eg": "تم الرد"
+    },
+    "letters.issue_reply_btn": {
+      "type": "btn",
+      "msa": "إصدار رد مرتبط",
+      "eg": "إصدار رد مرتبط"
+    },
+    "letters.reply_subj_prefix": {
+      "type": "label",
+      "msa": "رداً على:",
+      "eg": "رداً على:"
+    },
+    "letters.replying_to_banner": {
+      "type": "tip",
+      "msa": "إصدار رد مرتبط بالكتاب {ref} مع تحديث تاريخ الرد تلقائياً",
+      "eg": "إصدار رد مربوط بالكتاب {ref} وتحديث تاريخ الرد لوحده"
+    },
+    "letters.pick_reply_tpl_title": {
+      "type": "title",
+      "msa": "تحديد قالب الرد الصادر",
+      "eg": "اختيار قالب الرد الصادر"
+    },
+    "letters.no_reply_tpl_msg": {
+      "type": "warn",
+      "msa": "لا يوجد قالب صادر جاهز حالياً. يمكن تجهيز قالب أو الربط بكتاب صادر مسجّل.",
+      "eg": "مفيش قالب صادر جاهز دلوقتي. ممكن تجهز قالب أو تربط بكتاب صادر متسجل."
+    },
+    "letters.go_templates_btn": {
+      "type": "btn",
+      "msa": "تجهيز قالب صادر",
+      "eg": "تجهيز قالب صادر"
+    },
+    "letters.link_existing_reply_btn": {
+      "type": "btn",
+      "msa": "ربط برد مسجل",
+      "eg": "ربط برد متسجل"
+    },
+    "contacts.pick_contact": {
+      "type": "label",
+      "msa": "جهة اتصال مسجلة",
+      "eg": "جهة اتصال مسجلة"
+    },
+    "contacts.manual_phone_opt": {
+      "type": "option",
+      "msa": "إدخال رقم جديد",
+      "eg": "رقم جديد"
+    },
+    "contacts.wa_row_btn": {
+      "type": "btn",
+      "msa": "إرسال واتساب",
+      "eg": "ابعت واتساب"
+    },
+    "contacts.wa_row_msg": {
+      "type": "tip",
+      "msa": "المشروع: {project} | {ref} ({date}) — {subject}",
+      "eg": "المشروع: {project} | {ref} ({date}) — {subject}"
+    },
+    "hub.disable_btn": {
+      "type": "btn",
+      "msa": "تعطيل المشروع",
+      "eg": "تعطيل المشروع"
+    },
+    "hub.enable_btn": {
+      "type": "btn",
+      "msa": "تفعيل المشروع",
+      "eg": "تشغيل المشروع"
+    },
+    "hub.delete_btn": {
+      "type": "btn",
+      "msa": "حذف المشروع",
+      "eg": "مسح المشروع"
+    },
+    "hub.disabled_badge": {
+      "type": "status",
+      "msa": "معطّل",
+      "eg": "معطّل"
+    },
+    "hub.disabled_toast": {
+      "type": "toast",
+      "msa": "تم تعطيل المشروع وإيقاف متابعته التلقائية.",
+      "eg": "المشروع اتعطّل واتوقّفت متابعته التلقائية."
+    },
+    "hub.enabled_toast": {
+      "type": "toast",
+      "msa": "تم تفعيل المشروع بنجاح.",
+      "eg": "المشروع اشتغل تاني بنجاح."
+    },
+    "hub.delete_modal_title": {
+      "type": "title",
+      "msa": "إزالة أو حذف المشروع",
+      "eg": "إزالة أو مسح المشروع"
+    },
+    "hub.delete_modal_desc": {
+      "type": "warn",
+      "msa": "يمكن إزالة المشروع من القائمة فقط مع بقاء الملفات، أو حذفه مع مجلده.",
+      "eg": "ممكن يتشال من القائمة بس والملفات تفضل، أو يتمسح هو وفولدراته."
+    },
+    "hub.delete_unlink_opt": {
+      "type": "btn",
+      "msa": "إزالة من القائمة",
+      "eg": "إزالة من القائمة"
+    },
+    "hub.delete_purge_opt": {
+      "type": "btn",
+      "msa": "حذف مع الملفات",
+      "eg": "مسح بالملفات"
+    },
+    "hub.delete_purge_confirm": {
+      "type": "warn",
+      "msa": "سيتم حذف مجلد المشروع نهائياً مع نسخة _Backups بداخله ولا يمكن التراجع.",
+      "eg": "فولدر المشروع هيتمسح نهائياً ومعاه نسخة _Backups اللي جواه ومفيش رجوع."
+    },
+    "hub.delete_confirm_input_lbl": {
+      "type": "label",
+      "msa": "كود المشروع للتأكيد",
+      "eg": "كود المشروع للتأكيد"
+    },
+    "hub.delete_confirm_name_err": {
+      "type": "error",
+      "msa": "للتأكيد يجب إدخال كود المشروع أو اسمه بشكل مطابق.",
+      "eg": "عشان تأكد المسح لازم تكتب كود المشروع أو اسمه صح."
+    },
+    "hub.deleted_files_toast": {
+      "type": "toast",
+      "msa": "تم حذف المشروع ومجلده بنجاح.",
+      "eg": "المشروع وفولدره اتمسحوا."
+    },
+    "hub.delete_unsafe_err": {
+      "type": "error",
+      "msa": "تعذر حذف المجلد لأن المسار مرتبط بمجلد عام.",
+      "eg": "ما ينفعش يتمسح الفولدر ده لأنه مسار عام."
+    },
+    "topbar.install_app_btn": {
+      "type": "btn",
+      "msa": "تثبيت كتطبيق",
+      "eg": "تثبيت كتطبيق"
+    },
+    "topbar.shutdown_btn": {
+      "type": "btn",
+      "msa": "إغلاق آمن",
+      "eg": "إغلاق البرنامج"
+    },
+    "app.install_modal_title": {
+      "type": "title",
+      "msa": "تثبيت البرنامج كتطبيق مستقل",
+      "eg": "تثبيت البرنامج كتطبيق مستقل"
+    },
+    "app.install_desc": {
+      "type": "tip",
+      "msa": "يعمل البرنامج في نافذة مستقلة على سطح المكتب بدون شاشة سوداء.",
+      "eg": "البرنامج بيشتغل في شباك مستقل بأيقونة على الديسكتوب بدون شاشة سودة."
+    },
+    "app.install_shortcut_btn": {
+      "type": "btn",
+      "msa": "إنشاء أيقونة التطبيق",
+      "eg": "إنشاء أيقونة التطبيق"
+    },
+    "app.open_app_win_btn": {
+      "type": "btn",
+      "msa": "فتح كنافذة مستقلة",
+      "eg": "فتح كشباك مستقل"
+    },
+    "app.install_done_toast": {
+      "type": "toast",
+      "msa": "تم إنشاء أيقونة التطبيق المستقل على سطح المكتب.",
+      "eg": "أيقونة التطبيق اتعملت على الديسكتوب بنجاح."
+    },
+    "app.install_browser_tip": {
+      "type": "tip",
+      "msa": "تعمل الأيقونة في نافذة تطبيق مستقلة عبر إيدج أو كروم مباشرة.",
+      "eg": "الأيقونة بتفتح البرنامج في شباك مستقل من غير شريط المتصفح."
+    },
+    "app.close_confirm_title": {
+      "type": "title",
+      "msa": "تأكيد إغلاق البرنامج",
+      "eg": "تأكيد قفل البرنامج"
+    },
+    "app.close_confirm_msg": {
+      "type": "warn",
+      "msa": "سيتم إيقاف المتابعة التلقائية وإغلاق البرنامج بأمان.",
+      "eg": "المتابعة التلقائية هتقف والبرنامج هيقفل بأمان."
+    },
+    "app.close_confirm_btn": {
+      "type": "btn",
+      "msa": "إيقاف وإغلاق الآن",
+      "eg": "قفل البرنامج الآن"
+    },
+    "app.closed_title": {
+      "type": "title",
+      "msa": "تم إغلاق البرنامج بأمان",
+      "eg": "البرنامج قفل بأمان"
+    },
+    "app.closed_sub": {
+      "type": "tip",
+      "msa": "يمكن إعادة التشغيل في أي وقت من أيقونة سطح المكتب.",
+      "eg": "ينفع يشتغل تاني في أي وقت من أيقونة الديسكتوب."
+    },
+    "app.close_guard_toggle": {
+      "type": "label",
+      "msa": "رسالة تأكيد قبل الإغلاق",
+      "eg": "رسالة تأكيد قبل القفل"
+    },
+    "app.app_installed_badge": {
+      "type": "status",
+      "msa": "وضع التطبيق المستقل",
+      "eg": "وضع التطبيق المستقل"
+    },
+    "settings.reset_card_title": {
+      "type": "title",
+      "msa": "تهيئة النظام وبداية جديدة",
+      "eg": "تهيئة النظام وبداية جديدة"
+    },
+    "settings.reset_card_desc": {
+      "type": "warn",
+      "msa": "إزالة جميع المشاريع التجريبية والقرارات والقواعد المتعلمة والبدء ببيانات نظيفة.",
+      "eg": "بيشيل كل المشاريع التجريبية والقرارات والقواعد المتعلمة ويبدأ النظام على نظافة."
+    },
+    "settings.reset_btn": {
+      "type": "btn",
+      "msa": "تهيئة النظام بالكامل",
+      "eg": "تهيئة النظام بالكامل"
+    },
+    "settings.reset_modal_title": {
+      "type": "title",
+      "msa": "تأكيد تهيئة النظام بالكامل",
+      "eg": "تأكيد تهيئة النظام بالكامل"
+    },
+    "settings.reset_modal_warn": {
+      "type": "warn",
+      "msa": "سيتم تفريغ قائمة المشاريع والقرارات المعلقة والقواعد وإعادة ضبط الإعدادات.",
+      "eg": "قائمة المشاريع والقرارات والقواعد هتتمسح والإعدادات هترجع للأصل."
+    },
+    "settings.reset_opt_folders": {
+      "type": "label",
+      "msa": "حذف مجلدات المشاريع التجريبية",
+      "eg": "مسح فولدرات المشاريع التجريبية"
+    },
+    "settings.reset_opt_folders_tip": {
+      "type": "tip",
+      "msa": "تُحذف مجلدات المشاريع المنشأة فقط دون المساس بمجلدات السكانر الخارجية.",
+      "eg": "فولدرات المشاريع بس اللي هتتمسح ومش هيلمس فولدرات السكانر الخارجية."
+    },
+    "settings.reset_opt_keep_ai": {
+      "type": "label",
+      "msa": "الاحتفاظ بمفتاح الذكاء الاصطناعي",
+      "eg": "إبقاء مفتاح الذكاء الاصطناعي"
+    },
+    "settings.reset_opt_keep_wa": {
+      "type": "label",
+      "msa": "الاحتفاظ بإعدادات واتساب",
+      "eg": "إبقاء إعدادات واتساب"
+    },
+    "settings.reset_ack_label": {
+      "type": "tip",
+      "msa": "تأكيد تهيئة النظام ومسح جميع البيانات التجريبية المسجلة حالياً.",
+      "eg": "موافق على مسح البيانات التجريبية وتهيئة النظام من جديد."
+    },
+    "settings.reset_ack_required": {
+      "type": "error",
+      "msa": "يلزم تحديد مربع التأكيد قبل متابعة التهيئة.",
+      "eg": "لازم تعلم على مربع التأكيد قبل التهيئة."
+    },
+    "settings.reset_confirm_btn": {
+      "type": "btn",
+      "msa": "تنفيذ التهيئة الآن",
+      "eg": "تنفيذ التهيئة الآن"
+    },
+    "settings.reset_done_toast": {
+      "type": "toast",
+      "msa": "تمت تهيئة النظام بالكامل والبدء من جديد بنجاح.",
+      "eg": "النظام اتهيأ بالكامل وجاهز للشغل من جديد."
+    },
+    "decisions.preview_title": {
+      "type": "title",
+      "msa": "معاينة الورقة المحددة",
+      "eg": "صورة الورقة المختارة"
+    },
+    "decisions.preview_pick_hint": {
+      "type": "empty",
+      "msa": "تظهر صورة الورقة المختارة في هذه المساحة.",
+      "eg": "صورة الورقة المختارة بتظهر هنا."
+    },
+    "decisions.preview_loading": {
+      "type": "progress",
+      "msa": "جاري تجهيز صورة الورقة...",
+      "eg": "جاري تحضير صورة الورقة..."
+    },
+    "decisions.preview_unavailable": {
+      "type": "warn",
+      "msa": "تعذر عرض صورة هذه الورقة. يمكن فتح الملف الأصلي مباشرة.",
+      "eg": "ما قدرناش نعرض صورة الورقة دي. ينفع تفتح الملف الأصلي مباشرة."
+    },
+    "decisions.page_of": {
+      "type": "status",
+      "msa": "صفحة {page} من {total}",
+      "eg": "صفحة {page} من {total}"
+    },
+    "decisions.prev_page_btn": {
+      "type": "btn",
+      "msa": "الصفحة السابقة",
+      "eg": "الصفحة السابقة"
+    },
+    "decisions.next_page_btn": {
+      "type": "btn",
+      "msa": "الصفحة التالية",
+      "eg": "الصفحة الجاية"
+    },
+    "decisions.zoom_in_btn": {
+      "type": "btn",
+      "msa": "تكبير الصورة",
+      "eg": "تكبير الصورة"
+    },
+    "decisions.zoom_out_btn": {
+      "type": "btn",
+      "msa": "تصغير الصورة",
+      "eg": "تصغير الصورة"
+    },
+    "decisions.zoom_reset_btn": {
+      "type": "btn",
+      "msa": "الحجم المناسب",
+      "eg": "الحجم الطبيعي"
+    },
+    "decisions.ignore_all_btn": {
+      "type": "btn",
+      "msa": "تجاهل الكل",
+      "eg": "تجاهل الكل"
+    },
+    "decisions.ignore_all_confirm": {
+      "type": "confirm",
+      "msa": "سيتم تجاهل جميع الأوراق المعلقة في هذه القائمة دون حذف أي ملفات.",
+      "eg": "كل الأوراق المستنية في القائمة دي هتتجاهل ومفيش ملفات هتتمسح."
+    },
+    "decisions.ignore_all_toast": {
+      "type": "toast",
+      "msa": "تم مسح تنبيهات الأوراق المعلقة بنجاح.",
+      "eg": "كل الأوراق المستنية اتقفلت من القائمة."
+    },
+    "preview.unsupported_ext": {
+      "type": "error",
+      "msa": "هذا النوع من الملفات لا يدعم المعاينة كصورة مباشرة.",
+      "eg": "النوع ده من الملفات مبيتعرضش كصورة مباشرة."
+    },
+    "server.invalid_path_question_marks": {
+      "type": "error",
+      "msa": "المسار يحتوي على علامات استفهام غير صالحة لاسم المجلد. يلزم اختيار المجلد مرة أخرى من الجهاز.",
+      "eg": "المسار فيه علامات استفهام مش صالحة لاسم الفولدر. اختار الفولدر تاني من الجهاز."
+    },
+    "organizer.new_name_ph": {
+      "type": "label",
+      "msa": "الاسم الجديد للملف",
+      "eg": "الاسم الجديد للملف"
+    },
+    "organizer.ai_rename_btn": {
+      "type": "btn",
+      "msa": "تسمية بالذكاء الاصطناعي",
+      "eg": "تسمية بالذكاء الاصطناعي"
+    },
+    "organizer.ai_row_btn": {
+      "type": "btn",
+      "msa": "تحليل وتسمية",
+      "eg": "تحليل وتسمية"
+    },
+    "organizer.ai_renamed_badge": {
+      "type": "status",
+      "msa": "مسمى بالذكاء",
+      "eg": "متسمي بالذكاء"
+    },
+    "organizer.custom_name_badge": {
+      "type": "status",
+      "msa": "اسم معدل يدويا",
+      "eg": "متعدل يدوي"
+    },
+    "organizer.ai_done_msg": {
+      "type": "toast",
+      "msa": "تمت تسمية {updated} من أصل {total} ملفاً بالذكاء.",
+      "eg": "اتسمى {updated} من أصل {total} ملف بالذكاء."
+    },
+    "organizer.ai_none_msg": {
+      "type": "toast",
+      "msa": "لا توجد ملفات تحتاج لتسمية جديدة حالياً.",
+      "eg": "مفيش ملفات محتاجة تسمية جديدة دلوقتي."
+    },
+    "organizer.phase_ai_renaming": {
+      "type": "progress",
+      "msa": "تحليل وتسمية بالذكاء الاصطناعي",
+      "eg": "تحليل وتسمية بالذكاء"
+    },
+    "organizer.ai_rename_prog": {
+      "type": "progress",
+      "msa": "جاري تسمية المستندات بالذكاء الاصطناعي...",
+      "eg": "بنسمي المستندات بالذكاء الاصطناعي..."
+    },
+    "nav.whatsapp_archive": {
+      "type": "tab",
+      "msa": "أرشيف الواتساب",
+      "eg": "أرشيف الواتساب"
+    },
+    "wa.title": {
+      "type": "title",
+      "msa": "أرشيف وسائط وملفات الواتساب",
+      "eg": "أرشيف صور وملفات الواتساب"
+    },
+    "wa.subtitle": {
+      "type": "tip",
+      "msa": "فصل وتسمية الصور والفيديو والمستندات بتاريخ المحادثة والكلام قبلها أو بعدها.",
+      "eg": "فصل وتسمية الصور والفيديو والملفات بتاريخ الشات والكلام قبلها أو بعدها."
+    },
+    "wa.upload_tab": {
+      "type": "tab",
+      "msa": "رفع ملف أو مجلد",
+      "eg": "رفع ملف أو فولدر"
+    },
+    "wa.folder_tab": {
+      "type": "tab",
+      "msa": "مجلد على الجهاز",
+      "eg": "فولدر على الجهاز"
+    },
+    "wa.drop_title": {
+      "type": "title",
+      "msa": "رفع تصدير الواتساب أو المرفقات",
+      "eg": "رفع ملفات أو تصدير الواتساب"
+    },
+    "wa.drop_hint": {
+      "type": "tip",
+      "msa": "تُقبل ملفات التصدير المضغوطة أو نص المحادثة مع الصور والفيديو والمستندات.",
+      "eg": "اقبل ملف التصدير المضغوط أو ملف الشات مع الصور والفيديو والملفات."
+    },
+    "wa.pick_files_btn": {
+      "type": "btn",
+      "msa": "رفع ملفات المحادثة",
+      "eg": "رفع ملفات الشات"
+    },
+    "wa.pick_folder_btn": {
+      "type": "btn",
+      "msa": "رفع مجلد كامل",
+      "eg": "رفع فولدر كامل"
+    },
+    "wa.local_folder_label": {
+      "type": "label",
+      "msa": "مسار مجلد تصدير الواتساب",
+      "eg": "مسار فولدر الواتساب"
+    },
+    "wa.local_folder_ph": {
+      "type": "label",
+      "msa": "مسار مجلد التصدير المحلي",
+      "eg": "مسار الفولدر على الجهاز"
+    },
+    "wa.scan_btn": {
+      "type": "btn",
+      "msa": "فحص ومطابقة",
+      "eg": "فحص ومطابقة"
+    },
+    "wa.recompute_btn": {
+      "type": "btn",
+      "msa": "تحديث التسمية",
+      "eg": "تحديث الأسماء"
+    },
+    "wa.rule_window_label": {
+      "type": "label",
+      "msa": "نافذة التطابق الزمني",
+      "eg": "فرق التوقيت المسموح"
+    },
+    "wa.win_same_min": {
+      "type": "option",
+      "msa": "نفس الدقيقة تماماً",
+      "eg": "نفس الدقيقة بالظبط"
+    },
+    "wa.win_1_min": {
+      "type": "option",
+      "msa": "ضمن دقيقة واحدة قبل أو بعد",
+      "eg": "دقيقة واحدة قبل أو بعد"
+    },
+    "wa.win_2_min": {
+      "type": "option",
+      "msa": "ضمن دقيقتين قبل أو بعد",
+      "eg": "دقيقتين قبل أو بعد"
+    },
+    "wa.win_5_min": {
+      "type": "option",
+      "msa": "ضمن خمس دقائق قبل أو بعد",
+      "eg": "خمس دقايق قبل أو بعد"
+    },
+    "wa.win_10_min": {
+      "type": "option",
+      "msa": "ضمن عشر دقائق قبل أو بعد",
+      "eg": "عشر دقايق قبل أو بعد"
+    },
+    "wa.rule_sender_label": {
+      "type": "label",
+      "msa": "قاعدة المرسل",
+      "eg": "شرط المرسل"
+    },
+    "wa.sender_same": {
+      "type": "option",
+      "msa": "نفس المرسل فقط",
+      "eg": "نفس الشخص فقط"
+    },
+    "wa.sender_any": {
+      "type": "option",
+      "msa": "أي مرسل في نفس الدقيقة",
+      "eg": "أي شخص في نفس الدقيقة"
+    },
+    "wa.rule_prio_label": {
+      "type": "label",
+      "msa": "أولوية كلام التسمية",
+      "eg": "ترتيب اختيار الكلام"
+    },
+    "wa.prio_before": {
+      "type": "option",
+      "msa": "الكلام قبل الصورة أولاً",
+      "eg": "الكلام اللي قبلها الأول"
+    },
+    "wa.prio_after": {
+      "type": "option",
+      "msa": "الكلام بعد الصورة أولاً",
+      "eg": "الكلام اللي بعدها الأول"
+    },
+    "wa.prio_combine": {
+      "type": "option",
+      "msa": "دمج الكلام قبل وبعد",
+      "eg": "دمج الكلام قبل وبعد"
+    },
+    "wa.name_fmt_label": {
+      "type": "label",
+      "msa": "صيغة الاسم الجديد",
+      "eg": "شكل الاسم الجديد"
+    },
+    "wa.fmt_date_name": {
+      "type": "option",
+      "msa": "التاريخ ثم الوصف",
+      "eg": "التاريخ وبعده الاسم"
+    },
+    "wa.fmt_date_time_name": {
+      "type": "option",
+      "msa": "التاريخ والوقت ثم الوصف",
+      "eg": "التاريخ والوقت والاسم"
+    },
+    "wa.fmt_date_sender_name": {
+      "type": "option",
+      "msa": "التاريخ والمرسل ثم الوصف",
+      "eg": "التاريخ والمرسل والاسم"
+    },
+    "wa.date_from_label": {
+      "type": "label",
+      "msa": "من تاريخ محدد",
+      "eg": "من تاريخ"
+    },
+    "wa.date_to_label": {
+      "type": "label",
+      "msa": "إلى تاريخ محدد",
+      "eg": "لحد تاريخ"
+    },
+    "wa.opt_include_docs": {
+      "type": "label",
+      "msa": "تضمين المستندات والملفات",
+      "eg": "شمل المستندات والملفات"
+    },
+    "wa.kpi_total": {
+      "type": "label",
+      "msa": "إجمالي الملفات",
+      "eg": "كل الملفات"
+    },
+    "wa.kpi_matched": {
+      "type": "label",
+      "msa": "بتاريخ وكلام مطابق",
+      "eg": "بتاريخ وكلام متطابق"
+    },
+    "wa.kpi_date_only": {
+      "type": "label",
+      "msa": "بتاريخ بدون كلام",
+      "eg": "بتاريخ بدون كلام"
+    },
+    "wa.kpi_unmatched": {
+      "type": "label",
+      "msa": "بدون تطابق",
+      "eg": "بدون تطابق"
+    },
+    "wa.kpi_dup": {
+      "type": "label",
+      "msa": "ملفات مكررة",
+      "eg": "ملفات مكررة"
+    },
+    "wa.kpi_images": {
+      "type": "label",
+      "msa": "الصور",
+      "eg": "الصور"
+    },
+    "wa.kpi_videos": {
+      "type": "label",
+      "msa": "الفيديو",
+      "eg": "الفيديو"
+    },
+    "wa.tab_all": {
+      "type": "tab",
+      "msa": "الكل",
+      "eg": "الكل"
+    },
+    "wa.tab_matched": {
+      "type": "tab",
+      "msa": "بتاريخ وكلام",
+      "eg": "بتاريخ وكلام"
+    },
+    "wa.tab_date_only": {
+      "type": "tab",
+      "msa": "بتاريخ فقط",
+      "eg": "بتاريخ بس"
+    },
+    "wa.tab_unmatched": {
+      "type": "tab",
+      "msa": "بدون تطابق",
+      "eg": "بدون تطابق"
+    },
+    "wa.tab_dup": {
+      "type": "tab",
+      "msa": "المكرر",
+      "eg": "المكرر"
+    },
+    "wa.tab_out_range": {
+      "type": "tab",
+      "msa": "خارج التاريخ المحدد",
+      "eg": "بره التاريخ المحدد"
+    },
+    "wa.tab_excluded": {
+      "type": "tab",
+      "msa": "مستبعد من التغيير",
+      "eg": "مستبعد من التغيير"
+    },
+    "wa.reject_btn": {
+      "type": "btn",
+      "msa": "رفض وإخفاء",
+      "eg": "رفض وإخفاء"
+    },
+    "wa.media_all": {
+      "type": "option",
+      "msa": "كل الأنواع",
+      "eg": "كل الأنواع"
+    },
+    "wa.media_image": {
+      "type": "option",
+      "msa": "صور فقط",
+      "eg": "صور بس"
+    },
+    "wa.media_video": {
+      "type": "option",
+      "msa": "فيديو فقط",
+      "eg": "فيديو بس"
+    },
+    "wa.media_document": {
+      "type": "option",
+      "msa": "مستندات فقط",
+      "eg": "مستندات بس"
+    },
+    "wa.col_include": {
+      "type": "label",
+      "msa": "تضمين",
+      "eg": "تضمين"
+    },
+    "wa.col_preview": {
+      "type": "label",
+      "msa": "الملف والتاريخ",
+      "eg": "الملف والتاريخ"
+    },
+    "wa.col_context": {
+      "type": "label",
+      "msa": "الكلام قبل وبعد",
+      "eg": "الكلام قبل وبعد"
+    },
+    "wa.col_new_name": {
+      "type": "label",
+      "msa": "الاسم الجديد",
+      "eg": "الاسم الجديد"
+    },
+    "wa.col_status": {
+      "type": "label",
+      "msa": "حالة الفصل",
+      "eg": "حالة الفصل"
+    },
+    "wa.ctx_before": {
+      "type": "label",
+      "msa": "قبل الصورة",
+      "eg": "قبلها"
+    },
+    "wa.ctx_caption": {
+      "type": "label",
+      "msa": "تعليق مباشر",
+      "eg": "تعليق الصورة"
+    },
+    "wa.ctx_after": {
+      "type": "label",
+      "msa": "بعد الصورة",
+      "eg": "بعدها"
+    },
+    "wa.status_matched": {
+      "type": "status",
+      "msa": "تاريخ وكلام",
+      "eg": "تاريخ وكلام"
+    },
+    "wa.status_date_only": {
+      "type": "status",
+      "msa": "تاريخ فقط",
+      "eg": "تاريخ بس"
+    },
+    "wa.status_unmatched": {
+      "type": "status",
+      "msa": "بدون تطابق",
+      "eg": "بدون تطابق"
+    },
+    "wa.status_dup": {
+      "type": "status",
+      "msa": "مكرر",
+      "eg": "مكرر"
+    },
+    "wa.status_out_range": {
+      "type": "status",
+      "msa": "خارج الفترة",
+      "eg": "بره التاريخ"
+    },
+    "wa.src_before": {
+      "type": "status",
+      "msa": "مصدر: قبلها",
+      "eg": "من كلام قبلها"
+    },
+    "wa.src_after": {
+      "type": "status",
+      "msa": "مصدر: بعدها",
+      "eg": "من كلام بعدها"
+    },
+    "wa.src_caption": {
+      "type": "status",
+      "msa": "مصدر: تعليق",
+      "eg": "من تعليقها"
+    },
+    "wa.src_combine": {
+      "type": "status",
+      "msa": "مصدر: قبل وبعد",
+      "eg": "دمج قبل وبعد"
+    },
+    "wa.exec_mode_label": {
+      "type": "label",
+      "msa": "طريقة الحفظ",
+      "eg": "طريقة الحفظ"
+    },
+    "wa.mode_in_place": {
+      "type": "option",
+      "msa": "إعادة التسمية في نفس المكان",
+      "eg": "تغيير الاسم في نفس الفولدر"
+    },
+    "wa.mode_copy_date": {
+      "type": "option",
+      "msa": "نسخ مرتب بمجلدات التاريخ",
+      "eg": "نسخ في فولدرات بالتاريخ"
+    },
+    "wa.mode_in_place_tip": {
+      "type": "tip",
+      "msa": "تُعاد تسمية الملفات داخل نفس المجلد مع حفظ تقرير الإكسل وسجل الاسترجاع.",
+      "eg": "بتتغير الأسماء في نفس الفولدر مع حفظ تقرير الإكسل وسجل الرجوع."
+    },
+    "wa.execute_btn": {
+      "type": "btn",
+      "msa": "تنفيذ التسمية والتقرير",
+      "eg": "تنفيذ التسمية والتقرير"
+    },
+    "wa.undo_btn": {
+      "type": "btn",
+      "msa": "استرجاع الأسماء السابقة",
+      "eg": "رجوع للأسماء القديمة"
+    },
+    "wa.ai_btn": {
+      "type": "btn",
+      "msa": "تسمية بالذكاء الاصطناعي",
+      "eg": "تسمية بالذكاء الاصطناعي"
+    },
+    "wa.only_matched_btn": {
+      "type": "btn",
+      "msa": "تضمين المتطابق فقط",
+      "eg": "تحديد المتطابق بس"
+    },
+    "wa.exclude_dup_btn": {
+      "type": "btn",
+      "msa": "استبعاد المكرر",
+      "eg": "استبعاد المكرر"
+    },
+    "wa.reset_names_btn": {
+      "type": "btn",
+      "msa": "تصفير التعديلات",
+      "eg": "رجوع للاقتراح"
+    },
+    "wa.download_report_btn": {
+      "type": "btn",
+      "msa": "تنزيل تقرير الإكسل",
+      "eg": "تنزيل تقرير الإكسل"
+    },
+    "wa.download_zip_btn": {
+      "type": "btn",
+      "msa": "تنزيل الحزمة كاملة",
+      "eg": "تنزيل الملفات مضغوطة"
+    },
+    "wa.open_folder_btn": {
+      "type": "btn",
+      "msa": "مجلد الملفات",
+      "eg": "فولدر الملفات"
+    },
+    "wa.empty_plan": {
+      "type": "empty",
+      "msa": "لا توجد بيانات واتساب مفحوصة في هذا المشروع بعد.",
+      "eg": "مفيش داتا واتساب مفحوصة في المشروع ده لسه."
+    },
+    "wa.scan_done_toast": {
+      "type": "toast",
+      "msa": "اكتمل الفحص: {total} ملف منها {matched} بتاريخ وكلام مطابق.",
+      "eg": "الفحص خلص: {total} ملف منهم {matched} بتاريخ وكلام متطابق."
+    },
+    "wa.exec_done_toast": {
+      "type": "toast",
+      "msa": "تم التنفيذ بنجاح وتوليد تقرير الإكسل ({count} ملفاً).",
+      "eg": "التنفيذ تم واتعمل تقرير الإكسل ({count} ملف)."
+    },
+    "wa.exec_cleared_tip": {
+      "type": "tip",
+      "msa": "صُفّرت الشاشة بعد اكتمال التنفيذ بنجاح؛ التقرير محفوظ في مجلد التقارير.",
+      "eg": "الشاشة اتصفرت بعد التنفيذ بنجاح والتقرير محفوظ في فولدر التقارير."
+    },
+    "wa.clear_btn": {
+      "type": "btn",
+      "msa": "تصفير الشاشة",
+      "eg": "تصفير الشاشة"
+    },
+    "wa.cleared_toast": {
+      "type": "toast",
+      "msa": "تم تصفير الشاشة وتفريغ القائمة الحالية بنجاح.",
+      "eg": "تم تصفير الشاشة وتفريغ القائمة بنجاح."
+    },
+    "wa.undo_done_toast": {
+      "type": "toast",
+      "msa": "تم استرجاع {count} اسماً أصلياً بنجاح.",
+      "eg": "تم ترجيع {count} اسم أصلي بنجاح."
+    },
+    "wa.uploading_prog": {
+      "type": "progress",
+      "msa": "رفع الملفات ({cur}/{total})...",
+      "eg": "بنرفع الملفات ({cur}/{total})..."
+    },
+    "wa.scanning_prog": {
+      "type": "progress",
+      "msa": "تحليل المحادثة ومطابقة التواريخ...",
+      "eg": "بنحلل الشات وبنطابق التواريخ..."
+    },
+    "wa.no_plan_err": {
+      "type": "error",
+      "msa": "لا توجد خطة واتساب نشطة لهذا المشروع. يلزم رفع البيانات أولاً.",
+      "eg": "مفيش خطة واتساب شغالة للمشروع ده. ارفع الداتا الأول."
+    },
+    "wa.no_undo_err": {
+      "type": "error",
+      "msa": "لا يوجد سجل تسمية سابق للاسترجاع.",
+      "eg": "مفيش سجل تسمية قديم يتعمل له رجوع."
+    },
+    "wa.no_files_selected": {
+      "type": "error",
+      "msa": "لم يتم اختيار ملف أو مجلد للفحص.",
+      "eg": "مفيش ملف أو فولدر اتحدد للفحص."
+    },
+    "wa.preview_title": {
+      "type": "title",
+      "msa": "معاينة الملف والتسمية",
+      "eg": "معاينة الملف والاسم"
+    },
+    "wa.preview_btn": {
+      "type": "btn",
+      "msa": "معاينة",
+      "eg": "معاينة"
+    },
+    "wa.kind_image": {
+      "type": "status",
+      "msa": "صورة",
+      "eg": "صورة"
+    },
+    "wa.kind_video": {
+      "type": "status",
+      "msa": "فيديو",
+      "eg": "فيديو"
+    },
+    "wa.kind_document": {
+      "type": "status",
+      "msa": "مستند",
+      "eg": "مستند"
+    },
+    "wa.kind_audio": {
+      "type": "status",
+      "msa": "صوت",
+      "eg": "صوت"
+    },
+    "wa.ai_done_toast": {
+      "type": "toast",
+      "msa": "تمت تسمية {updated} من أصل {total} ملفاً بالذكاء.",
+      "eg": "اتسمى {updated} من أصل {total} ملف بالذكاء."
+    },
+    "wa.ai_none_toast": {
+      "type": "toast",
+      "msa": "لا توجد ملفات تحتاج لتسمية جديدة حالياً.",
+      "eg": "مفيش ملفات محتاجة تسمية جديدة دلوقتي."
+    },
+    "wa.new_name_ph": {
+      "type": "label",
+      "msa": "الاسم الجديد للملف",
+      "eg": "الاسم الجديد للملف"
+    },
+    "wa.no_text_hint": {
+      "type": "status",
+      "msa": "بدون نص",
+      "eg": "بدون كلام"
+    },
+    "wa.recompute_done_toast": {
+      "type": "toast",
+      "msa": "تم تحديث الربط والتسمية لجميع الملفات.",
+      "eg": "تم تحديث الربط والأسماء لكل الملفات."
+    },
+    "wa.upload_ok_toast": {
+      "type": "toast",
+      "msa": "تم رفع {count} ملفاً بنجاح وجاهز للفحص.",
+      "eg": "اترفع {count} ملف بنجاح وجاهزين للفحص."
+    },
+    "wa.chat_msgs_pill": {
+      "type": "status",
+      "msa": "{count} رسالة",
+      "eg": "{count} رسالة"
+    },
+    "nav.duplicates": {
+      "type": "tab",
+      "msa": "المكررات والتشابه",
+      "eg": "المكررات والتشابه"
+    },
+    "dups.title": {
+      "type": "title",
+      "msa": "مراجعة المكررات والتشابه بالمحتوى",
+      "eg": "مراجعة المكررات والتشابه بالمحتوى"
+    },
+    "dups.subtitle": {
+      "type": "tip",
+      "msa": "اكتشاف الصور المتشابهة بصرياً والملفات المتكررة حسب المحتوى الفعلي دون الاعتماد على الاسم.",
+      "eg": "بيكتشف الصور المتشابهة والملفات المتكررة من محتواها الحقيقي مش من الاسم."
+    },
+    "dups.upload_tab": {
+      "type": "tab",
+      "msa": "رفع ملفات أو مجلد",
+      "eg": "رفع ملفات أو فولدر"
+    },
+    "dups.folder_tab": {
+      "type": "tab",
+      "msa": "مجلد على الجهاز",
+      "eg": "فولدر على الجهاز"
+    },
+    "dups.drop_title": {
+      "type": "title",
+      "msa": "سحب الصور والمستندات هنا",
+      "eg": "اسحب الصور والملفات هنا"
+    },
+    "dups.drop_hint": {
+      "type": "tip",
+      "msa": "يتم فحص المحتوى الفعلي وتجاهل أسماء الملفات لاكتشاف التكرار والتشابه البصري.",
+      "eg": "بيفحص المحتوى الحقيقي وبيتجاهل الأسماء عشان يلاقي التكرار والتشابه."
+    },
+    "dups.pick_files_btn": {
+      "type": "btn",
+      "msa": "تحديد ملفات",
+      "eg": "اختار ملفات"
+    },
+    "dups.pick_folder_btn": {
+      "type": "btn",
+      "msa": "تحديد مجلد",
+      "eg": "اختار فولدر"
+    },
+    "dups.local_folder_label": {
+      "type": "label",
+      "msa": "مسار المجلد المراد فحصه",
+      "eg": "مسار الفولدر المطلوب فحصه"
+    },
+    "dups.local_folder_ph": {
+      "type": "label",
+      "msa": "مسار المجلد المحلي",
+      "eg": "مسار الفولدر المحلي"
+    },
+    "dups.use_archive_btn": {
+      "type": "btn",
+      "msa": "أرشيف المشروع",
+      "eg": "أرشيف المشروع"
+    },
+    "dups.use_wa_btn": {
+      "type": "btn",
+      "msa": "مجلد الواتساب",
+      "eg": "فولدر الواتساب"
+    },
+    "dups.scan_btn": {
+      "type": "btn",
+      "msa": "فحص التشابه",
+      "eg": "فحص التشابه"
+    },
+    "dups.scope_label": {
+      "type": "label",
+      "msa": "نطاق الفحص",
+      "eg": "نطاق الفحص"
+    },
+    "dups.scope_all": {
+      "type": "option",
+      "msa": "الكل (صور ومستندات وملفات)",
+      "eg": "الكل (صور ومستندات وملفات)"
+    },
+    "dups.scope_images": {
+      "type": "option",
+      "msa": "الصور فقط (تشابه بصري ومحتوى)",
+      "eg": "الصور بس (تشابه بصري ومحتوى)"
+    },
+    "dups.scope_docs": {
+      "type": "option",
+      "msa": "المستندات والملفات النصية فقط",
+      "eg": "المستندات والملفات النصية بس"
+    },
+    "dups.thresh_label": {
+      "type": "label",
+      "msa": "درجة التشابه المطلوبة",
+      "eg": "نسبة التشابه المطلوبة"
+    },
+    "dups.thresh_100": {
+      "type": "option",
+      "msa": "تطابق تام 100% فقط",
+      "eg": "تطابق تام 100% بس"
+    },
+    "dups.thresh_90": {
+      "type": "option",
+      "msa": "تشابه عالٍ جداً (90%+)",
+      "eg": "تشابه عالي جداً (90%+)"
+    },
+    "dups.thresh_85": {
+      "type": "option",
+      "msa": "تشابه متوازن موصى به (85%+)",
+      "eg": "تشابه متوازن موصى به (85%+)"
+    },
+    "dups.thresh_78": {
+      "type": "option",
+      "msa": "تشابه واسع (78%+)",
+      "eg": "تشابه واسع (78%+)"
+    },
+    "dups.inc_subfolders": {
+      "type": "option",
+      "msa": "تضمين جميع المجلدات الفرعية",
+      "eg": "تشمل كل الفولدرات الفرعية"
+    },
+    "dups.kpi_scanned": {
+      "type": "label",
+      "msa": "ملفات مفحوصة",
+      "eg": "ملفات اتفحصت"
+    },
+    "dups.kpi_groups": {
+      "type": "label",
+      "msa": "مجموعات متشابهة",
+      "eg": "مجموعات متشابهة"
+    },
+    "dups.kpi_exact": {
+      "type": "label",
+      "msa": "تطابق تام بالمحتوى",
+      "eg": "تطابق تام بالمحتوى"
+    },
+    "dups.kpi_visual": {
+      "type": "label",
+      "msa": "صور متشابهة بصرياً",
+      "eg": "صور متشابهة بالشكل"
+    },
+    "dups.kpi_doc": {
+      "type": "label",
+      "msa": "مستندات متشابهة بالمحتوى",
+      "eg": "مستندات متشابهة بالمحتوى"
+    },
+    "dups.kpi_savable": {
+      "type": "label",
+      "msa": "المساحة الممكن توفيرها",
+      "eg": "المساحة اللي هتتوفر"
+    },
+    "dups.filter_all": {
+      "type": "tab",
+      "msa": "كل المجموعات",
+      "eg": "كل المجموعات"
+    },
+    "dups.filter_exact": {
+      "type": "tab",
+      "msa": "تطابق تام",
+      "eg": "تطابق تام"
+    },
+    "dups.filter_visual": {
+      "type": "tab",
+      "msa": "صور متشابهة",
+      "eg": "صور متشابهة"
+    },
+    "dups.filter_doc": {
+      "type": "tab",
+      "msa": "ملفات متشابهة",
+      "eg": "ملفات متشابهة"
+    },
+    "dups.select_dups_btn": {
+      "type": "btn",
+      "msa": "تحديد المكررات",
+      "eg": "تحديد المكررات"
+    },
+    "dups.clear_sel_btn": {
+      "type": "btn",
+      "msa": "إلغاء التحديد",
+      "eg": "إلغاء التحديد"
+    },
+    "dups.search_ph": {
+      "type": "label",
+      "msa": "بحث داخل المجموعات...",
+      "eg": "بحث جوا المجموعات..."
+    },
+    "dups.kind_exact": {
+      "type": "status",
+      "msa": "تطابق تام بالمحتوى",
+      "eg": "تطابق تام بالمحتوى"
+    },
+    "dups.kind_visual": {
+      "type": "status",
+      "msa": "تشابه بصري بالصورة",
+      "eg": "تشابه بصري بالصورة"
+    },
+    "dups.kind_doc": {
+      "type": "status",
+      "msa": "تشابه بمحتوى الملف",
+      "eg": "تشابه بمحتوى الملف"
+    },
+    "dups.role_original": {
+      "type": "status",
+      "msa": "الأصل (احتفاظ)",
+      "eg": "الأصل (احتفاظ)"
+    },
+    "dups.role_duplicate": {
+      "type": "status",
+      "msa": "نسخة مكررة",
+      "eg": "نسخة مكررة"
+    },
+    "dups.decision_keep": {
+      "type": "status",
+      "msa": "احتفاظ بالنسخة",
+      "eg": "احتفاظ بالنسخة"
+    },
+    "dups.decision_exclude": {
+      "type": "status",
+      "msa": "محدد للاستبعاد",
+      "eg": "متحدد للاستبعاد"
+    },
+    "dups.set_original_btn": {
+      "type": "btn",
+      "msa": "تعيين كأصل",
+      "eg": "تعيين كأصل"
+    },
+    "dups.keep_btn": {
+      "type": "btn",
+      "msa": "احتفاظ",
+      "eg": "احتفاظ"
+    },
+    "dups.exclude_btn": {
+      "type": "btn",
+      "msa": "استبعاد للعزل",
+      "eg": "استبعاد للعزل"
+    },
+    "dups.keep_all_hide_btn": {
+      "type": "btn",
+      "msa": "احتفاظ بالكل وإخفاء",
+      "eg": "احتفاظ بالكل وإخفاء"
+    },
+    "dups.filter_reviewed": {
+      "type": "tab",
+      "msa": "تمت مراجعتها",
+      "eg": "تمت مراجعتها"
+    },
+    "dups.reopen_btn": {
+      "type": "btn",
+      "msa": "إعادة للعرض",
+      "eg": "رجوع للعرض"
+    },
+    "dups.kept_hidden_toast": {
+      "type": "toast",
+      "msa": "تم إخفاء المجموعة مع الاحتفاظ بكل الملفات",
+      "eg": "تم إخفاء المجموعة والاحتفاظ بكل الملفات"
+    },
+    "dups.preview_btn": {
+      "type": "btn",
+      "msa": "معاينة",
+      "eg": "معاينة"
+    },
+    "dups.exec_mode_label": {
+      "type": "label",
+      "msa": "إجراء التنفيذ",
+      "eg": "طريقة التنفيذ"
+    },
+    "dups.mode_quarantine": {
+      "type": "option",
+      "msa": "عزل المكررات في مجلد آمن",
+      "eg": "نقل المكررات لفولدر العزل الآمن"
+    },
+    "dups.mode_zip": {
+      "type": "option",
+      "msa": "تصدير الفريدين فقط في ملف مضغوط",
+      "eg": "تصدير الفريدين بس في ملف مضغوط"
+    },
+    "dups.mode_delete": {
+      "type": "option",
+      "msa": "حذف المكررات نهائياً من القرص",
+      "eg": "مسح المكررات نهائياً من الجهاز"
+    },
+    "dups.execute_btn": {
+      "type": "btn",
+      "msa": "تنفيذ الإجراء",
+      "eg": "تنفيذ الإجراء"
+    },
+    "dups.undo_btn": {
+      "type": "btn",
+      "msa": "استرجاع المعزول",
+      "eg": "ترجيع المعزول"
+    },
+    "dups.clear_btn": {
+      "type": "btn",
+      "msa": "تصفير الشاشة",
+      "eg": "تصفير الشاشة"
+    },
+    "dups.open_quarantine_btn": {
+      "type": "btn",
+      "msa": "مجلد العزل",
+      "eg": "فولدر العزل"
+    },
+    "dups.open_source_btn": {
+      "type": "btn",
+      "msa": "فتح المجلد",
+      "eg": "فتح الفولدر"
+    },
+    "dups.download_report_btn": {
+      "type": "btn",
+      "msa": "تقرير Excel",
+      "eg": "تقرير Excel"
+    },
+    "dups.download_zip_btn": {
+      "type": "btn",
+      "msa": "تنزيل الفريدين",
+      "eg": "تحميل الفريدين"
+    },
+    "dups.empty_plan": {
+      "type": "empty",
+      "msa": "لا توجد مراجعة مكررات حالياً؛ الفحص متاح من الأعلى.",
+      "eg": "مفيش مراجعة مكررات دلوقتي؛ الفحص متاح من فوق."
+    },
+    "dups.no_dups_found": {
+      "type": "empty",
+      "msa": "لم يتم العثور على مكررات أو ملفات متشابهة.",
+      "eg": "مفيش مكررات أو ملفات متشابهة."
+    },
+    "dups.uploading_prog": {
+      "type": "progress",
+      "msa": "رفع الملفات ({cur}/{total})...",
+      "eg": "بنرفع الملفات ({cur}/{total})..."
+    },
+    "dups.scanning_prog": {
+      "type": "progress",
+      "msa": "فحص التشابه بالمحتوى...",
+      "eg": "بنفحص التشابه بالمحتوى..."
+    },
+    "dups.scan_done_toast": {
+      "type": "toast",
+      "msa": "اكتمل الفحص: {groups} مجموعة تشابه من {total} ملفاً.",
+      "eg": "الفحص خلص: {groups} مجموعة تشابه من {total} ملف."
+    },
+    "dups.exec_done_toast": {
+      "type": "toast",
+      "msa": "تمت معالجة {count} ملفاً وتوفير {saved} وتوليد التقرير.",
+      "eg": "تمت معالجة {count} ملف وتوفير {saved} واتعمل التقرير."
+    },
+    "dups.exec_cleared_tip": {
+      "type": "tip",
+      "msa": "صُفّرت الشاشة بعد التنفيذ بنجاح؛ التقرير محفوظ في مجلد التقارير.",
+      "eg": "الشاشة اتصفرت بعد التنفيذ بنجاح والتقرير محفوظ في فولدر التقارير."
+    },
+    "dups.undo_done_toast": {
+      "type": "toast",
+      "msa": "تم استرجاع {count} ملفاً معزولاً إلى موضعها الأصلي.",
+      "eg": "تم ترجيع {count} ملف معزول لمكانه الأصلي."
+    },
+    "dups.cleared_toast": {
+      "type": "toast",
+      "msa": "تم تصفير الشاشة وتفريغ مراجعة المكررات بنجاح.",
+      "eg": "تم تصفير الشاشة وتفريغ مراجعة المكررات بنجاح."
+    },
+    "dups.delete_confirm": {
+      "type": "confirm",
+      "msa": "سيتم حذف {count} ملفاً مكرراً نهائياً مع إبقاء النسخ الأصلية فقط. المتابعة للحذف النهائي؟",
+      "eg": "هيتم مسح {count} ملف مكرر نهائياً وهتفضل النسخ الأصلية بس. متأكد من الحذف النهائي؟"
+    },
+    "dups.confirm_delete_required": {
+      "type": "error",
+      "msa": "يلزم تأكيد الحذف النهائي قبل إزالة الملفات من القرص.",
+      "eg": "لازم تأكيد المسح النهائي قبل حذف الملفات من الجهاز."
+    },
+    "dups.no_plan_err": {
+      "type": "error",
+      "msa": "لا توجد خطة مكررات نشطة؛ يلزم الفحص أولاً.",
+      "eg": "مفيش خطة مكررات شغالة؛ لازم تفحص الأول."
+    },
+    "dups.no_undo_err": {
+      "type": "error",
+      "msa": "لا يوجد سجل عزل سابق للاسترجاع.",
+      "eg": "مفيش سجل عزل قديم يتعمل له رجوع."
+    },
+    "dups.no_files_selected": {
+      "type": "error",
+      "msa": "لم يتم تحديد ملفات أو مجلد للفحص.",
+      "eg": "مفيش ملفات أو فولدر اتحدد للفحص."
+    },
+    "dups.source_missing_err": {
+      "type": "error",
+      "msa": "المجلد المحدد غير موجود أو يتعذر الوصول إليه.",
+      "eg": "الفولدر المتحدد مش موجود أو مش قادر أوصل له."
+    },
+    "dups.zip_unsafe_err": {
+      "type": "error",
+      "msa": "المسار داخل الملف المضغوط غير آمن وتم حظره.",
+      "eg": "المسار جوا الملف المضغوط مش آمن واتحظر."
+    },
+    "dups.zip_too_large_err": {
+      "type": "error",
+      "msa": "حجم الملف المضغوط أو عدد عناصره يتجاوز الحد المسموح.",
+      "eg": "حجم الملف المضغوط أو عدد ملفاته أكبر من المسموح."
+    },
+    "dups.group_label": {
+      "type": "label",
+      "msa": "مجموعة #{num}",
+      "eg": "مجموعة #{num}"
+    },
+    "dups.files_count_lbl": {
+      "type": "label",
+      "msa": "{count} ملفات متشابهة",
+      "eg": "{count} ملفات متشابهة"
+    },
+    "dups.similarity_lbl": {
+      "type": "status",
+      "msa": "تشابه {pct}%",
+      "eg": "تشابه {pct}%"
+    },
+    "dups.savable_lbl": {
+      "type": "label",
+      "msa": "توفير {size}",
+      "eg": "توفير {size}"
+    },
+    "dups.preview_title": {
+      "type": "title",
+      "msa": "معاينة مقارنة الملف",
+      "eg": "معاينة مقارنة الملف"
+    },
+    "jobs.stopped_by_user": {
+      "type": "toast",
+      "msa": "تم إيقاف العملية يدوياً.",
+      "eg": "العملية اتوقفت يدوي."
+    },
+    "jobs.running_badge": {
+      "type": "status",
+      "msa": "يعمل الآن",
+      "eg": "شغّال دلوقتي"
+    },
+    "jobs.done_badge": {
+      "type": "status",
+      "msa": "اكتمل بنجاح",
+      "eg": "خلص بنجاح"
+    },
+    "jobs.error_badge": {
+      "type": "status",
+      "msa": "توقّف بسبب خطأ",
+      "eg": "وقف بسبب غلطة"
+    },
+    "jobs.stopped_badge": {
+      "type": "status",
+      "msa": "متوقف يدوياً",
+      "eg": "اتوقف يدوي"
+    },
+    "jobs.offline_badge": {
+      "type": "status",
+      "msa": "الاتصال بالبرنامج مقطوع",
+      "eg": "الاتصال بالبرنامج مقطوع"
+    },
+    "jobs.offline_error": {
+      "type": "error",
+      "msa": "تعذّر الاتصال بالبرنامج. يلزم التحقق أن نافذة البرنامج ما زالت مفتوحة ثم إعادة المحاولة.",
+      "eg": "مش قادر أوصل للبرنامج. اتأكد إن نافذة البرنامج لسه مفتوحة وحاول تاني."
+    },
+    "jobs.timeout_error": {
+      "type": "error",
+      "msa": "انتهت مهلة انتظار الاستجابة. قد تكون العملية ثقيلة أو البرنامج متوقفاً.",
+      "eg": "الانتظار طول من غير رد. العملية ممكن تكون تقيلة أو البرنامج وقف."
+    },
+    "jobs.phase_walking": {
+      "type": "status",
+      "msa": "حصر الملفات",
+      "eg": "تجميع الملفات"
+    },
+    "jobs.phase_extracting": {
+      "type": "status",
+      "msa": "فك الأرشيف",
+      "eg": "فك الملف المضغوط"
+    },
+    "jobs.phase_hashing": {
+      "type": "status",
+      "msa": "فحص التطابق التام",
+      "eg": "فحص التطابق التام"
+    },
+    "jobs.phase_analyzing": {
+      "type": "status",
+      "msa": "تحليل المحتوى",
+      "eg": "تحليل المحتوى"
+    },
+    "jobs.phase_comparing": {
+      "type": "status",
+      "msa": "مقارنة التشابه",
+      "eg": "مقارنة التشابه"
+    },
+    "jobs.phase_executing": {
+      "type": "status",
+      "msa": "تنفيذ الخطة",
+      "eg": "تنفيذ الخطة"
+    },
+    "jobs.phase_ai_renaming": {
+      "type": "status",
+      "msa": "التسمية بالذكاء",
+      "eg": "التسمية بالذكاء"
+    },
+    "jobs.phase_scanning": {
+      "type": "status",
+      "msa": "فحص المجلد",
+      "eg": "فحص المجلد"
+    },
+    "jobs.phase_uploading": {
+      "type": "status",
+      "msa": "رفع الملفات",
+      "eg": "رفع الملفات"
+    },
+    "jobs.kind_dup_scan": {
+      "type": "label",
+      "msa": "فحص التشابه بالمحتوى",
+      "eg": "فحص التشابه بالمحتوى"
+    },
+    "jobs.kind_dup_exec": {
+      "type": "label",
+      "msa": "تنفيذ خطة المكررات",
+      "eg": "تنفيذ خطة المكررات"
+    },
+    "jobs.kind_wa_scan": {
+      "type": "label",
+      "msa": "فحص أرشيف واتساب",
+      "eg": "فحص أرشيف واتساب"
+    },
+    "jobs.kind_wa_ai": {
+      "type": "label",
+      "msa": "تسمية واتساب بالذكاء",
+      "eg": "تسمية واتساب بالذكاء"
+    },
+    "jobs.kind_wa_exec": {
+      "type": "label",
+      "msa": "تنفيذ أرشفة واتساب",
+      "eg": "تنفيذ أرشفة واتساب"
+    },
+    "jobs.kind_scanner": {
+      "type": "label",
+      "msa": "فحص مجلد الإدخال",
+      "eg": "فحص مجلد الإدخال"
+    },
+    "jobs.kind_inbox_sync": {
+      "type": "label",
+      "msa": "مزامنة السكانر التلقائية",
+      "eg": "مزامنة السكانر"
+    },
+    "jobs.kind_org_scan": {
+      "type": "label",
+      "msa": "فحص تنظيم المشروع",
+      "eg": "فحص تنظيم المشروع"
+    },
+    "jobs.kind_org_exec": {
+      "type": "label",
+      "msa": "تنفيذ تنظيم المشروع",
+      "eg": "تنفيذ تنظيم المشروع"
+    },
+    "jobs.kind_org_ai": {
+      "type": "label",
+      "msa": "تسمية المشروع بالذكاء",
+      "eg": "تسمية المشروع بالذكاء"
+    },
+    "jobs.stat_progress": {
+      "type": "label",
+      "msa": "الإنجاز",
+      "eg": "الإنجاز"
+    },
+    "jobs.stat_elapsed": {
+      "type": "label",
+      "msa": "الوقت المنقضي",
+      "eg": "الوقت اللي فات"
+    },
+    "jobs.stat_discovered": {
+      "type": "label",
+      "msa": "ملفات مكتشفة",
+      "eg": "ملفات اتلاقت"
+    },
+    "jobs.current_file": {
+      "type": "label",
+      "msa": "الملف الحالي",
+      "eg": "الملف الحالي"
+    },
+    "jobs.stop_btn": {
+      "type": "btn",
+      "msa": "إيقاف",
+      "eg": "إيقاف"
+    },
+    "jobs.dismiss_btn": {
+      "type": "btn",
+      "msa": "إخفاء",
+      "eg": "إخفاء"
+    },
+    "jobs.busy_wait": {
+      "type": "progress",
+      "msa": "جارٍ التنفيذ...",
+      "eg": "شغّال دلوقتي..."
+    },
+    "jobs.summary_done_generic": {
+      "type": "toast",
+      "msa": "انتهت العملية بنجاح خلال {elapsed}.",
+      "eg": "العملية خلصت بنجاح في {elapsed}."
+    },
+    "jobs.summary_stopped": {
+      "type": "toast",
+      "msa": "توقفت العملية قبل الاكتمال.",
+      "eg": "العملية وقفت قبل ما تخلص."
+    },
+    "jobs.topbar_running": {
+      "type": "progress",
+      "msa": "{label}: {pct}",
+      "eg": "{label}: {pct}"
+    },
+    "jobs.topbar_done": {
+      "type": "status",
+      "msa": "انتهى: {label}",
+      "eg": "خلص: {label}"
+    },
+    "jobs.topbar_err": {
+      "type": "status",
+      "msa": "فشل: {label}",
+      "eg": "فشل: {label}"
+    },
+    "dups.no_items_to_exec_err": {
+      "type": "error",
+      "msa": "لا توجد ملفات محددة لتنفيذها.",
+      "eg": "مفيش ملفات محددة تتنفذ."
+    },
+    "dups.exec_required_zip_err": {
+      "type": "error",
+      "msa": "نفّذ الخطة أولاً لتجهيز حزمة المخرجات.",
+      "eg": "نفّذ الخطة الأول عشان حزمة المخرجات تتجهز."
+    },
+    "wa.no_items_to_exec_err": {
+      "type": "error",
+      "msa": "لا توجد ملفات جاهزة لتنفيذها.",
+      "eg": "مفيش ملفات جاهزة تتنفذ."
+    },
+    "wa.exec_required_zip_err": {
+      "type": "error",
+      "msa": "نفّذ الأرشفة أولاً لتجهيز حزمة المخرجات.",
+      "eg": "نفّذ الأرشفة الأول عشان حزمة المخرجات تتجهز."
+    },
+    "organizer.no_items_to_exec_err": {
+      "type": "error",
+      "msa": "لا توجد ملفات مضمنة لتنفيذها.",
+      "eg": "مفيش ملفات مضمنة تتنفذ."
+    },
+    "organizer.pdf_split_out_hdr": {
+      "type": "label",
+      "msa": "ملفات التقسيم الناتجة",
+      "eg": "الملفات اللي اتقسمت"
+    },
+    "organizer.pdf_merge_out_hdr": {
+      "type": "label",
+      "msa": "الملف المدموج الناتج",
+      "eg": "الملف المدموج اللي طلع"
+    },
+    "organizer.pdf_download_btn": {
+      "type": "btn",
+      "msa": "تحميل الملف",
+      "eg": "نزّل الملف"
+    },
+    "organizer.pdf_empty_err": {
+      "type": "error",
+      "msa": "تعذر إنتاج ملفات صالحة.",
+      "eg": "ما اتعملتش ملفات سليمة."
+    },
+    "nav.global_search": {
+      "type": "btn",
+      "msa": "بحث شامل",
+      "eg": "بحث شامل"
+    },
+    "search.title": {
+      "type": "title",
+      "msa": "البحث الشامل الموحد",
+      "eg": "البحث الشامل الموحد"
+    },
+    "search.subtitle": {
+      "type": "tip",
+      "msa": "بحث سريع في السجلات والكتب والأرشيف والواتساب عبر المشاريع",
+      "eg": "تدوير سريع في اللوج والكتب والأرشيف والواتساب عبر المشاريع"
+    },
+    "search.placeholder": {
+      "type": "label",
+      "msa": "بحث بالمرجع أو الموضوع",
+      "eg": "تدوير بالمرجع أو الموضوع"
+    },
+    "search.all_projects": {
+      "type": "option",
+      "msa": "كل المشاريع المفعلة",
+      "eg": "كل المشاريع الشغالة"
+    },
+    "search.scope_label": {
+      "type": "label",
+      "msa": "نطاق البحث",
+      "eg": "مجال البحث"
+    },
+    "search.kind_all": {
+      "type": "btn",
+      "msa": "الكل",
+      "eg": "الكل"
+    },
+    "search.kind_log": {
+      "type": "btn",
+      "msa": "سجلات وكتب",
+      "eg": "اللوج والكتب"
+    },
+    "search.kind_archive": {
+      "type": "btn",
+      "msa": "ملفات الأرشيف",
+      "eg": "ملفات الأرشيف"
+    },
+    "search.kind_whatsapp": {
+      "type": "btn",
+      "msa": "أرشيف الواتساب",
+      "eg": "أرشيف الواتساب"
+    },
+    "search.empty": {
+      "type": "empty",
+      "msa": "لا توجد نتائج مطابقة لكلمة البحث.",
+      "eg": "مفيش نتايج مطابقة لكلمة البحث."
+    },
+    "search.prompt_empty": {
+      "type": "empty",
+      "msa": "كتابة كلمة البحث أعلاه للبدء.",
+      "eg": "يتكتب اسم أو رقم فوق للبدء."
+    },
+    "search.count_label": {
+      "type": "status",
+      "msa": "{count} نتيجة مطابقة",
+      "eg": "{count} نتيجة مطابقة"
+    },
+    "search.col_project": {
+      "type": "label",
+      "msa": "المشروع",
+      "eg": "المشروع"
+    },
+    "search.col_source": {
+      "type": "label",
+      "msa": "المصدر",
+      "eg": "المصدر"
+    },
+    "search.col_item": {
+      "type": "label",
+      "msa": "المرجع والملف",
+      "eg": "المرجع والملف"
+    },
+    "search.col_details": {
+      "type": "label",
+      "msa": "التفاصيل",
+      "eg": "التفاصيل"
+    },
+    "search.jump_btn": {
+      "type": "btn",
+      "msa": "عرض المشروع",
+      "eg": "عرض المشروع"
+    },
+    "issue.also_pdf": {
+      "type": "label",
+      "msa": "إصدار نسخة PDF للطباعة",
+      "eg": "تجهيز نسخة PDF للطباعة"
+    },
+    "issue.merge_attach": {
+      "type": "label",
+      "msa": "دمج مرفقات PDF وصور",
+      "eg": "دمج مرفقات PDF وصور"
+    },
+    "issue.merge_attach_hint": {
+      "type": "tip",
+      "msa": "تُدمج الملفات المحددة بعد صفحات النموذج في ملف PDF موحد",
+      "eg": "الملفات المحددة بتتدمج بعد النموذج في ملف PDF واحد"
+    },
+    "issue.attach_count": {
+      "type": "status",
+      "msa": "{count} مرفق للدمج",
+      "eg": "{count} مرفق للدمج"
+    },
+    "issue.download_pdf_btn": {
+      "type": "btn",
+      "msa": "تنزيل PDF الجاهز",
+      "eg": "تنزيل PDF الجاهز"
+    },
+    "issue.preview_pdf_btn": {
+      "type": "btn",
+      "msa": "معاينة PDF",
+      "eg": "معاينة PDF"
+    },
+    "issue.send_wa_btn": {
+      "type": "btn",
+      "msa": "إرسال واتساب",
+      "eg": "بعت واتساب"
+    },
+    "issue.pdf_pages_badge": {
+      "type": "status",
+      "msa": "PDF ({pages} صفحة)",
+      "eg": "PDF ({pages} صفحة)"
+    },
+    "issue.wa_prefill_msg": {
+      "type": "tip",
+      "msa": "تحية طيبة، مرفق {ref} — {subject} لمشروع {project}.",
+      "eg": "مساء الخير، مرفق {ref} — {subject} لمشروع {project}."
+    },
+    "weekly.btn": {
+      "type": "btn",
+      "msa": "تقرير أسبوعي",
+      "eg": "تقرير أسبوعي"
+    },
+    "weekly.title": {
+      "type": "title",
+      "msa": "تقرير المتابعة الأسبوعي",
+      "eg": "تقرير المتابعة الأسبوعي"
+    },
+    "weekly.generating": {
+      "type": "progress",
+      "msa": "جاري تجهيز التقرير الأسبوعي...",
+      "eg": "بيجهز التقرير الأسبوعي..."
+    },
+    "weekly.kpi_overdue": {
+      "type": "label",
+      "msa": "متأخرات الاستشاري والوزارة",
+      "eg": "متأخرات الاستشاري والوزارة"
+    },
+    "weekly.kpi_unreplied": {
+      "type": "label",
+      "msa": "وارد بلا رد",
+      "eg": "وارد من غير رد"
+    },
+    "weekly.kpi_recent7d": {
+      "type": "label",
+      "msa": "مستندات آخر 7 أيام",
+      "eg": "مستندات آخر 7 أيام"
+    },
+    "weekly.kpi_rejected": {
+      "type": "label",
+      "msa": "مرفوضات وإعادة تقديم",
+      "eg": "مرفوضات وإعادة تقديم"
+    },
+    "weekly.tab_overdue": {
+      "type": "tab",
+      "msa": "المتأخرات ({count})",
+      "eg": "المتأخرات ({count})"
+    },
+    "weekly.tab_unreplied": {
+      "type": "tab",
+      "msa": "وارد بلا رد ({count})",
+      "eg": "وارد بلا رد ({count})"
+    },
+    "weekly.tab_recent7d": {
+      "type": "tab",
+      "msa": "آخر 7 أيام ({count})",
+      "eg": "آخر 7 أيام ({count})"
+    },
+    "weekly.col_delay": {
+      "type": "label",
+      "msa": "أيام التأخير",
+      "eg": "أيام التأخير"
+    },
+    "weekly.col_waiting": {
+      "type": "label",
+      "msa": "أيام الانتظار",
+      "eg": "أيام الانتظار"
+    },
+    "weekly.col_source": {
+      "type": "label",
+      "msa": "التصنيف",
+      "eg": "التصنيف"
+    },
+    "weekly.download_excel": {
+      "type": "btn",
+      "msa": "تنزيل Excel",
+      "eg": "تنزيل Excel"
+    },
+    "weekly.download_pdf": {
+      "type": "btn",
+      "msa": "تنزيل PDF",
+      "eg": "تنزيل PDF"
+    },
+    "weekly.preview_pdf": {
+      "type": "btn",
+      "msa": "معاينة PDF",
+      "eg": "معاينة PDF"
+    },
+    "weekly.send_wa": {
+      "type": "btn",
+      "msa": "مشاركة واتساب",
+      "eg": "بعت واتساب"
+    },
+    "weekly.empty_bucket": {
+      "type": "empty",
+      "msa": "لا توجد بنود مسجلة في هذا البند.",
+      "eg": "مفيش بنود متسجلة في البند ده."
+    },
+    "weekly.wa_summary": {
+      "type": "tip",
+      "msa": "ملخص أسبوعي لمشروع {project}: {overdue} متأخر، {unreplied} وارد معلق، {recent} مضاف.",
+      "eg": "ملخص أسبوعي لمشروع {project}: {overdue} متأخر، {unreplied} وارد معلق، {recent} مضاف."
+    },
+    "doc_preview.btn": {
+      "type": "btn",
+      "msa": "معاينة",
+      "eg": "معاينة"
+    },
+    "doc_preview.title": {
+      "type": "title",
+      "msa": "معاينة المستند",
+      "eg": "معاينة المستند"
+    },
+    "doc_preview.loading": {
+      "type": "progress",
+      "msa": "جاري تحميل الصفحات...",
+      "eg": "بيحمل الصفحات..."
+    },
+    "doc_preview.page_of": {
+      "type": "status",
+      "msa": "صفحة {page} من {total}",
+      "eg": "صفحة {page} من {total}"
+    },
+    "doc_preview.prev_btn": {
+      "type": "btn",
+      "msa": "السابقة",
+      "eg": "اللي قبلها"
+    },
+    "doc_preview.next_btn": {
+      "type": "btn",
+      "msa": "التالية",
+      "eg": "اللي بعدها"
+    },
+    "doc_preview.download_btn": {
+      "type": "btn",
+      "msa": "تنزيل الملف",
+      "eg": "تنزيل الملف"
+    },
+    "doc_preview.unsupported": {
+      "type": "warn",
+      "msa": "تعذرت المعاينة المباشرة، يتاح تنزيل الملف وفتحه على الجهاز.",
+      "eg": "المعاينة المباشرة مش متاحة، تقدر تنزل الملف وتفتحه ع الجهاز."
+    },
+    "doc_preview.pymupdf_needed": {
+      "type": "warn",
+      "msa": "لمعاينة PDF داخل الشاشة يلزم مكون قراءة PDF أو تنزيل الملف.",
+      "eg": "عشان تعاين PDF جوه الشاشة لازم مكون قراءة PDF أو تنزل الملف."
+    },
+    "backup.badge_ok": {
+      "type": "status",
+      "msa": "محمي منذ {days} يوم",
+      "eg": "محمي من {days} يوم"
+    },
+    "backup.badge_today": {
+      "type": "status",
+      "msa": "نسخة احتياطية اليوم",
+      "eg": "نسخة احتياطية النهاردة"
+    },
+    "backup.badge_overdue": {
+      "type": "status",
+      "msa": "نسخ متأخر ({days} يوم)",
+      "eg": "نسخ متأخر ({days} يوم)"
+    },
+    "backup.badge_never": {
+      "type": "status",
+      "msa": "بلا نسخة احتياطية",
+      "eg": "من غير نسخة احتياطية"
+    },
+    "backup.drive_linked": {
+      "type": "status",
+      "msa": "Google Drive مرتبط",
+      "eg": "Google Drive متوصل"
+    },
+    "backup.now_btn": {
+      "type": "btn",
+      "msa": "نسخ الآن",
+      "eg": "نسخ دلوقتي"
+    },
+    "backup.done_toast": {
+      "type": "toast",
+      "msa": "تم حفظ نسخة احتياطية جديدة للمشروع.",
+      "eg": "اتحفظت نسخة احتياطية جديدة للمشروع."
+    },
+    "backup.cloud_detected_label": {
+      "type": "label",
+      "msa": "مجلدات سحابية مكتشفة",
+      "eg": "فولدرات سحابية موجودة"
+    },
+    "backup.use_drive_btn": {
+      "type": "btn",
+      "msa": "ربط Drive",
+      "eg": "توصيل Drive"
+    },
+    "backup.quick_setup_tip": {
+      "type": "tip",
+      "msa": "حفظ مسار Google Drive يتيح نسخاً تلقائياً عند إنهاء العمل",
+      "eg": "حفظ مسار Google Drive بيخليه ينسخ أوتوماتيك مع كل قفل شغل"
+    },
+    "backup.auto_on_end": {
+      "type": "label",
+      "msa": "نسخ سحابي عند الإنهاء",
+      "eg": "نسخ سحابي وقت القفل"
+    },
+    "backup.drive_saved_toast": {
+      "type": "toast",
+      "msa": "تم ربط مجلد النسخ السحابي بنجاح.",
+      "eg": "اتوصل فولدر النسخ السحابي بنجاح."
+    },
+    "taskbar.today_btn": {
+      "type": "btn",
+      "msa": "مهام اليوم",
+      "eg": "مهام النهارده"
+    },
+    "taskbar.quick_add_btn": {
+      "type": "btn",
+      "msa": "مهمة سريعة",
+      "eg": "مهمة سريعة"
+    },
+    "taskbar.pin_here_btn": {
+      "type": "btn",
+      "msa": "تثبيت الشاشة",
+      "eg": "تثبيت الشاشة"
+    },
+    "taskbar.pin_doc_btn": {
+      "type": "btn",
+      "msa": "تثبيت",
+      "eg": "تثبيت"
+    },
+    "taskbar.hide_btn": {
+      "type": "btn",
+      "msa": "إخفاء الشريط",
+      "eg": "خفي الشريط"
+    },
+    "taskbar.show_btn": {
+      "type": "btn",
+      "msa": "إظهار المهام",
+      "eg": "إظهار المهام"
+    },
+    "taskbar.cmd_btn": {
+      "type": "btn",
+      "msa": "أوامر سريعة",
+      "eg": "أوامر سريعة"
+    },
+    "taskbar.add_submit_btn": {
+      "type": "btn",
+      "msa": "إضافة المهمة",
+      "eg": "إضافة المهمة"
+    },
+    "taskbar.snooze_today_btn": {
+      "type": "btn",
+      "msa": "إخفاء اليوم",
+      "eg": "تأجيل لبكرة"
+    },
+    "taskbar.mark_done_btn": {
+      "type": "btn",
+      "msa": "إنجاز المهمة",
+      "eg": "خلصت"
+    },
+    "taskbar.reopen_btn": {
+      "type": "btn",
+      "msa": "إعادة فتح",
+      "eg": "إعادة فتح"
+    },
+    "taskbar.delete_task_btn": {
+      "type": "btn",
+      "msa": "حذف",
+      "eg": "حذف"
+    },
+    "taskbar.open_item_btn": {
+      "type": "btn",
+      "msa": "انتقال",
+      "eg": "فتح"
+    },
+    "taskbar.drawer_title": {
+      "type": "title",
+      "msa": "مهام اليوم والمتابعة",
+      "eg": "مهام اليوم والمتابعة"
+    },
+    "taskbar.cmd_title": {
+      "type": "title",
+      "msa": "لوحة الأوامر السريعة",
+      "eg": "الأوامر السريعة"
+    },
+    "taskbar.tab_focus": {
+      "type": "tab",
+      "msa": "التركيز الآن",
+      "eg": "المهم النهارده"
+    },
+    "taskbar.tab_auto": {
+      "type": "tab",
+      "msa": "متابعات المشاريع",
+      "eg": "متابعة المشاريع"
+    },
+    "taskbar.tab_manual": {
+      "type": "tab",
+      "msa": "مهامي الشخصية",
+      "eg": "مهامي الخاصة"
+    },
+    "taskbar.tray_label": {
+      "type": "label",
+      "msa": "صينية العمل المثبتة",
+      "eg": "شغل مفتوح دلوقتي"
+    },
+    "taskbar.all_projects_opt": {
+      "type": "option",
+      "msa": "كل المشاريع",
+      "eg": "كل المشاريع"
+    },
+    "taskbar.no_project_opt": {
+      "type": "option",
+      "msa": "مهمة عامة بدون مشروع",
+      "eg": "مهمة عامة برا المشاريع"
+    },
+    "taskbar.title_ph": {
+      "type": "label",
+      "msa": "مهمة سريعة مع #عاجل",
+      "eg": "اكتب مهمة ومعاها #عاجل"
+    },
+    "taskbar.cmd_ph": {
+      "type": "label",
+      "msa": "بحث مشروع أو شاشة",
+      "eg": "بحث مشروع أو شاشة"
+    },
+    "taskbar.prio_urgent": {
+      "type": "status",
+      "msa": "عاجل",
+      "eg": "عاجل"
+    },
+    "taskbar.prio_normal": {
+      "type": "status",
+      "msa": "عادي",
+      "eg": "عادي"
+    },
+    "taskbar.prio_low": {
+      "type": "status",
+      "msa": "منخفض",
+      "eg": "بسيط"
+    },
+    "taskbar.show_done_lbl": {
+      "type": "label",
+      "msa": "إظهار المهام المكتملة",
+      "eg": "إظهار المهام الخلصانة"
+    },
+    "taskbar.kind_rejected": {
+      "type": "status",
+      "msa": "مرفوض يحتاج مراجعة",
+      "eg": "مرفوض ومحتاج تعديل"
+    },
+    "taskbar.kind_unreplied": {
+      "type": "status",
+      "msa": "كتاب وارد بلا رد",
+      "eg": "جواب وارد بدون رد"
+    },
+    "taskbar.kind_overdue": {
+      "type": "status",
+      "msa": "اعتماد متأخر",
+      "eg": "اعتماد متأخر"
+    },
+    "taskbar.kind_scanner": {
+      "type": "status",
+      "msa": "أوراق بانتظار الاعتماد",
+      "eg": "ورق مستني المراجعة"
+    },
+    "taskbar.kind_backup": {
+      "type": "status",
+      "msa": "تأخر النسخ الاحتياطي",
+      "eg": "النسخ الاحتياطي متأخر"
+    },
+    "taskbar.days_ago": {
+      "type": "status",
+      "msa": "منذ {days} يوم",
+      "eg": "من {days} يوم"
+    },
+    "taskbar.empty_focus": {
+      "type": "empty",
+      "msa": "لا توجد مهام عاجلة الآن.",
+      "eg": "مفيش مهام عاجلة دلوقتي."
+    },
+    "taskbar.empty_auto": {
+      "type": "empty",
+      "msa": "كل متابعات المشاريع منجزة.",
+      "eg": "كل متابعات المشاريع تمام."
+    },
+    "taskbar.empty_manual": {
+      "type": "empty",
+      "msa": "لا توجد مهام شخصية مضافة.",
+      "eg": "مفيش مهام شخصية متسجلة."
+    },
+    "taskbar.empty_tray": {
+      "type": "tip",
+      "msa": "تثبيت الشاشة الحالية يبقيها بالأسفل للتنقل السريع",
+      "eg": "ثبّت أي شاشة أو ملف هنا عشان ترجع له بضغطة"
+    },
+    "taskbar.cmd_empty": {
+      "type": "empty",
+      "msa": "لا توجد أوامر مطابقة.",
+      "eg": "مفيش نتائج مطابقة."
+    },
+    "taskbar.cmd_hint": {
+      "type": "tip",
+      "msa": "الأسهم للتنقل و Enter للتنفيذ و Esc للإغلاق",
+      "eg": "الأسهم للتنقل و Enter للتنفيذ و Esc للقفل"
+    },
+    "taskbar.quick_tip": {
+      "type": "tip",
+      "msa": "يمكن كتابة #عاجل أو #اليوم أو #غدا",
+      "eg": "تقدر تكتب #عاجل أو #اليوم أو #بكرة"
+    },
+    "taskbar.task_added_toast": {
+      "type": "toast",
+      "msa": "تمت إضافة المهمة بنجاح.",
+      "eg": "المهمة اتضافت بنجاح."
+    },
+    "taskbar.task_done_toast": {
+      "type": "toast",
+      "msa": "تمت أرشفة المهمة في قسم المنجزة.",
+      "eg": "المهمة خلصت واتأرشفت في اللي تم."
+    },
+    "taskbar.task_reopen_toast": {
+      "type": "toast",
+      "msa": "تم التراجع وإعادة المهمة.",
+      "eg": "اتعمل تراجع والمهمة رجعت تاني."
+    },
+    "taskbar.task_deleted_toast": {
+      "type": "toast",
+      "msa": "تم حذف المهمة.",
+      "eg": "المهمة اتمسحت."
+    },
+    "taskbar.snoozed_toast": {
+      "type": "toast",
+      "msa": "تمت أرشفة التذكير في المنجزة لليوم.",
+      "eg": "التذكير اتنقل للي تم لحد بكرة."
+    },
+    "taskbar.pinned_toast": {
+      "type": "toast",
+      "msa": "تم تثبيت الشاشة في الصينية.",
+      "eg": "الشاشة اتثبتت في الشريط تحت."
+    },
+    "taskbar.already_pinned_toast": {
+      "type": "toast",
+      "msa": "هذه الشاشة مثبتة مسبقاً.",
+      "eg": "الشاشة دي متثبتة فعلاً."
+    },
+    "taskbar.tray_full_toast": {
+      "type": "toast",
+      "msa": "الحد الأقصى للتثبيت 5 شاشات.",
+      "eg": "أقصى عدد للتثبيت 5 حاجات بس."
+    },
+    "taskbar.title_req_toast": {
+      "type": "toast",
+      "msa": "عنوان المهمة مطلوب أولاً.",
+      "eg": "لازم تكتب عنوان المهمة الأول."
+    },
+    "taskbar.cmd_sec_actions": {
+      "type": "label",
+      "msa": "إجراءات وأدوات",
+      "eg": "أدوات سريعة"
+    },
+    "taskbar.cmd_sec_projects": {
+      "type": "label",
+      "msa": "المشاريع",
+      "eg": "المشاريع"
+    },
+    "taskbar.cmd_sec_sections": {
+      "type": "label",
+      "msa": "أقسام المشروع الحالي",
+      "eg": "أقسام المشروع ده"
+    },
+    "taskbar.cmd_sec_pinned": {
+      "type": "label",
+      "msa": "الشاشات المثبتة",
+      "eg": "المثبت تحت"
+    },
+    "taskbar.cmd_sec_tasks": {
+      "type": "label",
+      "msa": "مهام مفتوحة",
+      "eg": "مهام مفتوحة"
+    },
+    "taskbar.action_new_proj": {
+      "type": "option",
+      "msa": "إنشاء مشروع جديد",
+      "eg": "عمل مشروع جديد"
+    },
+    "taskbar.action_weekly": {
+      "type": "option",
+      "msa": "إصدار التقرير الأسبوعي",
+      "eg": "تقرير المتابعة الأسبوعي"
+    },
+    "taskbar.action_search": {
+      "type": "option",
+      "msa": "بحث شامل في جميع المشاريع",
+      "eg": "بحث شامل في كل المشاريع"
+    },
+    "taskbar.action_decisions": {
+      "type": "option",
+      "msa": "مراجعة القرارات المعلقة",
+      "eg": "مراجعة القرارات المستنية"
+    },
+    "taskbar.action_settings": {
+      "type": "option",
+      "msa": "الإعدادات والربط السحابي",
+      "eg": "الإعدادات والنسخ السحابي"
+    },
+    "taskbar.action_tasks": {
+      "type": "option",
+      "msa": "فتح لوحة مهام اليوم",
+      "eg": "فتح مهام النهارده"
+    },
+    "taskbar.action_pin": {
+      "type": "option",
+      "msa": "تثبيت الشاشة الحالية بالأسفل",
+      "eg": "تثبيت الشاشة دي في الشريط"
+    },
+    "taskbar.scope_all": {
+      "type": "status",
+      "msa": "كل المشاريع",
+      "eg": "كل المشاريع"
+    },
+    "taskbar.pin_tooltip": {
+      "type": "tooltip",
+      "msa": "تثبيت هذه الشاشة بالأسفل للرجوع السريع",
+      "eg": "تثبيت الشاشة دي تحت عشان ترجع لها بسرعة"
+    },
+    "taskbar.cmd_tooltip": {
+      "type": "tooltip",
+      "msa": "فتح لوحة الأوامر السريعة عبر Ctrl+K",
+      "eg": "فتح الأوامر السريعة بـ Ctrl+K"
+    },
+    "taskbar.tab_done": {
+      "type": "tab",
+      "msa": "المنجزة",
+      "eg": "اللي تم"
+    },
+    "taskbar.undo_btn": {
+      "type": "btn",
+      "msa": "تراجع",
+      "eg": "تراجع"
+    },
+    "taskbar.clear_done_btn": {
+      "type": "btn",
+      "msa": "تفريغ المنجزة",
+      "eg": "مسح اللي تم"
+    },
+    "taskbar.empty_done": {
+      "type": "empty",
+      "msa": "لا توجد مهام منجزة بعد.",
+      "eg": "مفيش مهام خلصانة لسه."
+    },
+    "taskbar.done_at_lbl": {
+      "type": "status",
+      "msa": "منجزة {date}",
+      "eg": "خلصت {date}"
+    },
+    "taskbar.src_personal": {
+      "type": "status",
+      "msa": "مهمة شخصية",
+      "eg": "مهمة خاصة"
+    },
+    "taskbar.auto_restored_toast": {
+      "type": "toast",
+      "msa": "تم التراجع وإعادة المتابعة.",
+      "eg": "اتعمل تراجع والمتابعة رجعت تاني."
+    },
+    "taskbar.done_cleared_toast": {
+      "type": "toast",
+      "msa": "تم تفريغ المهام المنجزة.",
+      "eg": "اتمسحت المهام اللي خلصت."
+    }
+  }
+}
